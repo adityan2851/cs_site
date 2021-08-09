@@ -22,6 +22,13 @@ Contributors : _EDIT NAMES HERE_
 
 Contributors : _Hemanth_
 
+## Updates
+
+- Created a new branch called Hemanth
+- Added Main Section
+
+**Pending** Add Image Slider (Carousal)
+
 ### 3. Youtube Section
 
 <img src="resources/images/youtube_section.png" alt="Image" width="800"/>
