@@ -26,7 +26,7 @@ Contributors : _Hemanth_
 
 <img src="resources/images/youtube_section.png" alt="Image" width="800"/>
 
-Contributors : _EDIT NAMES HERE_
+Contributors : _Fab_
 
 ### 4. Banner Section
 
