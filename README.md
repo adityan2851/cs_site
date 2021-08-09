@@ -38,4 +38,4 @@ Contributors : Sharmila
 
 <img src="resources/images/footer.png" alt="Image" width="800"/>
 
-Contributors : _EDIT NAMES HERE_
+Contributors : Godlin
