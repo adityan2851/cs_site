@@ -32,7 +32,7 @@ Contributors : _EDIT NAMES HERE_
 
 <img src="resources/images/banner_section.png" alt="Image" width="800"/>
 
-Contributors : _EDIT NAMES HERE_
+Contributors : Sharmila
 
 ### 5. Footer
 
