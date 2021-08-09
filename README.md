@@ -26,16 +26,16 @@ Contributors : _Hemanth_
 
 <img src="resources/images/youtube_section.png" alt="Image" width="800"/>
 
-Contributors : _EDIT NAMES HERE_
+Contributors : _Fab_
 
 ### 4. Banner Section
 
 <img src="resources/images/banner_section.png" alt="Image" width="800"/>
 
-Contributors : _EDIT NAMES HERE_
+Contributors : Sharmila
 
 ### 5. Footer
 
 <img src="resources/images/footer.png" alt="Image" width="800"/>
 
-Contributors : _EDIT NAMES HERE_
+Contributors : Godlin
