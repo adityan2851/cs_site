@@ -26,8 +26,7 @@ Contributors : _Hemanth_
 
 - Created a new branch called Hemanth
 - Added Main Section
-
-**Pending** Add Image Slider (Carousal)
+- Add Image Slider (Carousel)
 
 ### 3. Youtube Section
 
