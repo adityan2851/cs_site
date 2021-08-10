@@ -64,6 +64,10 @@ section.main-section {
   align-items: center;
 }
 
+#carousel-wrapper {
+  border-radius: 20px;
+}
+
 .image-slider {
   height: 100%;
   width: 100%;
