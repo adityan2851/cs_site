@@ -14,7 +14,7 @@
 
 <img src="resources/images/navbar.png" alt="Image" width="800"/>
 
-Contributors : _EDIT NAMES HERE_
+Contributors : _JenishaRoshan_
 
 ### 2. Main Section
 
