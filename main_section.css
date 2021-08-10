@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Kulim+Park:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kulim Park", sans-serif;
+  overflow-x: hidden;
+}
+
+main.main-wrapper {
+  height: 200vh;
+}
+
+section.main-section {
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+.left-heading {
+  width: 45%;
+  height: 100%;
+  /* background-color: coral; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.handle {
+  width: 12px;
+  height: 100px;
+  margin: 0 7px 0 0;
+}
+.handle1 {
+  margin-left: 20px;
+  background-color: rgb(40, 121, 254);
+}
+.handle2 {
+  background-color: rgb(79, 145, 255);
+}
+.handle3 {
+  background-color: rgb(119, 169, 254);
+}
+
+.left-heading h1 {
+  margin-left: 10px;
+}
+
+.image-slider-wrapper {
+  width: 55%;
+  height: 100%;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#carousel-wrapper {
+  border-radius: 20px;
+}
+
+.image-slider {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(254.86deg, #0060ef -1.33%, #76ceff 112.06%);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.connection-image {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 55vh;
+  padding: 0 100px 0 100px;
+}
+
+.row-container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  flex-direction: row-reverse;
+}
