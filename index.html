@@ -9,11 +9,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     
     <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="main_section.css">
+    <link rel="stylesheet" href="banner.css">
     
     <title>SJCE - CSE</title>
-
-
 
 
 </head>
@@ -125,8 +125,76 @@
     </section>
 
     </main>
+
+    <!-- Banner Section -->
+    <div class="banner-wrapper">
+        <!-- TODO: find max height and assign to #tabcontent -->
+
+        <!-- Tab links -->
+        <div class="tab align-center">
+            <button class="tablinks active" onclick="openCity(event, 'visionAndMission')">Vision & Mission</button>
+            <button class="tablinks" onclick="openCity(event, 'PEOPSO')">PEO & PSO</button>
+            <button class="tablinks" onclick="openCity(event, 'programOutcome')">Program Outcome</button>
+            <button class="tablinks" onclick="openCity(event, 'courseOutcome')">Course Outcome</button>
+        </div>
+
+        <!-- Tab content -->
+        <div id="visionAndMission" class="tabcontent">
+            <h2>Vision</h2>
+            <p>The Department of Computer Science and Engineering believes in providing quality education to students
+                who will excel in design and development of hardware and software integrated devices through continuous
+                learning and research activities, ethically meeting the social needs.</p>
+
+            <h2>Mission</h2>
+            <p>
+                <strong>Excellence: </strong>  Achieve academic excellence through innovative teaching and continuous improvement thereby
+                promoting research and development in the field of Computer Science and Engineering.
+            </p>
+            <p>
+                <strong>Adaptability: </strong> Inculcate team work, ethical practices and build necessary skill set in students through
+                career development training programmes to help them adapt to the ever changing market demands.
+            </p>
+            <p>
+                <strong>Service: </strong> Enrich students with moral values, discipline and high integrity to serve the society and work
+                towards its betterment</p>
+        </div>
+
+        <div id="PEOPSO" class="tabcontent">
+            <h2>Vision</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic necessitatibus facilis ullam neque totam minima quos. Fugiat quidem cupiditate quisquam voluptatum sit. Eum natus rerum, doloribus delectus modi iure illo!Enrich students with moral values, discipline and high integrity to serve the society and work
+                towards its bettermen</p>
+
+            <h2>Mission</h2>
+            <p>
+                <strong>Excellence: </strong>  Achieve academic excellence through innovative teaching and continuous improvement thereby
+                promoting research and development in the field of Computer Science and Engineering.
+            </p>
+            <p>
+                <strong>Adaptability: </strong> Inculcate team work, ethical practices and build necessary skill set in students through
+                career development training programmes to help them adapt to the ever changing market demands.
+            </p>
+            <p>
+                <strong>Service: </strong> Enrich students with moral values, discipline and high integrity to serve the society and work
+                towards its betterment</p>
+        </div>
+
+        <div id="programOutcome" class="tabcontent">
+            <h2>Tokyo</h2>
+            <p>Tokyo is the capital of Japan.</p>
+        </div>
+
+        <div id="courseOutcome" class="tabcontent">
+            <h2>Tokyo</h2>
+            <p>Tokyo is the capital of Japan.</p>
+        </div>
+
+    </div> <!--  end of banner section -->
+
     <!-- Bootstrap JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-    
+
+    <!-- custom scripts -->
+    <script src="./script/banner.js"></script>
+
 </body>
 </html>
