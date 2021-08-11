@@ -12,7 +12,8 @@ body {
 }
 
 main.main-wrapper {
-  height: 200vh;
+  /* height: 200vh; */
+  height: auto;
 }
 
 section.main-section {
@@ -38,18 +39,20 @@ section.main-section {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 50px;
 }
 
 .handle {
-  width: 12px;
+  width: 10px;
   height: 100px;
-  margin: 0 7px 0 0;
 }
 .handle1 {
-  margin-left: 20px;
+  margin-right: 5px;
   background-color: rgb(40, 121, 254);
 }
 .handle2 {
+  margin-right: 5px;
+
   background-color: rgb(79, 145, 255);
 }
 .handle3 {
@@ -57,7 +60,7 @@ section.main-section {
 }
 
 .left-heading h1 {
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .image-slider-wrapper {
@@ -88,7 +91,7 @@ section.main-section {
   position: absolute;
   left: 0;
   right: 0;
-  top: 55vh;
+  top: 60vh;
   padding: 0 100px 0 100px;
 }
 
