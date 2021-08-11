@@ -4,6 +4,10 @@
 
 <img src="resources/images/HomePage.png" alt="Image" width="800"/>
 
+## **Current Status**
+
+<img src = "resources/result/updated_site.gif" width="800" />
+
 ## **Disclaimer**
 
 **Pick up your own task and update your name**
