@@ -15,3 +15,34 @@
 body {
   font-weight: 600;
 }
+
+.top-navbar{
+
+  /* background-color: #5089C6; */
+  background-color: rgb(79, 145, 255);
+  background: linear-gradient(90deg, #0262ba  0%, #47a6ff 60%);
+  padding: 1rem 1rem;
+  color: black ;
+}
+
+h5{
+
+  color: white;
+  margin-left: 150px;
+  margin-bottom: 10px;
+  font-family: 'Kulim Park', sans-serif;
+}
+
+.navbar-text{
+
+  color: white;
+  font-family: 'Kulim Park', sans-serif;
+  text-decoration: none; 
+  
+}
+
+.navbar-text:hover{
+
+  color: #F0FFF0;
+  opacity: 90%;
+}
