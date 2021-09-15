@@ -1,8 +1,6 @@
 import React from "react";
 
-const visionAndMission = () => {
-
-    
+const VisionAndMission = () => {
 
     return (
         
@@ -78,4 +76,4 @@ const visionAndMission = () => {
     );
 }
 
-export default visionAndMission;
+export default VisionAndMission;
