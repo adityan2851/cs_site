@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 } */
+
+
+
+/* Footer */
+
+.footer{
+  background-color: #133774;
+  color: white;
+}
+
+.details{
+  color : #769ddb
+}
+
+.details:hover{
+  color: white;
+  cursor: pointer;
+}
+
+.copyright{
+  border: #769ddb solid 1px;
+}
+
+.credits{
+  color : #769ddb;
+  opacity: 0.5;
+}
+
