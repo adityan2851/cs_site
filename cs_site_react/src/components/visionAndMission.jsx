@@ -1,6 +1,9 @@
 import React from "react";
 
 const visionAndMission = () => {
+
+    
+
     return (
         
         <div class="banner-wrapper">

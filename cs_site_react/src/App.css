@@ -36,3 +36,107 @@
     transform: rotate(360deg);
   }
 } */
+
+
+
+/* Footer */
+
+.footer{
+  background-color: #133774;
+  color: white;
+}
+
+.details{
+  color : #769ddb
+}
+
+.details:hover{
+  color: white;
+  cursor: pointer;
+}
+
+.copyright{
+  border: #769ddb solid 1px;
+}
+
+.credits{
+  color : #769ddb;
+  opacity: 0.5;
+}
+
+/* Vision and Mission */
+.banner-wrapper {
+  padding: 5% 10%;
+  font-weight: 600;
+}
+
+/* align - center */
+.align-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tab {
+  margin: 0 3rem;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: transparent;
+
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.5s;
+
+  width: calc(100% / 4);
+  border-bottom: 5px solid #ccc;
+  opacity: 0.5;
+
+  font-size: 1.2rem;
+
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  opacity: 0.6;
+  border-bottom: 5px solid #000;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  color: #000;
+  opacity: 1.0;
+  border-bottom: 5px solid #000;
+}
+
+/* Style the tab content */
+.tabcontent {
+  
+  display: none;
+
+  padding: 40px 30px;
+  margin: 2rem 0;
+
+  color: white;
+  border-radius: 20px;
+  background-image: linear-gradient(to left, #47a6ff, #0262ba);
+
+  transition: display 5s linear;
+  
+}
+
+.tabcontent h2:first-child {
+  margin-bottom: 0.8rem;
+}
+.tabcontent h2:not(:first-child) {
+  margin: 1.5rem 0 0.8rem;
+}
+
+.tabcontent > p {
+  font-weight: 200;
+  margin-bottom: 1rem;
+}
