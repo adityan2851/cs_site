@@ -19,13 +19,13 @@ const VisionAndMission = () => {
         // Get all elements with className="tablinks" and remove the className "active"
         tablinks = document.getElementsByClassName("tablinks");
         for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].classList.remove("active");
+            tablinks[i].classList.remove("active");
         }
         const tabToBeActive = document.getElementById(cityName);
         tabToBeActive.style.display = "block";
-        tabToBeActive.classList.add("active");
+        // tabToBeActive.classList.add("active");
 
-        // event.currentTarget.classNameName += " active";
+        event.currentTarget.className += " active";
 
     }
     return (
