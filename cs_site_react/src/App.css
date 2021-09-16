@@ -42,10 +42,23 @@
 /* Footer */
 
 .footer{
-  background-color: #133774;
+  width: 100%;
+  height: 500px;
   color: white;
+  padding-top: 110px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
+.footer-contents{
+  width: 100%;
+  padding-left: 20%;
+  padding-bottom: 50px;
+  
+}
 .details{
   color : #769ddb
 }
@@ -56,7 +69,8 @@
 }
 
 .copyright{
-  border: #769ddb solid 1px;
+  border-top: #769ddb solid 1px;
+  width: 100%;
 }
 
 .credits{
