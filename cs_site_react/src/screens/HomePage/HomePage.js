@@ -26,8 +26,8 @@ const HomePage = () => {
 
     let mobDesign = isMobile ? "flex-column" : "flex-row-reverse";
 
-    const sliderContentItems = silderInfo.map((obj) => 
-    <Carousel.Item>
+    const sliderContentItems = silderInfo.map((obj, index) => 
+                <Carousel.Item key={index}>
                     <img
                     className="d-block w-100"
                     src={obj['imageURL']}
@@ -65,7 +65,7 @@ const HomePage = () => {
             </div>
             </section>
 
-            {isMobile ? <></> : <div class="container" style={wireStyle}>
+            {isMobile ? <></> : <div className="container" style={wireStyle}>
             <img src={wireSVG} alt="wireImage" width="100%" />
             </div>}
             
