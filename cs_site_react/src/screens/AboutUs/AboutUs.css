@@ -1,0 +1,32 @@
+.Heading{
+    font-family: 'Kulim Park', sans-serif;
+    font-weight: 700;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.Points{
+    font-family: 'Kulim Park', sans-serif;
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+table, tr, td{
+    border: 1px solid rgb(80, 80, 80) !important;
+    text-align: left;
+    padding-bottom: 5px;
+    border-collapse: collapse;
+  }
+
+th {
+    background: lightblue;
+    border-color: rgb(44, 44, 44);
+    padding-right: 20px;
+  }
