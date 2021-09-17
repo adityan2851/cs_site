@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import VisionAndMission from '../../components/visionAndMission';
 import Footer from '../../components/footer';
 import { silderInfo } from './Data'
-import wireSVG from '../../../public/images/wire.svg'
+import wireSVG from '../../images/wire.svg'
 import Shapes from './Shapes'
 import Carousel from 'react-bootstrap/Carousel'
 

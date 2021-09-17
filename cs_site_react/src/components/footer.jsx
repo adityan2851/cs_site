@@ -1,5 +1,5 @@
 import React from 'react'
-import background from "../../public/images/Footer.svg"
+import background from "../images/Footer.svg"
 import 'font-awesome/css/font-awesome.min.css';
 
 const Footer = () => {
