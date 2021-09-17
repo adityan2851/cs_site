@@ -7,7 +7,9 @@ const GuestLecture = () => {
     return (
         <div>
             <div className="container">
-
+            <br />
+            <h2 style={{textAlign: "center", fontWeight: 'bold'}}>Guest Lectures Conducted for the Academic Year : 2013 – 2014</h2>
+            <br />
             <table class="table table-bordered">
             <thead>
                 <tr>
