@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react'
 import VisionAndMission from '../../components/visionAndMission';
-import Footer from '../../components/footer';
 import { silderInfo } from './Data'
 import wireSVG from '../../images/wire.svg'
 import Shapes from './Shapes'
@@ -89,7 +88,6 @@ const HomePage = () => {
             </section>
         </main>
             <VisionAndMission />
-            <Footer/>
         </div>
     )
 }

@@ -1,56 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Kulim+Park:wght@600&display=swap");
-
-
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: "Kulim Park", sans-serif;
-}
-
-.container-wrapper{
-    /* background-color: aqua; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.handle {
-    width: 8px;
-    height: 100px;
-}
-.handle1 {
-    background-color: rgb(40, 121, 254);
-    margin-right: 5px;
-  }
-.handle2 {
-    background-color: rgb(79, 145, 255);
-    margin-right: 5px ;
-  }
-.handle3 {
-    background-color: rgb(119, 169, 254);
-}
-
-#carousel-wrapper {
-    border-radius: 20px;
-    box-shadow: 5px 5px 15px rgba(19, 19, 19, 0.521);
-}
-
-
-.wire-svg{
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 75vh;
-}
-
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
 
 body {
   font-family: Lato, sans-serif;
+  margin:0%;
+  margin-bottom: 0%;
 }
 
 footer {
@@ -68,17 +21,7 @@ footer div {
 svg {
   width:100%;
 }
-.arrow {
-  stroke-width: .3px;
-  stroke:yellow;
-}
-.topball {
-  animation: ball 1.5s ease-in-out;
-  animation-iteration-count:infinite;
-  animation-direction: alternate;
-  animation-delay: 0.3s;
-  cursor:pointer;
-}
+
 
 .wave {
   animation: wave 3s linear;
