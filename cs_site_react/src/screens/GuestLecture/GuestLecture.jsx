@@ -4,21 +4,6 @@ import { guestLectureData } from './Data'
 const GuestLecture = () => {
 
 
-    // const sliderContentItems = silderInfo.map((obj, index) => 
-    // <Carousel.Item key={index}>
-    //     <img
-    //     className="d-block w-100"
-    //     src={obj['imageURL']}
-    //     alt="First slide"
-    //     />
-    //     <Carousel.Caption>
-    //     <h3>{obj['heading']}</h3>
-    //     <p>{obj['content']}</p>
-    //     </Carousel.Caption>
-    // </Carousel.Item>
-// )
-
-
     return (
         <div>
             <div className="container">
@@ -37,7 +22,7 @@ const GuestLecture = () => {
                 {
                 guestLectureData.map((obj, index)=>
                     <tr>
-                        <th scope="row">{index + 1}</th>
+                        <td scope="row">{index + 1}</td>
                         <td>{obj['class']}</td>
                         <td>{obj['date']}</td>
                         <td>{obj['name']}</td>
