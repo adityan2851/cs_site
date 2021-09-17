@@ -1,6 +1,8 @@
-// import Navbar from "./components/Navbar/Navbar";
+
 import HomePage from "./screens/HomePage/HomePage";
-import AboutUs from './screens/AboutUs/AboutUs'
+// import AboutUs from './screens/AboutUs/AboutUs';
+import Navbar from '../src/components/Navbar';
+import Footer from '../src/components/footer';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css"
 
@@ -8,9 +10,11 @@ function App() {
   return (
       <div className="App">
           <Router>
+          <Navbar/>
           <HomePage/>
           {/* <AboutUs /> */}
           </Router>
+          <Footer/>
       </div>  
   );
 }
