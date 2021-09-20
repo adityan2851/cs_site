@@ -5,6 +5,7 @@ import Footer from "../src/components/footer";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import GuestLecture from "./screens/GuestLecture/GuestLecture";
+import IndustrialVisit from "./screens/IndustrialVisit/IndustrialVisit";
 
 function App() {
   return (
@@ -13,9 +14,10 @@ function App() {
         {/* <Navbar /> */}
         {/* <HomePage /> */}
         {/* <AboutUs /> */}
-        <GuestLecture />
-      </Router>/
-      {/* <Footer/> */}
+        {/* <GuestLecture /> */}
+        <IndustrialVisit />
+      </Router>
+      /{/* <Footer/> */}
     </div>
   );
 }
