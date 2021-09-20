@@ -7,6 +7,7 @@ import "./App.css";
 import GuestLecture from "./screens/GuestLecture/GuestLecture";
 import IndustrialVisit from "./screens/IndustrialVisit/IndustrialVisit";
 import Workshop from "./screens/Workshop/Workshop";
+import Supervisiors from "./screens/Supervisiors/Supervisiors";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
         {/* <AboutUs /> */}
         {/* <GuestLecture /> */}
         {/* <IndustrialVisit /> */}
-        <Workshop />
+        {/* <Workshop /> */}
+        <Supervisiors />
       </Router>
       /{/* <Footer/> */}
     </div>
