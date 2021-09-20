@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import GuestLecture from "./screens/GuestLecture/GuestLecture";
 import IndustrialVisit from "./screens/IndustrialVisit/IndustrialVisit";
+import Workshop from "./screens/Workshop/Workshop";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
         {/* <HomePage /> */}
         {/* <AboutUs /> */}
         {/* <GuestLecture /> */}
-        <IndustrialVisit />
+        {/* <IndustrialVisit /> */}
+        <Workshop />
       </Router>
       /{/* <Footer/> */}
     </div>
