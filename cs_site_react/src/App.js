@@ -23,13 +23,8 @@ function App() {
           <Route path="/workshop" exact component={Workshop} />
           <Route path="/supervisiors" exact component={Supervisiors} />
         </Switch>
-        {/* <AboutUs /> */}
-        {/* <GuestLecture /> */}
-        {/* <IndustrialVisit /> */}
-        {/* <Workshop /> */}
-        {/* <Supervisiors /> */}
       </Router>
-      /{/* <Footer/> */}
+      /<Footer />
     </div>
   );
 }
