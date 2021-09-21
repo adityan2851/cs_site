@@ -21,6 +21,7 @@ function App() {
           <Route path="/guest-lecture" exact component={GuestLecture} />
           <Route path="/industrial-visit" exact component={IndustrialVisit} />
           <Route path="/workshop" exact component={Workshop} />
+          <Route path="/supervisiors" exact component={Supervisiors} />
         </Switch>
         {/* <AboutUs /> */}
         {/* <GuestLecture /> */}
