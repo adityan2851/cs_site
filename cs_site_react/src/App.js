@@ -8,18 +8,25 @@ import GuestLecture from "./screens/GuestLecture/GuestLecture";
 import IndustrialVisit from "./screens/IndustrialVisit/IndustrialVisit";
 import Workshop from "./screens/Workshop/Workshop";
 import Supervisiors from "./screens/Supervisiors/Supervisiors";
+import AboutUs from "./screens/AboutUs/AboutUs";
 
 function App() {
   return (
     <div className="App">
       <Router>
-        {/* <Navbar /> */}
-        {/* <HomePage /> */}
+        <Navbar />
+        <Switch>
+          <Route path="/" exact component={HomePage} />
+          <Route path="/about-us" exact component={AboutUs} />
+          <Route path="/guest-lecture" exact component={GuestLecture} />
+          <Route path="/industrial-visit" exact component={IndustrialVisit} />
+          <Route path="/workshop" exact component={Workshop} />
+        </Switch>
         {/* <AboutUs /> */}
         {/* <GuestLecture /> */}
         {/* <IndustrialVisit /> */}
         {/* <Workshop /> */}
-        <Supervisiors />
+        {/* <Supervisiors /> */}
       </Router>
       /{/* <Footer/> */}
     </div>
