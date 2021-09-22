@@ -1,34 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="book.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="book.css">
+  <!-- bootstrap CDN  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Document</title>
 </head>
+
 <body>
-    <!-- <h1>Magazines</h1> -->
-    <ul class='list-inline'>
-        <li class='book'>
-          <img src='https://d.gr-assets.com/books/1348927776l/8032112.jpg' />
-        </li>
-      
-        <li class='book'>
-          <img src='http://37signals.com/images/remote/remote_front.png' />
-        </li>
-      
-        <li class='book'>
-          <img src='https://d.gr-assets.com/books/1348927776l/8032112.jpg' />
-        </li>
-      
-        <li class='book'>
-          <img src='http://ecx.images-amazon.com/images/I/51oXKWrcYYL.jpg' />
-        </li>
-            
-        <li class='book'>
-            <img src='http://37signals.com/images/remote/remote_front.png' />
-          </li>
-      </ul>
+   <!-- NAVIGATION BAR  -->
+   <div class="top-navbar">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <img src="" alt="">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- <img style="width:40px;" src="https://www.pinclipart.com/picdir/middle/16-161764_lesson-hacker-free-computer-science-logo-computer-science.png" alt=""> -->
+        <!-- LOGO  -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <h5>Department of Computer Science and Engineering</h5>
+                </li>
+
+
+            </ul>
+            <!-- <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form> -->
+        </div> 
+    </nav>
+    <nav class="site-header sticky-top py-1">
+        <div class="container d-flex flex-column flex-md-row justify-content-between">
+            <a class="py-2" href="#">
+            </a>
+            <!-- Academics, Student, Placement, Research, Magazine, Newsletter, Professional Activity -->
+            <a class="py-2 navbar-text d-none d-md-inline-block" href="#">Academics</a>
+            <!-- <a class="py-2 d-none navbar-text d-md-inline-block" href="#">Faculty</a> -->
+            <a class="py-2 d-none d-md-inline-block navbar-text" href="#">Student</a>
+            <!-- <a class="py-2 d-none d-md-inline-block navbar-text" href="#">Alumini</a> -->
+            <a class="py-2 d-none d-md-inline-block navbar-text" href="#">Placement</a>
+            <a class="py-2 d-none d-md-inline-block navbar-text" href="#">Research</a>
+            <a class="py-2 d-none d-md-inline-block navbar-text" href="#">Magazine</a>
+            <!-- <a class="py-2 d-none d-md-inline-block navbar-text" href="#">Activities</a> -->
+            <a class="py-2 d-none d-md-inline-block navbar-text" href="#">Newsletter</a>
+            <!-- <a class="py-2 d-none d-md-inline-block navbar-text" href="#">Gallery</a> -->
+            <!-- <a class="py-2 d-none d-md-inline-block navbar-text" href="#">Events</a> -->
+            <a class="py-2 d-none d-md-inline-block navbar-text" href="#">Professional Activity</a>
+        </div>
+    </nav>
+</div>
+
+<!-- MAGAZINES -->
+  <div class="cards list-inline">
+    <!-- A card with given width -->
+    <div class="cards__item">
+
+      <div class="book">
+        <img src='https://d.gr-assets.com/books/1348927776l/8032112.jpg' />
+      </div>
+
+    </div>
+
+    <!-- Repeat other cards -->
+    <div class="cards__item">
+
+      <div class="book">
+        <img src='https://d.gr-assets.com/books/1348927776l/8032112.jpg' />
+      </div>
+
+    </div>
+    <div class="cards__item">
+      <div class="book">
+        <img src='https://d.gr-assets.com/books/1348927776l/8032112.jpg' />
+      </div>
+
+    </div>
+  </div>
+  <div class="cards list-inline">
+    <!-- A card with given width -->
+    <div class="cards__item">
+
+      <div class="book">
+        <img src='https://d.gr-assets.com/books/1348927776l/8032112.jpg' />
+      </div>
+
+    </div>
+
+    <!-- Repeat other cards -->
+    <div class="cards__item">
+
+      <div class="book">
+        <img src='https://d.gr-assets.com/books/1348927776l/8032112.jpg' />
+      </div>
+
+    </div>
+    <div class="cards__item">
+
+      <div class="book">
+        <img src='https://d.gr-assets.com/books/1348927776l/8032112.jpg' />
+      </div>
+
+    </div>
+  </div>
+  <div class="cards list-inline">
+    <!-- A card with given width -->
+    <div class="cards__item">
+
+      <div class="book">
+        <img src='https://d.gr-assets.com/books/1348927776l/8032112.jpg' />
+      </div>
+
+    </div>
+
+    <!-- Repeat other cards -->
+    <div class="cards__item">
+
+      <div class="book">
+        <img src='https://d.gr-assets.com/books/1348927776l/8032112.jpg' />
+      </div>
+
+    </div>
+    <div class="cards__item">
+
+      <div class="book">
+        <img src='https://d.gr-assets.com/books/1348927776l/8032112.jpg' />
+      </div>
+
+    </div>
+  </div>
+
+
+
+
 </body>
+
 </html>
