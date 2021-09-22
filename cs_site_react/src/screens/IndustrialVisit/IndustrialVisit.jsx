@@ -1,5 +1,6 @@
 import React from "react";
 import { industrialVisitData } from "./Data";
+import { Table } from "react-bootstrap";
 
 const IndustrialVisit = () => {
   return (
@@ -15,7 +16,7 @@ const IndustrialVisit = () => {
             <h2 style={{ textAlign: "center" }}>Academic year: 2018 – 2019</h2>
 
             <br />
-            <table class="table table-bordered">
+            <Table bordered responsive="md" hover>
               <thead>
                 <tr>
                   <th scope="col">S.No</th>
@@ -28,7 +29,7 @@ const IndustrialVisit = () => {
               <tbody>
                 {obj["data"].map((obj, index) => (
                   <tr>
-                    <td scope="row">{index + 1}</td>
+                    <td>{index + 1}</td>
                     <td>{obj["class"]}</td>
                     <td>{obj["industry"]}</td>
                     <td>{obj["date"]}</td>
@@ -36,7 +37,7 @@ const IndustrialVisit = () => {
                   </tr>
                 ))}
               </tbody>
-            </table>
+            </Table>
           </div>
         ))}
       </div>
