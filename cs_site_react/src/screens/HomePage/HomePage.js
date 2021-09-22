@@ -2,8 +2,8 @@ import React, {useState, useEffect} from 'react'
 import VisionAndMission from '../../components/visionAndMission';
 import { silderInfo } from './Data'
 import wireSVG from '../../images/wire.svg'
-import Shapes from './Shapes'
-import Carousel from 'react-bootstrap/Carousel'
+import Shapes from './Shapes';
+import {Carousel} from 'react-bootstrap'
 
 
 const HomePage = () => {

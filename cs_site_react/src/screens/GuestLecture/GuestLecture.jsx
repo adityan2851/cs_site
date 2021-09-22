@@ -1,5 +1,7 @@
 import React from "react";
-import { guestLectureData, totalGuestLectureData } from "./Data";
+import { totalGuestLectureData } from "./Data";
+
+import { Table } from "react-bootstrap";
 
 const GuestLecture = () => {
   return (
@@ -45,7 +47,7 @@ const GuestLecture = () => {
               {obj["year"]}
             </h2>
             <br />
-            <table class="table table-bordered">
+            <Table bordered responsive="md" hover>
               <thead>
                 <tr>
                   <th scope="col">S.No</th>
@@ -58,7 +60,7 @@ const GuestLecture = () => {
               <tbody>
                 {obj["data"].map((obj, index) => (
                   <tr>
-                    <td scope="row">{index + 1}</td>
+                    <td>{index + 1}</td>
                     <td>{obj["class"]}</td>
                     <td>{obj["date"]}</td>
                     <td>{obj["name"]}</td>
@@ -66,7 +68,7 @@ const GuestLecture = () => {
                   </tr>
                 ))}
               </tbody>
-            </table>
+            </Table>
           </div>
         ))}
       </div>

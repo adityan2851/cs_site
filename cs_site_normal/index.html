@@ -11,8 +11,8 @@
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="././main.css">
     <link rel="stylesheet" href="banner.css">
 
     <title>SJCE - CSE</title>
@@ -23,47 +23,57 @@
 <body>
     <!-- NAVIGATION BAR  -->
     <div class="top-navbar">
-        <nav class="navbar navbar-expand-lg navbar-light ">
-            <img src="" alt="">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <nav class="navbar navbar-expand-lg navbar-light justify-content-start ">
+            <h5 class="ms-0 ms-2">Department of Computer Science and Engineering</h5>
             <!-- <img style="width:40px;" src="https://www.pinclipart.com/picdir/middle/16-161764_lesson-hacker-free-computer-science-logo-computer-science.png" alt=""> -->
             <!-- LOGO  -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item ">
-                        <h5>Department of Computer Science and Engineering</h5>
-                    </li>
-
-
+        </nav>
+       
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- <h6 class="navbar-brand">Department of Computer Science and Engineering</h6> -->
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-0">
+                  <li class="nav-item">
+                    <a class="p-2 d-inline-block navbar-text" href="#">Academics</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown link
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="p-2 d-inline-block navbar-text" href="#">Student</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="p-2 d-inline-block navbar-text" href="#">Placement</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="p-2 d-inline-block navbar-text" href="#">research</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="p-2 d-inline-block navbar-text" href="#">Magazine</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="p-2 d-inline-block navbar-text" href="#">Newsletter</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="p-2 d-inline-block navbar-text" href="#">Professional Activities
+                    </a>
+                  </li>
                 </ul>
-                <!-- <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form> -->
-            </div> 
-        </nav>
-        <nav class="site-header sticky-top py-1">
-            <div class="container d-flex flex-column flex-md-row justify-content-between">
-                <a class="py-2" href="#">
-                </a>
-                <!-- Academics, Student, Placement, Research, Magazine, Newsletter, Professional Activity -->
-                <a class="py-2 navbar-text d-none d-md-inline-block" href="#">Academics</a>
-                <!-- <a class="py-2 d-none navbar-text d-md-inline-block" href="#">Faculty</a> -->
-                <a class="py-2 d-none d-md-inline-block navbar-text" href="#">Student</a>
-                <!-- <a class="py-2 d-none d-md-inline-block navbar-text" href="#">Alumini</a> -->
-                <a class="py-2 d-none d-md-inline-block navbar-text" href="#">Placement</a>
-                <a class="py-2 d-none d-md-inline-block navbar-text" href="#">Research</a>
-                <a class="py-2 d-none d-md-inline-block navbar-text" href="#">Magazine</a>
-                <!-- <a class="py-2 d-none d-md-inline-block navbar-text" href="#">Activities</a> -->
-                <a class="py-2 d-none d-md-inline-block navbar-text" href="#">Newsletter</a>
-                <!-- <a class="py-2 d-none d-md-inline-block navbar-text" href="#">Gallery</a> -->
-                <!-- <a class="py-2 d-none d-md-inline-block navbar-text" href="#">Events</a> -->
-                <a class="py-2 d-none d-md-inline-block navbar-text" href="#">Professional Activity</a>
+                
+              </div>
             </div>
-        </nav>
+          </nav>
     </div>
     <!-- UPDATED -->
     <main>
@@ -171,7 +181,29 @@
     </main>
 
     <!-- Banner Section -->
+
+    
     <div class="banner-wrapper">
+        <ul class="nav mb-3 d-flex justify-content-center" id="pills-tab" role="tablist">
+            <li class="nav-item text-black" role="presentation">
+              <button class="nav-link active tab-button-custom" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link tab-button-custom" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link tab-button-custom" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                /...
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+               ...
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+          </div>
         <!-- TODO: find max height and assign to #tabcontent -->
 
         <!-- Tab links -->
@@ -251,7 +283,7 @@
 
     <!-- custom scripts -->
     <script src="./script/banner.js"></script>
-
+    
 </body>
 
 </html>

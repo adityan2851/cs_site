@@ -1,4 +1,5 @@
 import React from "react";
+import { Table } from "react-bootstrap";
 import { workshopData } from "./Data";
 
 const Workshop = () => {
@@ -12,7 +13,7 @@ const Workshop = () => {
           <div>
             <br />
 
-            <table class="table table-bordered">
+            <Table bordered responsive="md" hover>
               <thead>
                 <tr>
                   <th scope="col">S.No</th>
@@ -27,7 +28,7 @@ const Workshop = () => {
               <tbody>
                 {obj["data"].map((obj, index) => (
                   <tr>
-                    <td scope="row">{index + 1}</td>
+                    <td>{index + 1}</td>
                     <td>{obj["batch"]}</td>
                     <td>{obj["date"]}</td>
                     <td>{obj["name"]}</td>
@@ -37,7 +38,7 @@ const Workshop = () => {
                   </tr>
                 ))}
               </tbody>
-            </table>
+            </Table>
           </div>
         ))}
       </div>

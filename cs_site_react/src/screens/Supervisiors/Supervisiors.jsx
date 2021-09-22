@@ -1,10 +1,11 @@
-import React from 'react'
-import { supervisorData } from './Data'
+import React from "react";
+import { supervisorData } from "./Data";
+import { Table } from "react-bootstrap";
 
 const Supervisiors = () => {
-    return (
-        <div>
-            <div className="container">
+  return (
+    <div>
+      <div className="container">
         <br />
         <h2 style={{ textAlign: "center", fontWeight: "bold" }}>Supervisors</h2>
 
@@ -12,7 +13,7 @@ const Supervisiors = () => {
           <div>
             <br />
 
-            <table class="table table-bordered">
+            <Table bordered responsive="md" hover>
               <thead>
                 <tr>
                   <th scope="col">S.No</th>
@@ -24,19 +25,19 @@ const Supervisiors = () => {
               <tbody>
                 {obj["data"].map((obj, index) => (
                   <tr>
-                    <td scope="row">{index + 1}</td>
+                    <td>{index + 1}</td>
                     <td>{obj["name"]}</td>
                     <td>{obj["refno"]}</td>
                     <td>{obj["researchArea"]}</td>
                   </tr>
                 ))}
               </tbody>
-            </table>
+            </Table>
           </div>
         ))}
       </div>
-        </div>
-    )
-}
+    </div>
+  );
+};
 
-export default Supervisiors
+export default Supervisiors;
