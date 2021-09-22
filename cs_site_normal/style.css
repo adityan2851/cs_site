@@ -20,7 +20,8 @@ body {
   background-color: rgb(79, 145, 255);
   background: linear-gradient(90deg, #0262ba 0%, #47a6ff 60%);
   padding: 1rem 1rem;
-  color: black;
+  /* text-align: center; */
+  /* color: black; */
 
   /* POSITIONED AS ABSOLUTE [HEMANTH] */
   /* position: absolute;
@@ -35,13 +36,55 @@ h5 {
   font-family: "Kulim Park", sans-serif;
 }
 
-.navbar-text {
-  color: white;
+.navbar-text, .nav-link {
+  color: white !important;
   font-family: "Kulim Park", sans-serif;
   text-decoration: none;
+  /* text-transform: uppercase;
+  letter-spacing: 2px; */
 }
 
 .navbar-text:hover {
   color: #f0fff0;
   opacity: 90%;
+}
+
+.nav-item {
+  /* color: #f0fff0 !important; */
+}
+
+.navbar-toggler {
+  color: white !important;
+  /* background-color: black; */
+}
+
+.navbar-toggler-icon {
+  color: white !important;
+}
+
+
+/* vision and mission */
+
+.tab-button-custom {
+  background-color: transparent;
+
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.5s;
+
+  /* width: calc(100% / 4); */
+  border-bottom: 5px solid #ccc;
+  opacity: 0.5;
+
+  color: black !important;
+
+  font-size: 1.2rem;
+}
+
+.tab-button-custom:hover {
+  opacity: 0.6;
+    border-bottom: 5px solid #000;
 }

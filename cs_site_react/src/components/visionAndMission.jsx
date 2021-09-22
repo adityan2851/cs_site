@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const VisionAndMission = () => {
 
-    const courseOutcome_style = {color:'white'}
+    const courseOutcome_style = { color: 'white' }
 
 
     const clickMe = (event, cityName) => {
@@ -32,6 +32,27 @@ const VisionAndMission = () => {
 
         <div className="banner-wrapper">
 
+            <ul className="nav mb-3 d-flex justify-content-center" id="pills-tab" role="tablist">
+                <li className="nav-item text-black" role="presentation">
+                    <button className="nav-link active tab-button-custom" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+                </li>
+                <li className="nav-item" role="presentation">
+                    <button className="nav-link tab-button-custom" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+                </li>
+                <li className="nav-item" role="presentation">
+                    <button className="nav-link tab-button-custom" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+                </li>
+            </ul>
+            <div className="tab-content" id="pills-tabContent">
+                <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    /...
+                </div>
+                <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    ...
+                </div>
+                <div className="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+            </div>
+
             <div className="tab align-center">
                 <button className="tablinks active" onClick={(event) => {
                     clickMe(event, 'visionAndMission')
@@ -49,7 +70,7 @@ const VisionAndMission = () => {
 
 
 
-            <div id="visionAndMission" className="tabcontent" style={{display:'block'}}>
+            <div id="visionAndMission" className="tabcontent" style={{ display: 'block' }}>
                 <h2>Vision</h2>
                 <p>The Department of Computer Science and Engineering believes in providing quality education to students
                     who will excel in design and development of hardware and software integrated devices through continuous
@@ -78,8 +99,8 @@ const VisionAndMission = () => {
 
                 <h2>Program Educational Objectives (PEO)</h2>
                 <p>
-                    <strong>Profession: </strong> Graduates excel in computer 
-                    technology in order to pursue higher education and research, 
+                    <strong>Profession: </strong> Graduates excel in computer
+                    technology in order to pursue higher education and research,
                     or have a successful career in industries or as entrepreneurs.
                 </p>
                 <p>
@@ -102,7 +123,7 @@ const VisionAndMission = () => {
                 </p>
             </div>
 
-            <div id="programOutcome" class="tabcontent">
+            <div id="programOutcome" className="tabcontent">
 
                 <p>
                     <strong>Engineering knowledge: </strong> Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems.
@@ -145,14 +166,14 @@ const VisionAndMission = () => {
             <div id="courseOutcome" className="tabcontent">
                 <h3>Undergraduate Courses</h3>
                 <ul>
-                    <li><a href="#" style={courseOutcome_style}>Course Outcomes 2017</a></li>
-                    <li><a href="#" style={courseOutcome_style}>Course Outcomes 2013</a></li>
+                    <li><a href="/#" style={courseOutcome_style}>Course Outcomes 2017</a></li>
+                    <li><a href="/#" style={courseOutcome_style}>Course Outcomes 2013</a></li>
                 </ul>
 
                 <h3>Postgraduate Courses</h3>
                 <ul>
-                    <li><a href="#" style={courseOutcome_style}>Course Outcomes 2017</a></li>
-                    <li><a href="#" style={courseOutcome_style}>Course Outcomes 2013</a></li>
+                    <li><a href="/#" style={courseOutcome_style}>Course Outcomes 2017</a></li>
+                    <li><a href="/#" style={courseOutcome_style}>Course Outcomes 2013</a></li>
                 </ul>
 
             </div>
