@@ -1,8 +1,7 @@
 import React from 'react';
 
 const VisionAndMission = () => {
-
-    const courseOutcome_style = { color: 'white' }
+  const courseOutcome_style = { color: "white" };
 
 
     const clickMe = (event, cityName) => {
@@ -26,8 +25,8 @@ const VisionAndMission = () => {
         // tabToBeActive.classList.add("active");
 
         event.currentTarget.className += " active";
-
-    }
+      }
+      
     return (
 
         <div className="banner-wrapper">
