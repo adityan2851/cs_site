@@ -27,7 +27,7 @@ const VisionAndMission = () => {
 
   return (
     <div className="banner-wrapper">
-      <ul
+      {/* <ul
         className="nav mb-3 d-flex justify-content-center"
         id="pills-tab"
         role="tablist"
@@ -74,8 +74,8 @@ const VisionAndMission = () => {
             Contact
           </button>
         </li>
-      </ul>
-      <div className="tab-content" id="pills-tabContent">
+      </ul> */}
+      {/* <div className="tab-content" id="pills-tabContent">
         <div
           className="tab-pane fade show active"
           id="pills-home"
@@ -100,7 +100,7 @@ const VisionAndMission = () => {
         >
           ...
         </div>
-      </div>
+      </div> */}
 
       <div className="tab align-center">
         <button

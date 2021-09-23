@@ -36,7 +36,7 @@ const HomePage = () => {
     position: "absolute",
     left: "0",
     right: "0",
-    top: "30vh",
+    top: "50vh",
   };
   return (
     <div>
