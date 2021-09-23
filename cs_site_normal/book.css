@@ -1,8 +1,23 @@
-body {
 
-    background-color: #dddddd;
-    ;
+body {
+	background: linear-gradient(-45deg, #f0fff0, #ffffff);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
 }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 
 .book,
 .book img,
@@ -18,7 +33,7 @@ ul {
 }
 
 .list-inline {
-    /* margin:50%; */
+    margin:10%;
     list-style: none;
 }
 
@@ -27,16 +42,16 @@ ul {
     margin-left: 2em;
 }
 
-.list-inline>li:first-child {
-    margin-left: 250px;
+.list-inline>.book:first-child {
+    margin-left: 450px;
     margin-top: 200px;
 }
 
 .book {
     cursor: pointer;
     display: block;
-    width: 150px;
-    height: 220px;
+    width: 180px;
+    height: 250px;
     position: relative;
     background: white;
     z-index: 1;
@@ -89,11 +104,71 @@ ul {
 }
 
 
-h1 {
 
-    color: #dddddd;
-text-shadow: 4px -4px 8px #a8a8a8,
--4px 4px 8px #ffffff;
-    text-align: center;
-    font-size: 5rem;
+.cards {
+    display: flex;
+
+    /* Put a card in the next row when previous cards take all width */
+    flex-wrap: wrap;
+
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-left: 20%;
+}
+
+.cards__item {
+    /* There will be 4 cards per row */
+    flex-basis: 25%;
+
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+/* @import url("https://fonts.googleapis.com/css2?family=Kulim+Park:wght@600&display=swap"); */
+
+/* for thin font - uncomment below */
+/* @import url("https://fonts.googleapis.com/css2?family=Kulim+Park:wght@200;600&display=swap"); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Kulim Park", sans-serif;
+}
+
+body {
+  font-weight: 600;
+}
+
+.top-navbar {
+  /* background-color: #5089C6; */
+  background-color: rgb(79, 145, 255);
+  background: linear-gradient(90deg, #0262ba 0%, #47a6ff 60%);
+  padding: 1rem 1rem;
+  color: black;
+
+  /* POSITIONED AS ABSOLUTE [HEMANTH] */
+  /* position: absolute;
+  top: 0;
+  width: 100%; */
+}
+
+h5 {
+  color: white;
+  margin-left: 150px;
+  margin-bottom: 10px;
+  font-family: "Kulim Park", sans-serif;
+}
+
+.navbar-text {
+  color: white;
+  font-family: "Kulim Park", sans-serif;
+  text-decoration: none;
+}
+
+.navbar-text:hover {
+  color: #f0fff0;
+  opacity: 90%;
 }
