@@ -13,7 +13,7 @@ import AboutUs from "./screens/AboutUs/AboutUs";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={"/website"}>
         <Navbar />
         <Switch>
           <Route path="/" exact component={HomePage} />
