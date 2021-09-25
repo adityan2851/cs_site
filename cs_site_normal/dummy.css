@@ -15,13 +15,15 @@ body {
 }
 
 .homeSection {
-  height: 90vh;
+  height: 100vh;
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 50px;
+  /* background-color: aqua; */
 }
 
 .left {
@@ -35,7 +37,24 @@ body {
   height: 700px;
 }
 
-@media screen and (width: 960px) {
+@media screen and (max-width: 960px) {
   .container {
+    position: relative;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .left {
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    z-index: 2;
+  }
+  .right {
+    position: absolute;
+    top: 25%;
+    height: 400px;
+    width: 400px;
   }
 }
