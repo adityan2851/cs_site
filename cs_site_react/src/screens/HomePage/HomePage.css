@@ -9,8 +9,15 @@
   color: #ffffff;
 }
 
+.home-content-wrapper {
+  padding-top: 10rem;
+}
+
 @media screen and (max-width: 960px) {
   .left {
     text-align: center;
+  }
+  .home-content-wrapper {
+    padding-top: 5rem;
   }
 }
