@@ -1,0 +1,16 @@
+.home-background {
+  background: url("../../assets/images/bg.svg");
+  background-repeat: no-repeat;
+  height: 5000px;
+}
+
+.left {
+  padding-top: 50px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 960px) {
+  .left {
+    text-align: center;
+  }
+}
