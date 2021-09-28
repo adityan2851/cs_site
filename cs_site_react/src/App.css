@@ -91,51 +91,43 @@
   justify-content: space-around;
 }
 
-.tab {
-  margin: 0 3rem;
+.banner-tabs-nav {
+  justify-content: center;
 }
-
 /* Style the buttons that are used to open the tab content */
-.tab button {
-  background-color: transparent;
-
-  float: left;
+.pilledTabs {
+  
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.5s;
-
-  width: calc(100% / 4);
-  border-bottom: 5px solid #ccc;
-  opacity: 0.5;
+  transition: 1.5s;
+  /* opacity: 0.5; */
 
   font-size: 1.2rem;
 
 }
-
-/* Change background color of buttons on hover */
-.tab button:hover {
-  opacity: 0.6;
-  border-bottom: 5px solid #000;
+.nav-link {
+  color: #000 !important;
+  background-color: transparent !important;
 }
 
-/* Create an active/current tablink class */
-.tab button.active {
-  color: #000;
-  opacity: 1.0;
-  border-bottom: 5px solid #000;
+.nav-link:focus   {
+border-bottom: 3px solid #000  !important  ;
+  border-radius: 0 !important;
+  opacity: 1.0 !important;
 }
+
+
 
 /* Style the tab content */
 .tabcontent {
   
-  display: none;
+  /* display: none; */
 
   padding: 40px 30px;
   margin: 2rem 0;
 
-  color: white;
+  color: #fff;
   border-radius: 20px;
   background-image: linear-gradient(to left, #47a6ff, #0262ba);
 
@@ -210,7 +202,7 @@ h5 {
   color: #f0fff0;
   opacity: 90%;
 }
-
+ 
 
 /* FOOTER WAVE ANIMATION  */
 

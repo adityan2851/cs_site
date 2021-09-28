@@ -114,6 +114,7 @@ import Lottie from "react-lottie";
 
 import coderAnim2 from "../../assets/animations/coder2.json";
 import HomeContent from "../../components/HomeContent/HomeContent";
+import Banner from "../../components/Banner"
 import "./HomePage.css";
 
 const HomePage = () => {
@@ -122,8 +123,11 @@ const HomePage = () => {
       <br />
       <br />
 
+      
+
       <Container>
         <Row md>
+        
           <Col
             md
             className="left d-flex justify-content-center align-items-start flex-column"
@@ -156,6 +160,8 @@ const HomePage = () => {
       <div className="home-content-wrapper">
         <HomeContent content={silderInfo} />
       </div>
+
+
     </div>
   );
 };

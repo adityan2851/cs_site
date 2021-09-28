@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import HomeCarousel from "../HomeCarousel/HomeCarousel";
 
+import Banner from "../Banner"
+
 import "./HomeContent.css";
 
 const HomeContent = ({ content }) => {
@@ -21,6 +23,7 @@ const HomeContent = ({ content }) => {
           <Col md>
             <h1 className="text-wrapper">Watch our Testimonials</h1>
           </Col>
+          <Banner />
         </Row>
       </Container>
     </div>

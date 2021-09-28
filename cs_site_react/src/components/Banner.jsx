@@ -1,145 +1,33 @@
-import React from "react";
+import {Nav, Tab, Row} from "react-bootstrap"
 
-const VisionAndMission = () => {
-  const courseOutcome_style = { color: "white" };
+const Banner = () => {
 
-  const clickMe = (event, cityName) => {
-    // Declare all variables
-    var i, tabcontent, tablinks;
+    const courseOutcome_style = { color: "white" };
 
-    // Get all elements with className="tabcontent" and hide them
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-      tabcontent[i].style.display = "none";
-    }
 
-    // Get all elements with className="tablinks" and remove the className "active"
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-      tablinks[i].classList.remove("active");
-    }
-    const tabToBeActive = document.getElementById(cityName);
-    tabToBeActive.style.display = "block";
-    // tabToBeActive.classList.add("active");
-
-    event.currentTarget.className += " active";
-  };
-
-  return (
-    <div className="banner-wrapper">
-      {/* <ul
-        className="nav mb-3 d-flex justify-content-center"
-        id="pills-tab"
-        role="tablist"
-      >
-        <li className="nav-item text-black" role="presentation">
-          <button
-            className="nav-link active tab-button-custom"
-            id="pills-home-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#pills-home"
-            type="button"
-            role="tab"
-            aria-controls="pills-home"
-            aria-selected="true"
-          >
-            Home
-          </button>
-        </li>
-        <li className="nav-item" role="presentation">
-          <button
-            className="nav-link tab-button-custom"
-            id="pills-profile-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#pills-profile"
-            type="button"
-            role="tab"
-            aria-controls="pills-profile"
-            aria-selected="false"
-          >
-            Profile
-          </button>
-        </li>
-        <li className="nav-item" role="presentation">
-          <button
-            className="nav-link tab-button-custom"
-            id="pills-contact-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#pills-contact"
-            type="button"
-            role="tab"
-            aria-controls="pills-contact"
-            aria-selected="false"
-          >
-            Contact
-          </button>
-        </li>
-      </ul> */}
-      {/* <div className="tab-content" id="pills-tabContent">
-        <div
-          className="tab-pane fade show active"
-          id="pills-home"
-          role="tabpanel"
-          aria-labelledby="pills-home-tab"
-        >
-          /...
-        </div>
-        <div
-          className="tab-pane fade"
-          id="pills-profile"
-          role="tabpanel"
-          aria-labelledby="pills-profile-tab"
-        >
-          ...
-        </div>
-        <div
-          className="tab-pane fade"
-          id="pills-contact"
-          role="tabpanel"
-          aria-labelledby="pills-contact-tab"
-        >
-          ...
-        </div>
-      </div> */}
-
-      <div className="tab align-center">
-        <button
-          className="tablinks active"
-          onClick={(event) => {
-            clickMe(event, "visionAndMission");
-          }}
-        >
-          Vision & Mission
-        </button>
-        <button
-          className="tablinks"
-          onClick={(event) => {
-            clickMe(event, "PEOPSO");
-          }}
-        >
-          PEO & PSO
-        </button>
-        <button
-          className="tablinks"
-          onClick={(event) => {
-            clickMe(event, "programOutcome");
-          }}
-        >
-          Program Outcome
-        </button>
-        <button
-          className="tablinks"
-          onClick={(event) => {
-            clickMe(event, "courseOutcome");
-          }}
-        >
-          Course Outcome
-        </button>
-      </div>
-
-      <div id="visionAndMission"
+    return (<Tab.Container id="banner-wrapper" defaultActiveKey="first" className="p-0">
+    <Row md className="p-0">
+        <Nav variant="pills" className="banner-tabs-nav">
+          <Nav.Item className="pilledTabs">
+            <Nav.Link eventKey="first">Vision & Mission</Nav.Link>
+          </Nav.Item>
+          <Nav.Item className="pilledTabs">
+            <Nav.Link eventKey="second">PEO & PSO</Nav.Link>
+          </Nav.Item>
+          <Nav.Item className="pilledTabs">
+            <Nav.Link eventKey="third">Program Outcome</Nav.Link>
+          </Nav.Item>
+          <Nav.Item className="pilledTabs">
+            <Nav.Link eventKey="fourth">Course Outcome</Nav.Link>
+          </Nav.Item>
+        </Nav>
+      
+      
+        <Tab.Content className="p-0 m-0">
+          <Tab.Pane eventKey="first">
+            <div
+        id="visionAndMission"
         className="tabcontent"
-        style={{ display: "block" }}
       >
         <h2>Vision</h2>
         <p>
@@ -169,8 +57,9 @@ const VisionAndMission = () => {
           its betterment
         </p>
       </div>
-
-      <div id="PEOPSO" className="tabcontent">
+          </Tab.Pane>
+          <Tab.Pane eventKey="second">
+            <div id="PEOPSO" className="tabcontent">
         <h2>Program Educational Objectives (PEO)</h2>
         <p>
           <strong>Profession: </strong> Graduates excel in computer technology
@@ -209,8 +98,9 @@ const VisionAndMission = () => {
           social, environmental, economic, and security constraints.
         </p>
       </div>
-
-      <div id="programOutcome" className="tabcontent">
+          </Tab.Pane>
+          <Tab.Pane eventKey="third">
+             <div id="programOutcome" className="tabcontent">
         <p>
           <strong>Engineering knowledge: </strong> Apply the knowledge of
           mathematics, science, engineering fundamentals, and an engineering
@@ -282,38 +172,44 @@ const VisionAndMission = () => {
           learning in the broadest context of technological change.
         </p>
       </div>
+          </Tab.Pane>
+          <Tab.Pane eventKey="fourth">
+         
+            <div id="courseOutcome" className="tabcontent">
+                <h3>Undergraduate Courses</h3>
+                <ul>
+                <li>
+                    <a href="/#" style={courseOutcome_style}>
+                    Course Outcomes 2017
+                    </a>
+                </li>
+                <li>
+                    <a href="/#" style={courseOutcome_style}>
+                    Course Outcomes 2013
+                    </a>
+                </li>
+                </ul>
 
-      <div id="courseOutcome" className="tabcontent">
-        <h3>Undergraduate Courses</h3>
-        <ul>
-          <li>
-            <a href="/#" style={courseOutcome_style}>
-              Course Outcomes 2017
-            </a>
-          </li>
-          <li>
-            <a href="/#" style={courseOutcome_style}>
-              Course Outcomes 2013
-            </a>
-          </li>
-        </ul>
+                <h3>Postgraduate Courses</h3>
+                <ul>
+                <li>
+                    <a href="/#" style={courseOutcome_style}>
+                    Course Outcomes 2017
+                    </a>
+                </li>
+                <li>
+                    <a href="/#" style={courseOutcome_style}>
+                    Course Outcomes 2013
+                    </a>
+                </li>
+                </ul>
+            </div>
+    
+          </Tab.Pane>
+        </Tab.Content>
+    </Row>
+  </Tab.Container>)
 
-        <h3>Postgraduate Courses</h3>
-        <ul>
-          <li>
-            <a href="/#" style={courseOutcome_style}>
-              Course Outcomes 2017
-            </a>
-          </li>
-          <li>
-            <a href="/#" style={courseOutcome_style}>
-              Course Outcomes 2013
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  );
-};
+}
 
-export default VisionAndMission;
+export default Banner;
