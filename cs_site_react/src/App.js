@@ -1,6 +1,7 @@
 import HomePage from "./screens/HomePage/HomePage";
 // import AboutUs from './screens/AboutUs/AboutUs';
 import Navbar from "../src/components/Navbar";
+import NavbarBootstrap from "../src/components/NavbarBootstrap";
 import Footer from "../src/components/footer";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
@@ -14,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <Router basename={"/website"}>
-        <Navbar />
+        <NavbarBootstrap />
         <Switch>
           <Route path="/" exact component={HomePage} />
           <Route path="/about-us" exact component={AboutUs} />

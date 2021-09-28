@@ -311,3 +311,13 @@ svg {
   to {transform: translateY(20%);}
 }
 
+.translucent-navbar {
+  background-color: rgba(255, 255, 255, 0.3) !important  ;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px)
+}
+
+.translucent-navbar .nav-item {
+  margin-right: 1rem;
+  text-transform: capitalize;
+}
