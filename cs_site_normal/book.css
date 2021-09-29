@@ -1,8 +1,17 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Kulim Park", sans-serif;
+  }
+
 body {
 	background: linear-gradient(-45deg, #f0fff0, #ffffff);
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
+    font-weight: 600;
 	height: 100vh;
 }
 
@@ -18,6 +27,8 @@ body {
 	}
 }
 
+/* BOOK ISHH  */
+/* ----------------------------------------------------------------------- */
 
 .book,
 .book img,
@@ -103,56 +114,33 @@ ul {
     left: -6px;
 }
 
-
+/* FOR THE CARD IN WHICH BOOK IS IN  */
 
 .cards {
     display: flex;
-
-    /* Put a card in the next row when previous cards take all width */
     flex-wrap: wrap;
-
     margin-left: -8px;
     margin-right: -8px;
     margin-left: 20%;
 }
 
 .cards__item {
-    /* There will be 4 cards per row */
     flex-basis: 25%;
-
     padding-left: 8px;
     padding-right: 8px;
 }
 
 
-/* @import url("https://fonts.googleapis.com/css2?family=Kulim+Park:wght@600&display=swap"); */
+/* NAVBAR CONTENT  */ 
 
-/* for thin font - uncomment below */
-/* @import url("https://fonts.googleapis.com/css2?family=Kulim+Park:wght@200;600&display=swap"); */
+/* -------------------------------------------------------------------- */
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-  font-family: "Kulim Park", sans-serif;
-}
-
-body {
-  font-weight: 600;
-}
 
 .top-navbar {
-  /* background-color: #5089C6; */
   background-color: rgb(79, 145, 255);
   background: linear-gradient(90deg, #0262ba 0%, #47a6ff 60%);
   padding: 1rem 1rem;
   color: black;
-
-  /* POSITIONED AS ABSOLUTE [HEMANTH] */
-  /* position: absolute;
-  top: 0;
-  width: 100%; */
 }
 
 h5 {
@@ -172,3 +160,37 @@ h5 {
   color: #f0fff0;
   opacity: 90%;
 }
+
+.p-3 {
+    padding: 16px;
+  }
+
+  .d-block {
+    display: block;
+  }
+
+  .Box {
+    background-color: #fff;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    border-color: #add8e6;
+
+
+
+  }
+
+  .card-img-top {
+
+    max-width: 35%;
+   
+
+}
+
+.card{
+
+    margin: 16%;
+    
+}
+
+
+/* Edited by Jenisha Roshan */
