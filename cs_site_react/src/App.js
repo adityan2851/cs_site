@@ -10,9 +10,14 @@ import IndustrialVisit from "./screens/IndustrialVisit/IndustrialVisit";
 import Workshop from "./screens/Workshop/Workshop";
 import Supervisiors from "./screens/Supervisiors/Supervisiors";
 import AboutUs from "./screens/AboutUs/AboutUs";
+import Academics from "./screens/Academics/Academics";
+import Student from "./screens/Student/Student";
+import Research from "./screens/Research/Research";
+import Magazine from "./screens/Magazine/Magazine";
+import ProfessionalActivity from "./screens/ProfessionalActivity/ProfessionalActivity";
 
 function App() {
-  return ( 
+  return (
     <div className="App">
       <Router basename={"/website"}>
         <NavbarBootstrap />
@@ -23,6 +28,17 @@ function App() {
           <Route path="/industrial-visit" exact component={IndustrialVisit} />
           <Route path="/workshop" exact component={Workshop} />
           <Route path="/supervisiors" exact component={Supervisiors} />
+
+          {/* NAVBAR ROUTES */}
+          <Route path="/academics" exact component={Academics} />
+          <Route path="/student" exact component={Student} />
+          <Route path="/research" exact component={Research} />
+          <Route path="/magazine" exact component={Magazine} />
+          <Route
+            path="/professional-activity"
+            exact
+            component={ProfessionalActivity}
+          />
         </Switch>
       </Router>
       /<Footer />
