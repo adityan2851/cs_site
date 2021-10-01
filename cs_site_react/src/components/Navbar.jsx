@@ -1,4 +1,3 @@
-import react from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -29,16 +28,15 @@ const Navbar = () => {
       </nav>
       <nav class="site-header sticky-top py-1">
         <div class="container d-flex flex-column flex-md-row justify-content-between">
-          <a class="py-2" href="#"></a>
+          <a class="py-2" href="/"></a>
           {/* <a class="py-2 navbar-text d-none d-md-inline-block" href="#">
             Academics
-          </a>
-           */}
+          </a> */}
           <Link to="/about-us">About Us</Link>
           <Link to="/guest-lecture">GL</Link>
           <Link to="/workshop">workshop</Link>
           {/* <!-- <a class="py-2 d-none navbar-text d-md-inline-block" href="#">Faculty</a> --> */}
-          <a class="py-2 d-none d-md-inline-block navbar-text" href="#">
+          <a class="py-2 d-none d-md-inline-block navbar-text" href="/">
             Student
           </a>
           {/* <!-- <a class="py-2 d-none d-md-inline-block navbar-text" href="#">Alumini</a> --> */}

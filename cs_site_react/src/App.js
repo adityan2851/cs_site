@@ -1,6 +1,6 @@
 import HomePage from "./screens/HomePage/HomePage";
 // import AboutUs from './screens/AboutUs/AboutUs';
-import Navbar from "../src/components/Navbar";
+// import Navbar from "../src/components/Navbar";
 import NavbarBootstrap from "../src/components/NavbarBootstrap";
 import Footer from "../src/components/footer";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -12,7 +12,7 @@ import Supervisiors from "./screens/Supervisiors/Supervisiors";
 import AboutUs from "./screens/AboutUs/AboutUs";
 
 function App() {
-  return (
+  return ( 
     <div className="App">
       <Router basename={"/website"}>
         <NavbarBootstrap />
