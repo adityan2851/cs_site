@@ -8,13 +8,15 @@ import "./App.css";
 import GuestLecture from "./screens/GuestLecture/GuestLecture";
 import IndustrialVisit from "./screens/IndustrialVisit/IndustrialVisit";
 import Workshop from "./screens/Workshop/Workshop";
-import Supervisiors from "./screens/Supervisiors/Supervisiors";
 import AboutUs from "./screens/AboutUs/AboutUs";
 import Academics from "./screens/Academics/Academics";
 import Student from "./screens/Student/Student";
-import Research from "./screens/Research/Research";
+import Supervisors from "./screens/Research/Supervisors/Supervisors";
 import Magazine from "./screens/Magazine/Magazine";
 import ProfessionalActivity from "./screens/ProfessionalActivity/ProfessionalActivity";
+import ResearchScholars from "./screens/Research/ResearchScholars/ResearchScholars"
+import PhDAwarded from "./screens/Research/Ph.D Awarded/PhDAwarded"
+import ResearchProjects from "./screens/Research/ResearchProjects/ResearchProjects";
 
 function App() {
   return (
@@ -27,12 +29,14 @@ function App() {
           <Route path="/guest-lecture" exact component={GuestLecture} />
           <Route path="/industrial-visit" exact component={IndustrialVisit} />
           <Route path="/workshop" exact component={Workshop} />
-          <Route path="/supervisiors" exact component={Supervisiors} />
+          <Route path="/supervisiors" exact component={Supervisors} />
+          <Route path="/research-scholars" exact component={ResearchScholars} />
+          <Route path="/phD-awarded" exact component={PhDAwarded} />
+          <Route path="/researchProjects" exact component={ResearchProjects} />
 
           {/* NAVBAR ROUTES */}
           <Route path="/academics" exact component={Academics} />
           <Route path="/student" exact component={Student} />
-          <Route path="/research" exact component={Research} />
           <Route path="/magazine" exact component={Magazine} />
           <Route
             path="/professional-activity"

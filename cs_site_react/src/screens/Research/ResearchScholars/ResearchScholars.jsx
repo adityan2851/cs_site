@@ -1,18 +1,20 @@
 import React from "react";
-import { supervisorData } from "./Data";
+import { researchScholarsData } from "./Data";
 import { Table } from "react-bootstrap";
 
-const Supervisiors = () => {
+const ResearchScholars = () => {
   return (
     <div>
       <div className="container">
         <br />
-        <h2 style={{ textAlign: "center", fontWeight: "bold" }}>Supervisors</h2>
+        <h2 style={{ textAlign: "center", fontWeight: "bold" }}>
+          Supervisors{" "}
+        </h2>
 
-        {supervisorData.map((obj, i) => (
+        {researchScholarsData.map((obj, i) => (
           <div>
-            <br />
 
+            <br />
             <Table bordered responsive="md" hover>
               <thead>
                 <tr>
@@ -26,8 +28,8 @@ const Supervisiors = () => {
                 {obj["data"].map((obj, index) => (
                   <tr>
                     <td>{index + 1}</td>
-                    <td>{obj["name"]}</td>
-                    <td>{obj["refno"]}</td>
+                    <td>{obj["supervisorName"]}</td>
+                    <td>{obj["referenceNo"]}</td>
                     <td>{obj["researchArea"]}</td>
                   </tr>
                 ))}
@@ -40,4 +42,4 @@ const Supervisiors = () => {
   );
 };
 
-export default Supervisiors;
+export default ResearchScholars;
