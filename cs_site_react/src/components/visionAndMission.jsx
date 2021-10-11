@@ -1,6 +1,5 @@
 import React from "react";
 
-import r17 from "../assets/pdfs/R2017.pdf";
 
 const VisionAndMission = () => {
   const courseOutcome_style = { color: "white" };

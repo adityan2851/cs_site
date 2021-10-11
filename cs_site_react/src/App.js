@@ -18,6 +18,7 @@ import ResearchScholars from "./screens/Research/ResearchScholars/ResearchSchola
 import PhDAwarded from "./screens/Research/Ph.D Awarded/PhDAwarded";
 import ResearchProjects from "./screens/Research/ResearchProjects/ResearchProjects";
 import Laboratory from "./screens/Facility/Laboratory/Laboratory";
+import FacultyWrapper from "./screens/faculty/FacultyWrapper";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
 
           {/* FACILITIES */}
           <Route path="/facility/laboratory" exact component={Laboratory} />
+          <Route path="/faculty" exact component={FacultyWrapper} />
 
           {/* NAVBAR ROUTES */}
           <Route path="/academics" exact component={Academics} />
