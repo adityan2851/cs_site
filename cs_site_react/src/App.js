@@ -17,6 +17,7 @@ import ProfessionalActivity from "./screens/ProfessionalActivity/ProfessionalAct
 import ResearchScholars from "./screens/Research/ResearchScholars/ResearchScholars"
 import PhDAwarded from "./screens/Research/Ph.D Awarded/PhDAwarded"
 import ResearchProjects from "./screens/Research/ResearchProjects/ResearchProjects";
+import FacultyWrapper from "./screens/faculty/FacultyWrapper";
 
 function App() {
   return (
@@ -33,6 +34,8 @@ function App() {
           <Route path="/research-scholars" exact component={ResearchScholars} />
           <Route path="/phD-awarded" exact component={PhDAwarded} />
           <Route path="/researchProjects" exact component={ResearchProjects} />
+
+          <Route path="/faculty" exact component={FacultyWrapper} />
 
           {/* NAVBAR ROUTES */}
           <Route path="/academics" exact component={Academics} />

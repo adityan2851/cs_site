@@ -41,6 +41,10 @@
 
 /* Footer */
 
+* {
+  --border-color: royalblue;
+}
+
 .footer{
   width: 100%;
   height: 500px;
@@ -314,3 +318,82 @@ svg {
   margin-right: 1rem;
   text-transform: capitalize;
 }
+
+
+/* FAculty page */
+
+* {
+  
+}
+body {
+
+  background-color: white;
+}
+
+.p-3 {
+  padding: 16px;
+}
+
+.d-block {
+  display: block;
+}
+
+.Box {
+  background-color: rgb(255, 255, 255) !important;
+  border-radius: 5px !important;
+  border: none !important;
+  border-top: 4px solid var(--border-color) !important;
+
+}
+
+.card-img-top {
+
+  height: 130px;
+  width: 120px;
+  border-radius: 100%;
+
+
+}
+
+.card {
+
+  margin: 20px;
+
+}
+
+.btn {
+
+  background-color: var(--border-color) !important;
+  color: aliceblue;
+}
+
+.staff-name {
+
+  font-size:  1.2rem;
+}
+
+.css-button-rounded--blue {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid var(--border-color);
+  background: var(--border-color);
+}
+.css-button-rounded--blue:hover {
+  background: #fff;
+  color: var(--border-color);
+}
+.role {
+  opacity: 70%;
+
+
+}
+
