@@ -1,4 +1,5 @@
 import { Navbar, Container, NavDropdown, Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const NavbarBootstrap = () => {
   return (
@@ -10,14 +11,15 @@ const NavbarBootstrap = () => {
       variant="light"
     >
       <Container>
-        <Navbar.Brand href="/">CSE</Navbar.Brand>
+        <Navbar.Brand href="/website">CSE</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <div className="me-auto"></div>
           <Nav className="">
-            <Nav.Link className="links nav-item " href="/academics">
+            {/* <Nav.Link className="links nav-item " href="/academics">
               academics
             </Nav.Link>
+            
             <Nav.Link className="nav-item" href="/student">
               student
             </Nav.Link>
@@ -29,7 +31,28 @@ const NavbarBootstrap = () => {
             </Nav.Link>
             <Nav.Link className="nav-item" href="/professional-activity">
               professional acivity
-            </Nav.Link>
+            </Nav.Link> */}
+
+            <Link to="/academics" className="links nav-item nav-link">
+              academics
+            </Link>
+
+            <Link className="links nav-link nav-item" to="/student">
+              student
+            </Link>
+            <Link className="links nav-link nav-item" to="/research">
+              research
+            </Link>
+            <Link className="links nav-link nav-item" to="/magazine">
+              magazine
+            </Link>
+            <Link
+              className="links nav-link nav-item"
+              to="/professional-activity"
+            >
+              professional acivity
+            </Link>
+
             <NavDropdown title="others" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Magazine</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Newsletter</NavDropdown.Item>

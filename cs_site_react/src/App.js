@@ -5,18 +5,19 @@ import NavbarBootstrap from "../src/components/NavbarBootstrap";
 import Footer from "../src/components/footer";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
-import GuestLecture from "./screens/GuestLecture/GuestLecture";
-import IndustrialVisit from "./screens/IndustrialVisit/IndustrialVisit";
-import Workshop from "./screens/Workshop/Workshop";
+import GuestLecture from "./screens/Students/GuestLecture/GuestLecture";
+import IndustrialVisit from "./screens/Students/IndustrialVisit/IndustrialVisit";
+import Workshop from "./screens/Students/Workshop/Workshop";
 import AboutUs from "./screens/AboutUs/AboutUs";
 import Academics from "./screens/Academics/Academics";
-import Student from "./screens/Student/Student";
+// import Student from "./screens/Students/Student";
 import Supervisors from "./screens/Research/Supervisors/Supervisors";
 import Magazine from "./screens/Magazine/Magazine";
 import ProfessionalActivity from "./screens/ProfessionalActivity/ProfessionalActivity";
-import ResearchScholars from "./screens/Research/ResearchScholars/ResearchScholars"
-import PhDAwarded from "./screens/Research/Ph.D Awarded/PhDAwarded"
+import ResearchScholars from "./screens/Research/ResearchScholars/ResearchScholars";
+import PhDAwarded from "./screens/Research/Ph.D Awarded/PhDAwarded";
 import ResearchProjects from "./screens/Research/ResearchProjects/ResearchProjects";
+import Laboratory from "./screens/Facility/Laboratory/Laboratory";
 import FacultyWrapper from "./screens/faculty/FacultyWrapper";
 
 function App() {
@@ -35,11 +36,13 @@ function App() {
           <Route path="/phD-awarded" exact component={PhDAwarded} />
           <Route path="/researchProjects" exact component={ResearchProjects} />
 
+          {/* FACILITIES */}
+          <Route path="/facility/laboratory" exact component={Laboratory} />
           <Route path="/faculty" exact component={FacultyWrapper} />
 
           {/* NAVBAR ROUTES */}
           <Route path="/academics" exact component={Academics} />
-          <Route path="/student" exact component={Student} />
+          {/* <Route path="/student" exact component={Student} /> */}
           <Route path="/magazine" exact component={Magazine} />
           <Route
             path="/professional-activity"
@@ -48,7 +51,7 @@ function App() {
           />
         </Switch>
       </Router>
-      /<Footer />
+      <Footer />
     </div>
   );
 }
