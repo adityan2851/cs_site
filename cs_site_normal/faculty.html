@@ -19,12 +19,17 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
 
-  <title>Home Page</title>
-</head>
-
-<body>
+  <title>faculty</title>
 
   <style>
+    * {
+      --border-color: royalblue;
+    }
+    body {
+
+      background-color: white;
+    }
+
     .p-3 {
       padding: 16px;
     }
@@ -34,240 +39,306 @@
     }
 
     .Box {
-      background-color: #fff;
-      border: 1px solid #e1e4e8;
-      border-radius: 6px;
-      border-color: #add8e6;
-
-
+      background-color: rgb(255, 255, 255);
+      border-radius: 5px;
+      border: none;
+      border-top: 4px solid var(--border-color);
 
     }
 
     .card-img-top {
 
-      max-width: 35%;
-     
-  
-  }
-  
-  .card{
-  
-      margin: 20px;
-      
-  }
-  
-  
-  </style>
+      height: 130px;
+      width: 120px;
+      border-radius: 100%;
 
-  <div class="album py-5 bg-light">
+
+    }
+
+    .card {
+
+      margin: 20px;
+
+    }
+
+    .btn {
+
+      background-color: var(--border-color) !important;
+      color: aliceblue;
+    }
+
+    .staff-name {
+
+      font-size:  1.2rem;
+    }
+
+    .css-button-rounded--blue {
+      min-width: 130px;
+      height: 40px;
+      color: #fff;
+      padding: 5px 10px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      position: relative;
+      display: inline-block;
+      outline: none;
+      border-radius: 5px;
+      border: 2px solid var(--border-color);
+      background: var(--border-color);
+    }
+    .css-button-rounded--blue:hover {
+      background: #fff;
+      color: var(--border-color);
+    }
+    .role {
+      opacity: 70%;
+ 
+    }
+  </style>
+</head>
+
+<body>
+
+
+
+  <div class="album py-5">
     <div class="container">
       <div class="seperator"></div>
       <div class="row">
+
         <div class="col-md-4">
-          <div class="card mb-4 Box shadow ">
-           
+          <div class="card mb-4 Box shadow">
+
             <div class="card-body text-center">
               <ul class="list-unstyled max-width-200 mx-auto">
-                <img class="card-img-top contributor-img"
-                  src="https://crimzonworld.com/wp-content/uploads/2016/08/dummy-prod-1.jpg">
-                <hr class="horizontal dark">
-                <!-- <li>
-                  Name : Prabu
-                  <hr class="horizontal dark">
+                <img alt="profile" class="card-img-top contributor-img"
+                  src="https://crimzonworld.com/wp-content/uploads/2016/08/dummy-prod-1.jpg"/>
+
+                <li style="margin-top: 20px;">
+                  <b><span class="staff-name">B. Parvathavarthini</span> </b>
+                  <p style="opacity:80%;"> M.E,M.Ba,Ph.D <br>   <span class="role">Dean</span></p>
+               
                 </li>
-                <li>
-                  Contact : 1223131
-                  <hr class="horizontal dark">
-                </li> -->
+
 
               </ul>
-              <button class="btn btn-dark"> View Profile</button>
+              <a href="faculty/Dean.pdf" target="_blank"> 
+                <button class=" css-button-rounded--blue"> View  Profile</button>
+                </a>
+
             </div>
 
-
-
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 Box shadow ">
-            <div class="card-body text-center">
-              <ul class="list-unstyled max-width-200 mx-auto">
-                <img class="card-img-top contributor-img"
-                  src="https://crimzonworld.com/wp-content/uploads/2016/08/dummy-prod-1.jpg">
-                <hr class="horizontal dark">
-                <li>
-                  Name : Prabu
-                  <hr class="horizontal dark">
-                </li>
-                <li>
-                  Contact : 1223131
-                  <hr class="horizontal dark">
-                </li>
-
-              </ul>
-              <button class="btn btn-dark"> View Profile</button>
-            </div>
 
 
           </div>
         </div>
         <div class="col-md-4">
           <div class="card mb-4 Box shadow">
+
             <div class="card-body text-center">
               <ul class="list-unstyled max-width-200 mx-auto">
-                <img class="card-img-top contributor-img"
-                  src="https://crimzonworld.com/wp-content/uploads/2016/08/dummy-prod-1.jpg">
-                <hr class="horizontal dark">
-                <li>
-                  Name : Prabu
-                  <hr class="horizontal dark">
-                </li>
-                <li>
-                  Contact : 1223131
-                  <hr class="horizontal dark">
+                <img alt="profile" class="card-img-top contributor-img"
+                  src="https://crimzonworld.com/wp-content/uploads/2016/08/dummy-prod-1.jpg"/>
+
+                <li style="margin-top: 20px;">
+                  <b><span class="staff-name">Dr. A. Chandra Sekar</span> </b>
+                  <p style="opacity:80%;">ME.,Ph.D<br>   <span class="role">Professor and Head</span></p>
+               
                 </li>
 
+
               </ul>
-              <button class="btn btn-dark"> View Profile</button>
+              <a href="faculty/chandrasekar.pdf" target="_blank"> 
+                <button class=" css-button-rounded--blue"> View  Profile</button>
+                </a>
+
             </div>
+
+
 
 
           </div>
         </div>
         <div class="col-md-4">
           <div class="card mb-4 Box shadow">
+
             <div class="card-body text-center">
               <ul class="list-unstyled max-width-200 mx-auto">
-                <img class="card-img-top contributor-img"
-                  src="https://crimzonworld.com/wp-content/uploads/2016/08/dummy-prod-1.jpg">
-                <hr class="horizontal dark">
-                <li>
-                  Name : Prabu
-                  <hr class="horizontal dark">
-                </li>
-                <li>
-                  Contact : 1223131
-                  <hr class="horizontal dark">
+                <img alt="profile" class="card-img-top contributor-img"
+                  src="https://crimzonworld.com/wp-content/uploads/2016/08/dummy-prod-1.jpg"/>
+
+                <li style="margin-top: 20px;">
+                  <b><span class="staff-name">	Dr. G. MariaKalavathy</span> </b>
+                  <p style="opacity:80%;"> M.E.,MBA.,Ph.D<br>   <span class="role">Professor and Head</span></p>
+               
                 </li>
 
+
               </ul>
-              <button class="btn btn-dark"> View Profile</button>
+              <a href="faculty/mariyakalavathy.pdf" target="_blank"> 
+                <button class=" css-button-rounded--blue"> View  Profile</button>
+                </a>
+
             </div>
+
 
 
           </div>
         </div>
         <div class="col-md-4">
           <div class="card mb-4 Box shadow">
+
             <div class="card-body text-center">
               <ul class="list-unstyled max-width-200 mx-auto">
-                <img class="card-img-top contributor-img"
-                  src="https://crimzonworld.com/wp-content/uploads/2016/08/dummy-prod-1.jpg">
-                <hr class="horizontal dark">
-                <li>
-                  Name : Prabu
-                  <hr class="horizontal dark">
-                </li>
-                <li>
-                  Contact : 1223131
-                  <hr class="horizontal dark">
+                <img alt="profile" class="card-img-top contributor-img"
+                  src="https://crimzonworld.com/wp-content/uploads/2016/08/dummy-prod-1.jpg"/>
+
+                <li style="margin-top: 20px;">
+                  <b><span class="staff-name">	Dr. G. Murugesan</span> </b>
+                  <p style="opacity:80%;">   M.E.,Ph.D<br>   <span class="role">Professor</span></p>
+               
                 </li>
 
+
               </ul>
-              <button class="btn btn-dark"> View Profile</button>
+              <a href="faculty/murugesan.pdf" target="_blank"> 
+                <button class=" css-button-rounded--blue"> View  Profile</button>
+                </a>
+
             </div>
+
+
 
 
           </div>
         </div>
         <div class="col-md-4">
           <div class="card mb-4 Box shadow">
+
             <div class="card-body text-center">
               <ul class="list-unstyled max-width-200 mx-auto">
-                <img class="card-img-top contributor-img"
-                  src="https://crimzonworld.com/wp-content/uploads/2016/08/dummy-prod-1.jpg">
-                <hr class="horizontal dark">
-                <li>
-                  Name : Prabu
-                  <hr class="horizontal dark">
-                </li>
-                <li>
-                  Contact : 1223131
-                  <hr class="horizontal dark">
+                <img alt="profile" class="card-img-top contributor-img"
+                  src="https://crimzonworld.com/wp-content/uploads/2016/08/dummy-prod-1.jpg"/>
+
+                <li style="margin-top: 20px;">
+                  <b><span class="staff-name">Dr. M. P Rajakumar</span> </b>
+                  <p style="opacity:80%;"> M.E.,Ph.D<br>   <span class="role">Professor</span></p>
+               
                 </li>
 
+
               </ul>
-              <button class="btn btn-dark"> View Profile</button>
+              <a href="faculty/rajakumar.pdf" target="_blank"> 
+                <button class=" css-button-rounded--blue"> View  Profile</button>
+                </a>
+
             </div>
+
 
 
           </div>
         </div>
         <div class="col-md-4">
           <div class="card mb-4 Box shadow">
+
             <div class="card-body text-center">
               <ul class="list-unstyled max-width-200 mx-auto">
-                <img class="card-img-top contributor-img"
-                  src="https://crimzonworld.com/wp-content/uploads/2016/08/dummy-prod-1.jpg">
-                <hr class="horizontal dark">
-                <li>
-                  Name : Prabu
-                  <hr class="horizontal dark">
-                </li>
-                <li>
-                  Contact : 1223131
-                  <hr class="horizontal dark">
+                <img alt="profile" class="card-img-top contributor-img"
+                  src="https://crimzonworld.com/wp-content/uploads/2016/08/dummy-prod-1.jpg"/>
+
+                <li style="margin-top: 20px;">
+                  <b><span class="staff-name">Dr.B. Parvathavarthini</span> </b>
+                  <p style="opacity:80%;"> M.E,M.Ba,Ph.D <br>   <span class="role">Dean</span></p>
+               
                 </li>
 
+
               </ul>
-              <button class="btn btn-dark"> View Profile</button>
+              <a href="faculty/Dean.pdf" target="_blank"> 
+                <button class=" css-button-rounded--blue"> View  Profile</button>
+                </a>
+
             </div>
+
 
 
           </div>
         </div>
         <div class="col-md-4">
           <div class="card mb-4 Box shadow">
+
             <div class="card-body text-center">
               <ul class="list-unstyled max-width-200 mx-auto">
-                <img class="card-img-top contributor-img"
-                  src="https://crimzonworld.com/wp-content/uploads/2016/08/dummy-prod-1.jpg">
-                <hr class="horizontal dark">
-                <li>
-                  Name : Prabu
-                  <hr class="horizontal dark">
-                </li>
-                <li>
-                  Contact : 1223131
-                  <hr class="horizontal dark">
+                <img alt="profile" class="card-img-top contributor-img"
+                  src="https://crimzonworld.com/wp-content/uploads/2016/08/dummy-prod-1.jpg"/>
+
+                <li style="margin-top: 20px;">
+                  <b><span class="staff-name">Dr. A. Chandra Sekar</span> </b>
+                  <p style="opacity:80%;">ME.,Ph.D<br>   <span class="role">Professor and Head</span></p>
+               
                 </li>
 
+
               </ul>
-              <button class="btn btn-dark"> View Profile</button>
+              <a href="faculty/mariyakalavathy.pdf" target="_blank"> 
+                <button class=" css-button-rounded--blue"> View  Profile</button>
+                </a>
+
             </div>
+
 
 
           </div>
         </div>
         <div class="col-md-4">
           <div class="card mb-4 Box shadow">
+
             <div class="card-body text-center">
               <ul class="list-unstyled max-width-200 mx-auto">
-                <img class="card-img-top contributor-img"
-                  src="https://crimzonworld.com/wp-content/uploads/2016/08/dummy-prod-1.jpg">
-                <hr class="horizontal dark">
-                <li>
-                  Name : Prabu
-                  <hr class="horizontal dark">
-                </li>
-                <li>
-                  Contact : 1223131
-                  <hr class="horizontal dark">
+                <img alt="profile" class="card-img-top contributor-img"
+                  src="https://crimzonworld.com/wp-content/uploads/2016/08/dummy-prod-1.jpg"/>
+
+                <li style="margin-top: 20px;">
+                  <b><span class="staff-name">B. Parvathavarthini</span> </b>
+                  <p style="opacity:80%;"> M.E,M.Ba,Ph.D <br>   <span class="role">Dean</span></p>
+               
                 </li>
 
+
               </ul>
-              <button class="btn btn-dark"> View Profile</button>
+              <a href="faculty/mariyakalavathy.pdf" target="_blank"> 
+                <button class=" css-button-rounded--blue"> View  Profile</button>
+                </a>
+
             </div>
+
+
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 Box shadow">
+
+            <div class="card-body text-center">
+              <ul class="list-unstyled max-width-200 mx-auto">
+                <img alt="profile" class="card-img-top contributor-img"
+                  src="https://crimzonworld.com/wp-content/uploads/2016/08/dummy-prod-1.jpg"/>
+
+                <li style="margin-top: 20px;">
+                  <b><span class="staff-name">B. Parvathavarthini</span> </b>
+                  <p style="opacity:80%;"> M.E,M.Ba,Ph.D <br>   <span class="role">Dean</span></p>
+               
+                </li>
+
+
+              </ul>
+              <a href="faculty/mariyakalavathy.pdf" target="_blank"> 
+                <button class=" css-button-rounded--blue"> View  Profile</button>
+                </a>
+
+            </div>
+
 
 
           </div>
