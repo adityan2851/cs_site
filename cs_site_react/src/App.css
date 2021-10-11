@@ -125,7 +125,11 @@ border-bottom: 3px solid #000  !important  ;
   /* display: none; */
 
   padding: 40px 30px;
-  margin: 2rem 0;
+  /* margin: 2rem 0; */
+
+  margin-left: 1.4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 
   color: #fff;
   border-radius: 20px;
