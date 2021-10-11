@@ -372,7 +372,7 @@ body {
 }
 
 .staff-name {
-
+  text-transform: uppercase;
   font-size:  1.2rem;
 }
 
