@@ -109,7 +109,7 @@ const VisionAndMission = () => {
             clickMe(event, "visionAndMission");
           }}
         >
-          Vision & Mission
+          Vision and Mission
         </button>
         <button
           className="tablinks"
