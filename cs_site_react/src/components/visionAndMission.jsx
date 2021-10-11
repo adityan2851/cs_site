@@ -1,5 +1,7 @@
 import React from "react";
 
+import r17 from "../assets/pdfs/R2017.pdf";
+
 const VisionAndMission = () => {
   const courseOutcome_style = { color: "white" };
 
@@ -109,7 +111,7 @@ const VisionAndMission = () => {
             clickMe(event, "visionAndMission");
           }}
         >
-          Vision & Mission
+          Vision &amp; Mission
         </button>
         <button
           className="tablinks"
@@ -117,7 +119,7 @@ const VisionAndMission = () => {
             clickMe(event, "PEOPSO");
           }}
         >
-          PEO & PSO
+          PEO PSO
         </button>
         <button
           className="tablinks"
@@ -137,7 +139,8 @@ const VisionAndMission = () => {
         </button>
       </div>
 
-      <div id="visionAndMission"
+      <div
+        id="visionAndMission"
         className="tabcontent"
         style={{ display: "block" }}
       >
@@ -287,7 +290,7 @@ const VisionAndMission = () => {
         <h3>Undergraduate Courses</h3>
         <ul>
           <li>
-            <a href="/#" style={courseOutcome_style}>
+            <a href="/guest-lecture" style={courseOutcome_style}>
               Course Outcomes 2017
             </a>
           </li>
