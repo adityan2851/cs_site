@@ -7,8 +7,18 @@
   text-align: center;
   padding-top: 50px;
 }
-/* .video-content {
-  width: 70%;
+
+.video-wrapper {
   height: 500px;
-  background-color: aqua;
-} */
+  width: 800px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 920px) {
+  .video-wrapper {
+    height: 300px;
+    width: 533.33px;
+  }
+}
