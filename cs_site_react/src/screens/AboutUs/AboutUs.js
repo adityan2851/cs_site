@@ -17,7 +17,7 @@ const AboutUs = () => {
             <ul><li>Our Students participated in Smart India Hackathon 2017, 2018 and 2019 organized by Govt. of India and in which prize amount were sanctioned for the project and further financial assistance were provided by AICTE which are mentioned below.</li></ul>
             </div>
 
-            <table class="Tablenibba">
+            <table class="tableAbout">
                 <tr>
                     <th>S.No</th>
                     <th>Smart India hackathon</th>
@@ -49,4 +49,4 @@ const AboutUs = () => {
     )
 }
 
-export default AboutUs
+export default AboutUs;
