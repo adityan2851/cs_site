@@ -1,4 +1,4 @@
-import react from "react";
+// import react from "react";
 
 const FacultyCard = ({image, name, education, designation, pdfLink}) => {
     return (  <div class="card mb-4 Box shadow">
@@ -16,8 +16,9 @@ const FacultyCard = ({image, name, education, designation, pdfLink}) => {
         </li>
 
       </ul>
-
+      {/* eslint-disable-next-line */}
       <a href={pdfLink} target="_blank"> 
+        
         <button class="css-button-rounded--blue"> View  Profile</button>
       </a>
 
