@@ -1,13 +1,14 @@
 .content-card {
   background-color: #ffffff;
-    border-radius: 13px;
-    box-shadow: 4px 24px 60px 1px rgba(109, 141, 173, 0.25);
-
+  border-radius: 13px;
+  box-shadow: 4px 24px 60px 1px rgba(109, 141, 173, 0.25);
 }
 
 .text-wrapper {
   text-align: center;
-  padding-top: 50px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .video-wrapper {
@@ -18,12 +19,9 @@
   justify-content: center;
 }
 
-
 @media screen and (max-width: 920px) {
   .video-wrapper {
     height: 250px;
     width: 100%;
   }
 }
-
-
