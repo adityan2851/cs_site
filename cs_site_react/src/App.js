@@ -21,6 +21,8 @@ import Laboratory from "./screens/Facility/Laboratory/Laboratory";
 import AchievementsWrapper from "./screens/Achievements/AchievementsWrapper";
 import FacultyWrapper from "./screens/Faculty/FacultyWrapper";
 import Placements from "./screens/Placements/Placements";
+import Placements from "./screens/Placements/Placements";
+import ErrorPage404 from "./screens/ErrorPage404/ErrorPage404";
 
 function App() {
   return (
