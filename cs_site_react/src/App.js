@@ -18,8 +18,9 @@ import ResearchScholars from "./screens/Research/ResearchScholars/ResearchSchola
 import PhDAwarded from "./screens/Research/Ph.D Awarded/PhDAwarded";
 import ResearchProjects from "./screens/Research/ResearchProjects/ResearchProjects";
 import Laboratory from "./screens/Facility/Laboratory/Laboratory";
-import FacultyWrapper from "./screens/faculty/FacultyWrapper";
 import AchievementsWrapper from "./screens/Achievements/AchievementsWrapper";
+import FacultyWrapper from "./screens/Faculty/FacultyWrapper";
+import Placements from "./screens/Placements/Placements";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           <Route path="/research-scholars" exact component={ResearchScholars} />
           <Route path="/phD-awarded" exact component={PhDAwarded} />
           <Route path="/researchProjects" exact component={ResearchProjects} />
+          <Route path="/placements" exact component={Placements} />
 
           {/* FACILITIES */}
           <Route path="/facility/laboratory" exact component={Laboratory} />
@@ -51,6 +53,8 @@ function App() {
             exact
             component={ProfessionalActivity}
           />
+          <Route path="/page-error" exact component={ErrorPage404}/>
+          <Redirect to="/page-error"/>
         </Switch>
       </Router>
       <Footer />

@@ -47,20 +47,25 @@
 
 .footer{
   width: 100%;
-  height: 500px;
   color: white;
   padding-top: 110px;
   padding-bottom: 20px;
-  display: flex;
   flex-direction: column;
-  align-items: center;
+  margin: 0 auto;
+  background-color: #133774;
+  
 
 }
 
 .footer-contents{
   width: 100%;
-  padding-left: 20%;
+  padding-left: 5%;
   padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #133774;
+
   
 }
 .details{
@@ -74,12 +79,27 @@
 
 .copyright{
   border-top: #769ddb solid 1px;
-  width: 100%;
+  width: 100% !important;
 }
 
 .credits{
   color : #769ddb;
   opacity: 0.5;
+}
+
+
+.dropdown{
+  margin-left: 10px;
+}
+
+.footer-about{
+  background-color: #133774;
+  color: white;
+  border: none;
+}
+
+.footer-list{
+  padding: 0;
 }
 
 /* Vision and Mission */
@@ -343,7 +363,7 @@ svg {
 
 }
 
-.card-img-top {
+.faculty-profile {
 
   height: 130px;
   width: 120px;
@@ -393,4 +413,12 @@ svg {
 
 
 }
+
+
+
+/* -----------------Placements Screen---------------------------- */
+.placement-card-image{
+  height: 200px;
+}
+
 

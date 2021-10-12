@@ -21,7 +21,12 @@ html {
     border-radius: 15px;
 }
 
-.card {
+.achievements-card {
+    border-radius: 1rem;
+    border: none;
+}
+
+.achievements-card {
     width: 280px;
     height: 360px;
     border-radius: 15px;
@@ -29,25 +34,22 @@ html {
     background: white;
     position: relative;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     transition: 0.4s ease-out;
     box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
 }
 
-.card:hover {
-    transform: translateY(20px);
-}
 
-.card:hover:before {
+.achievements-card:hover:before {
     opacity: 1;
 }
 
-.card:hover .info {
+.achievements-card:hover .info {
     opacity: 1;
     transform: translateY(0px);
 }
 
-.card:before {
+.achievements-card:before {
     content: "";
     position: absolute;
     top: 0;
@@ -62,7 +64,7 @@ html {
     opacity: 0;
 }
 
-.card img {
+.achievements-card img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -72,17 +74,17 @@ html {
     border-radius: 15px;
 }
 
-.card .info {
+.achievements-card .info {
     position: relative;
     z-index: 3;
     color: white;
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(1rem);
     transition: 0.5s;
 }
 
 .card .info h1 {
-    margin: 0px;
+    /* margin-top: 1.5rem; */
 }
 
 .card .info p {
@@ -91,7 +93,7 @@ html {
     margin-top: 8px;
 }
 
-.card .info button {
+.achievements-card .info button {
     padding: 0.6rem;
     outline: none;
     border: none;
@@ -103,7 +105,7 @@ html {
     transition: 0.4s ease;
 }
 
-.card .info button:hover {
+.achievements-card .info button:hover {
     background: dodgerblue;
     color: white;
 }

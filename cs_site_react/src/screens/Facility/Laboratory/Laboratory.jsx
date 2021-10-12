@@ -11,7 +11,7 @@ const Laboratory = () => {
       {laboratoryData.map((labdata, i) => (
         <div>
           <Container md>
-            <h2 style={{ fontWeight: "bolder" }}>{labdata["labName"]}</h2>
+            <h2 style={{ fontWeight: "bolder", textAlign: "center" }}>{labdata["labName"]}</h2>
             <br />
             {labdata["labData"].map((obj, i) => (
               <div>
