@@ -41,6 +41,10 @@
 
 /* Footer */
 
+* {
+  --border-color: royalblue;
+}
+
 .footer{
   width: 100%;
   color: white;
@@ -359,7 +363,7 @@ svg {
 
 }
 
-.card-img-top {
+.faculty-profile {
 
   height: 130px;
   width: 120px;
@@ -409,4 +413,12 @@ svg {
 
 
 }
+
+
+
+/* -----------------Placements Screen---------------------------- */
+.placement-card-image{
+  height: 200px;
+}
+
 
