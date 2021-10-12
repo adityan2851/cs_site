@@ -28,6 +28,7 @@ import FacultyWrapper from "./screens/Faculty/FacultyWrapper";
 import Placements from "./screens/Placements/Placements";
 import ErrorPage404 from "./screens/ErrorPage404/ErrorPage404";
 import Patents from "./screens/Patents/Patents";
+import ResearchPublication from "./screens/Research/Publications/Publication";
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
           <Route path="/placements" exact component={Placements} />
 
           <Route path="/patents" exact component={Patents} />
+          <Route path="/Publications" exact component={ResearchPublication} />
 
           {/* FACILITIES */}
           <Route path="/facility-laboratory" exact component={Laboratory} />
