@@ -22,7 +22,6 @@ const AchievementsWrapper = () => {
                     place={entry.place}
                     date={entry.date}
                 />)
-                
             })}
         </div>
     </div>);
