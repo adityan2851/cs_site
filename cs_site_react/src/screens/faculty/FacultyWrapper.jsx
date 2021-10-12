@@ -1,4 +1,4 @@
-import FacultyCard from "../../components/FacultyCard";
+import FacultyCard from "./FacultyCard";
 import facultyDetails from "./data";
 
 const FacultyWrapper = () => {
