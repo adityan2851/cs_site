@@ -19,6 +19,7 @@ import PhDAwarded from "./screens/Research/Ph.D Awarded/PhDAwarded";
 import ResearchProjects from "./screens/Research/ResearchProjects/ResearchProjects";
 import Laboratory from "./screens/Facility/Laboratory/Laboratory";
 import FacultyWrapper from "./screens/faculty/FacultyWrapper";
+import AchievementsWrapper from "./screens/Achievements/AchievementsWrapper";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
           {/* FACILITIES */}
           <Route path="/facility/laboratory" exact component={Laboratory} />
           <Route path="/faculty" exact component={FacultyWrapper} />
+          <Route path="/achievements" exact component={AchievementsWrapper} />
 
           {/* NAVBAR ROUTES */}
           <Route path="/academics" exact component={Academics} />
