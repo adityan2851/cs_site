@@ -49,6 +49,8 @@ function App() {
             exact
             component={ProfessionalActivity}
           />
+          <Route path="/page-error" exact component={ErrorPage404}/>
+          <Redirect to="/page-error"/>
         </Switch>
       </Router>
       <Footer />
