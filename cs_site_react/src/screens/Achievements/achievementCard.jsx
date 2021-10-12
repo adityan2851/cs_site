@@ -1,9 +1,7 @@
 import { useState } from "react";
 import { Modal, Button, Table } from "react-bootstrap";
 
-import {AchievementsData} from "./data";
-
-const AchievementsCard = () => {
+const AchievementsCard = ({eventName, image, students, venue, title, year, amount, place, date}) => {
 
     const [show, setShow] = useState(false);
 
@@ -13,10 +11,10 @@ const AchievementsCard = () => {
     return (
         <div>
             <div class="achievements-card" data-toggle="modal" data-target="#exampleModalCenter" onClick={handleShow}>
-                <img src="https://www.w3schools.com/howto/img_avatar.png" />
+                <img src={image} alt="event_picture"/>
                 <div class="info">
-                    <h1>Ideathon 2018</h1>
-                    <p>Tencor – Advertisement using Facial Recognition</p>
+                    <h1>{eventName}</h1>
+                    <p>{title}</p>
                     <button>Read More</button>
                 </div>
             </div>
@@ -36,7 +34,7 @@ const AchievementsCard = () => {
                             </tr>
                         </thead>
                         <tbody>
-                            {AchievementsData.map((entry, index) => (
+                            {/* {AchievementsData.map((entry, index) => (
                             <tr>
                                 <td>{index + 1}</td>
                                 <td>{entry.title}</td>
@@ -44,7 +42,7 @@ const AchievementsCard = () => {
                                 <td>{entry.title}</td>
                                 <td>{entry.title}</td>
                             </tr>
-                            ))}
+                            ))} */}
                         </tbody>
                     </Table>
                 </Modal.Body>

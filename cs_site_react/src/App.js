@@ -3,7 +3,7 @@ import HomePage from "./screens/HomePage/HomePage";
 // import Navbar from "../src/components/Navbar";
 import NavbarBootstrap from "../src/components/NavbarBootstrap";
 import Footer from "../src/components/footer";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 import "./App.css";
 import GuestLecture from "./screens/Students/GuestLecture/GuestLecture";
 import IndustrialVisit from "./screens/Students/IndustrialVisit/IndustrialVisit";
@@ -21,6 +21,7 @@ import Laboratory from "./screens/Facility/Laboratory/Laboratory";
 import AchievementsWrapper from "./screens/Achievements/AchievementsWrapper";
 import FacultyWrapper from "./screens/Faculty/FacultyWrapper";
 import Placements from "./screens/Placements/Placements";
+import ErrorPage404 from "./screens/ErrorPage404/ErrorPage404";
 
 function App() {
   return (
