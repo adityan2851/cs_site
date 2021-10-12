@@ -1,6 +1,8 @@
 .content-card {
   background-color: #ffffff;
-  border-radius: 13px;
+    border-radius: 13px;
+    box-shadow: 4px 24px 60px 1px rgba(109, 141, 173, 0.25);
+
 }
 
 .text-wrapper {
