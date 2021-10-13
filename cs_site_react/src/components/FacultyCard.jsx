@@ -1,4 +1,4 @@
-import react from "react";
+
 // import pdf from '../assets/pdfs/angel.pdf'
 
 const FacultyCard = ({ image, name, education, designation, pdfLink }) => {

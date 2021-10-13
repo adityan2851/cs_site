@@ -20,6 +20,8 @@
     box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
     border-radius: 1rem;
     border: none;
+
+    margin: 2rem 1.5rem;
 }
 
 
@@ -76,22 +78,6 @@
     margin-top: 8px;
 }
 
-.achievements-card .info button {
-    padding: 0.6rem;
-    outline: none;
-    border: none;
-    border-radius: 3px;
-    background: white;
-    color: black;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.4s ease;
-}
-
-.achievements-card .info button:hover {
-    background: dodgerblue;
-    color: white;
-}
 
 
 /* TABLE  */
