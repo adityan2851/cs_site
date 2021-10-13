@@ -5,26 +5,34 @@ import AchievementsData from "./data";
 
 const AchievementsWrapper = () => {
     return (
-    <div className="container">hellow orld
+        <div className="container my-5">
+            {AchievementsData.map((rowEntry, index) => {
+                return (
+                <div key={index} class="row">
 
-        <div className="d-flex align-items-center justify-content-around">
-            {console.log(AchievementsData)}
-            {AchievementsData.map((entry, index) => {
-                return (<AchievementsCard 
-                    key={index}
-                    eventName={entry.eventName}
-                    image={entry.image}
-                    students={entry.students}
-                    venue={entry.venue}
-                    title={entry.title}
-                    year={entry.year}
-                    amount={entry.amount}
-                    place={entry.place}
-                    date={entry.date}
-                />)
+                    {rowEntry.map((entry, index) => {
+                        return (
+                            <div className="col-md-4">
+                                <AchievementsCard 
+                                    key={index}
+                                    eventName={entry.eventName}
+                                    image={entry.image}
+                                    students={entry.students}
+                                    venue={entry.venue}
+                                    title={entry.title}
+                                    year={entry.year}
+                                    amount={entry.amount}
+                                    place={entry.place}
+                                    date={entry.date}
+                                />
+                            </div>
+                        );
+                    })}
+                </div>
+                );
             })}
         </div>
-    </div>);
+    );
 }
 
 export default AchievementsWrapper;

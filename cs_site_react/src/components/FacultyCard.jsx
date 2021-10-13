@@ -18,7 +18,7 @@ const FacultyCard = ({image, name, education, designation, pdfLink}) => {
 
       </ul>
 
-      <a href={pdf}   target="_blank"> 
+      <a href={pdfLink}   target="_blank"> 
         <button class="css-button-rounded--blue"> View  Profile</button>
       </a>
 
