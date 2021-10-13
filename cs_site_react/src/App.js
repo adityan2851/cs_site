@@ -3,7 +3,12 @@ import HomePage from "./screens/HomePage/HomePage";
 // import Navbar from "../src/components/Navbar";
 import NavbarBootstrap from "../src/components/NavbarBootstrap";
 import Footer from "../src/components/footer";
-import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from "react-router-dom";
 import "./App.css";
 import GuestLecture from "./screens/Students/GuestLecture/GuestLecture";
 import IndustrialVisit from "./screens/Students/IndustrialVisit/IndustrialVisit";
@@ -22,11 +27,14 @@ import AchievementsWrapper from "./screens/Achievements/AchievementsWrapper";
 import FacultyWrapper from "./screens/Faculty/FacultyWrapper";
 import Placements from "./screens/Placements/Placements";
 import ErrorPage404 from "./screens/ErrorPage404/ErrorPage404";
+import Patents from "./screens/Patents/Patents";
+import ResearchPublication from "./screens/Research/Publications/Publication";
 
 function App() {
   return (
     <div className="App">
-      <Router basename={"/website"}>
+      {/* basename={"/website"} */}
+      <Router>
         <NavbarBootstrap />
         <Switch>
           <Route path="/" exact component={HomePage} />
@@ -37,16 +45,19 @@ function App() {
           <Route path="/supervisiors" exact component={Supervisors} />
           <Route path="/research-scholars" exact component={ResearchScholars} />
           <Route path="/phD-awarded" exact component={PhDAwarded} />
-          <Route path="/researchProjects" exact component={ResearchProjects} />
+          <Route path="/research-projects" exact component={ResearchProjects} />
           <Route path="/placements" exact component={Placements} />
 
+          <Route path="/patents" exact component={Patents} />
+          <Route path="/Publications" exact component={ResearchPublication} />
+
           {/* FACILITIES */}
-          <Route path="/facility/laboratory" exact component={Laboratory} />
+          <Route path="/facility-laboratory" exact component={Laboratory} />
           <Route path="/faculty" exact component={FacultyWrapper} />
           <Route path="/achievements" exact component={AchievementsWrapper} />
 
           {/* NAVBAR ROUTES */}
-          <Route path="/academics" exact component={Academics} />
+          {/* <Route path="/academics" exact component={Academics} /> */}
           {/* <Route path="/student" exact component={Student} /> */}
           <Route path="/magazine" exact component={Magazine} />
           <Route
@@ -54,8 +65,8 @@ function App() {
             exact
             component={ProfessionalActivity}
           />
-          <Route path="/page-error" exact component={ErrorPage404}/>
-          <Redirect to="/page-error"/>
+          <Route path="/page-error" exact component={ErrorPage404} />
+          <Redirect to="/page-error" />
         </Switch>
       </Router>
       <Footer />
