@@ -37,49 +37,62 @@
   }
 } */
 
-
-
 /* Footer */
 
 * {
-  --border-color: royalblue;
+  --border-color: #4478e3;
 }
 
-.footer{
+.footer {
   width: 100%;
-  height: 500px;
   color: white;
   padding-top: 110px;
   padding-bottom: 20px;
-  display: flex;
   flex-direction: column;
-  align-items: center;
-
+  margin: 0 auto;
+  background-color: #133774;
 }
 
-.footer-contents{
+.footer-contents {
   width: 100%;
-  padding-left: 20%;
+  padding-left: 5%;
   padding-bottom: 50px;
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #133774;
 }
-.details{
-  color : #769ddb
+.details {
+  color: #769ddb;
 }
 
-.details:hover{
+.details:hover {
   color: white;
   cursor: pointer;
 }
 
-.copyright{
+.copyright {
   border-top: #769ddb solid 1px;
-  width: 100%;
+  width: 100% !important;
 }
 
-.credits{
-  color : #769ddb;
+.credits {
+  color: #769ddb;
   opacity: 0.5;
+}
+
+.dropdown {
+  margin-left: 10px;
+}
+
+.footer-about {
+  background-color: #133774;
+  color: white;
+  border: none;
+}
+
+.footer-list {
+  padding: 0;
 }
 
 /* Vision and Mission */
@@ -100,7 +113,6 @@
 }
 /* Style the buttons that are used to open the tab content */
 .pilledTabs {
-  
   border: none;
   outline: none;
   cursor: pointer;
@@ -108,24 +120,20 @@
   /* opacity: 0.5; */
 
   font-size: 1.2rem;
-
 }
 .nav-link {
   color: #000 !important;
   background-color: transparent !important;
 }
 
-.nav-link:focus   {
-border-bottom: 3px solid #000  !important  ;
+.nav-link:focus {
+  /* border-bottom: 3px solid #000 !important  ; */
   border-radius: 0 !important;
-  opacity: 1.0 !important;
+  opacity: 1 !important;
 }
-
-
 
 /* Style the tab content */
 .tabcontent {
-  
   /* display: none; */
 
   padding: 40px 30px;
@@ -140,7 +148,6 @@ border-bottom: 3px solid #000  !important  ;
   background-image: linear-gradient(to left, #47a6ff, #0262ba);
 
   transition: display 5s linear;
-  
 }
 
 .tabcontent h2:first-child {
@@ -210,7 +217,6 @@ h5 {
   color: #f0fff0;
   opacity: 90%;
 }
- 
 
 /* FOOTER WAVE ANIMATION  */
 
@@ -221,43 +227,43 @@ body {
 }
 
 footer {
-  width:100vw;
-  position:fixed;
-  bottom:0px
+  width: 100vw;
+  position: fixed;
+  bottom: 0px;
 }
 footer div {
-  background-color:#4478e3;
+  background-color: #4478e3;
   margin: -5px 0px 0px 0px;
-  padding:0px;
+  padding: 0px;
   color: #fff;
-  text-align:center;
+  text-align: center;
 }
 svg {
-  width:100%;
+  width: 100%;
 }
 .arrow {
-  stroke-width: .3px;
-  stroke:yellow;
+  stroke-width: 0.3px;
+  stroke: yellow;
 }
 .topball {
   animation: ball 1.5s ease-in-out;
-  animation-iteration-count:infinite;
+  animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-delay: 0.3s;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .wave {
   animation: wave 3s linear;
-  animation-iteration-count:infinite;
+  animation-iteration-count: infinite;
   fill: #4478e3;
 }
 .drop {
   fill: transparent;
   animation: drop 5s ease infinite normal;
   stroke: #4478e3;
-  stroke-width:0.5;
-  opacity:.6; 
+  stroke-width: 0.5;
+  opacity: 0.6;
   transform: translateY(80%);
 }
 .drop1 {
@@ -265,57 +271,61 @@ svg {
 }
 .drop2 {
   animation-delay: 3s;
-  animation-duration:3s;
+  animation-duration: 3s;
   transform-origin: 25px 3px;
 }
 .drop3 {
   animation-delay: -2s;
-  animation-duration:3.4s;
+  animation-duration: 3.4s;
   transform-origin: 16px 3px;
 }
 .gooeff {
-  	filter: url(#goo);
+  filter: url(#goo);
 }
 #wave2 {
-  animation-duration:5s;
+  animation-duration: 5s;
   animation-direction: reverse;
-  opacity: .6
+  opacity: 0.6;
 }
 #wave3 {
   animation-duration: 7s;
-  opacity:.3;
+  opacity: 0.3;
 }
 @keyframes drop {
   0% {
-    transform: translateY(80%); 
-    opacity:.6; 
+    transform: translateY(80%);
+    opacity: 0.6;
   }
   80% {
-    transform: translateY(80%); 
-    opacity:.6; 
+    transform: translateY(80%);
+    opacity: 0.6;
   }
-  90% { 
-    transform: translateY(10%) ; 
-    opacity:.6; 
+  90% {
+    transform: translateY(10%);
+    opacity: 0.6;
   }
-  100% { 
-    transform: translateY(0%) scale(1.5);  
-    stroke-width:0.2;
-    opacity:0; 
+  100% {
+    transform: translateY(0%) scale(1.5);
+    stroke-width: 0.2;
+    opacity: 0;
   }
 }
 @keyframes wave {
-  to {transform: translateX(-100%);}
+  to {
+    transform: translateX(-100%);
+  }
 }
 @keyframes ball {
-  to {transform: translateY(20%);}
+  to {
+    transform: translateY(20%);
+  }
 }
 
 .translucent-navbar {
   background-color: rgba(221, 220, 240, 0.3) !important  ;
   /* background-color: white !important; */
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(5px)
+  backdrop-filter: blur(5px);
 }
 
 .translucent-navbar .nav-item {
@@ -323,9 +333,7 @@ svg {
   text-transform: capitalize;
 }
 
-
 /* FAculty page */
-
 
 .p-3 {
   padding: 16px;
@@ -340,33 +348,26 @@ svg {
   border-radius: 5px !important;
   border: none !important;
   border-top: 4px solid var(--border-color) !important;
-
 }
 
-.card-img-top {
-
+.faculty-profile {
   height: 130px;
   width: 120px;
   border-radius: 100%;
-
-
 }
 
 .card {
-
   margin: 20px;
-
 }
 
 .btn {
-
   background-color: var(--border-color) !important;
   color: aliceblue;
 }
 
 .staff-name {
   text-transform: uppercase;
-  font-size:  1.2rem;
+  font-size: 1.2rem;
 }
 
 .css-button-rounded--blue {
@@ -390,7 +391,9 @@ svg {
 }
 .role {
   opacity: 70%;
-
-
 }
 
+/* -----------------Placements Screen---------------------------- */
+.placement-card-image {
+  height: 200px;
+}

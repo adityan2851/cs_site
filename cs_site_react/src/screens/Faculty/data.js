@@ -12,14 +12,14 @@ const faculty_details = [
         facultyName: "Dr N Angel",
         education: "M.C.A., M.E., Ph.D.",
         designation: "Associate Professor",
-        pdfLink: "angel.pdf"
+        pdfLink: "../assets/pdfs/angel.pdf"
     },
     {
         image: "",
         facultyName: "Dr J T ANITA ROSE",
         education: "M.E., Ph.D.",
         designation: "Associate Professor",
-        pdfLink: "anita.pdf"
+        pdfLink: "anitha.pdf"
     }],
     [{
         image: "",
