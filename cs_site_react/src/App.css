@@ -407,3 +407,17 @@ svg {
 .placement-card-image {
   height: 200px;
 }
+
+
+/* ------------------------- Alumin Page -----------------------------*/
+
+.alumni-name{
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.alumni-designation{
+  font-size: 1.2rem;
+}
+
+
