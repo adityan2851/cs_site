@@ -2,7 +2,7 @@ import HomePage from "./screens/HomePage/HomePage";
 // import AboutUs from './screens/AboutUs/AboutUs';
 // import Navbar from "../src/components/Navbar";
 import NavbarBootstrap from "../src/components/NavbarBootstrap";
-import Footer from "../src/components/footer";
+import Footer from "../src/components/Footer/Footer";
 import {
   BrowserRouter as Router,
   Route,
@@ -30,6 +30,7 @@ import ErrorPage404 from "./screens/ErrorPage404/ErrorPage404";
 import Patents from "./screens/Patents/Patents";
 import ResearchPublication from "./screens/Research/Publications/Publication";
 import AlumniWrapper from "./screens/Alumni/Alumni";
+import Pops from "./screens/DevelopersPage/Pops";
 
 function App() {
   return (
@@ -51,7 +52,9 @@ function App() {
 
           <Route path="/patents" exact component={Patents} />
           <Route path="/Publications" exact component={ResearchPublication} />
-          <Route path="/elitealumni" exact component={AlumniWrapper} />
+          <Route path="/alumni" exact component={AlumniWrapper} />
+
+          <Route path="/developers-page" exact component={Pops} />
 
           {/* FACILITIES */}
           <Route path="/facility-laboratory" exact component={Laboratory} />

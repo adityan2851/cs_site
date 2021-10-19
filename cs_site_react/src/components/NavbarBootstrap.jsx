@@ -132,6 +132,9 @@ const NavbarBootstrap = () => {
               <NavDropdown.Item href="/professional-activity">
                 Professional Activity
               </NavDropdown.Item>
+              <NavDropdown.Item href="/developers-page">
+                Credits
+              </NavDropdown.Item>
               {/* <NavDropdown.Divider />
               <NavDropdown.Item href="#">Separated link</NavDropdown.Item> */}
             </NavDropdown>

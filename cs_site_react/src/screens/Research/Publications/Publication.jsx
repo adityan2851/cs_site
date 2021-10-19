@@ -2,9 +2,9 @@ import React from "react";
 import { researchPublicationData } from "./Data";
 import { Table } from "react-bootstrap";
 
-import scopus from "../../../assets/images/scopus.png";
-import publons from "../../../assets/images/publons.png";
-import orcid from "../../../assets/images/orcid.png";
+import scopus from "../../../assets/images/publications/scopus.png";
+import publons from "../../../assets/images/publications/publons.png";
+import orcid from "../../../assets/images/publications/orcid.png";
 
 const ResearchPublication = () => {
   return (
