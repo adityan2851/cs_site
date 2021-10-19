@@ -46,11 +46,11 @@
 .footer {
   width: 100%;
   color: white;
-  padding-top: 110px;
+  /* padding-top: 110px; */
   padding-bottom: 20px;
   flex-direction: column;
   margin: 0 auto;
-  background-color: #133774;
+  background-color: #3360D3;
 }
 
 .footer-contents {
@@ -60,10 +60,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #133774;
+  background-color: #3360D3;
 }
 .details {
-  color: #769ddb;
+  color : #80a7e6
 }
 
 .details:hover {
@@ -72,12 +72,13 @@
 }
 
 .copyright {
-  border-top: #769ddb solid 1px;
+  background-color: #3360D3;
+  border-top: #80a7e6 solid 1px;
   width: 100% !important;
 }
 
 .credits {
-  color: #769ddb;
+  color: #86b5ff;
   opacity: 0.5;
 }
 
@@ -86,7 +87,7 @@
 }
 
 .footer-about {
-  background-color: #133774;
+  background-color: #3360D3;
   color: white;
   border: none;
 }
@@ -94,6 +95,15 @@
 .footer-list {
   padding: 0;
 }
+
+/* @media (max-width: 767px) {
+  .waves {
+      width: calc(102% + 1.3px);
+      height: 75px; */
+      /* width: calc(100% + 1px) */
+
+  /* }
+} */
 
 /* Vision and Mission */
 .banner-wrapper {
@@ -397,3 +407,17 @@ svg {
 .placement-card-image {
   height: 200px;
 }
+
+
+/* ------------------------- Alumin Page -----------------------------*/
+
+.alumni-name{
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.alumni-designation{
+  font-size: 1.2rem;
+}
+
+
