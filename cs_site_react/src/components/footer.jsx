@@ -1,10 +1,10 @@
 import React from "react";
-import background from "../images/Footer.svg";
+// import background from "../images/Footer.svg";
 import { useState, useEffect } from "react";
 import { Collapse } from "react-bootstrap";
 import "font-awesome/css/font-awesome.min.css";
 const Footer = () => {
-  var open = true;
+  // var open = true;
   var [openAbout, setAbout] = useState(true);
   var [openResources, setResources] = useState(true);
   const [dropDownStyle, setDropDownStyle] = useState({ display: "none" });

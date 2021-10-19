@@ -1,4 +1,3 @@
-
 // import pdf from '../assets/pdfs/angel.pdf'
 
 const FacultyCard = ({ image, name, education, designation, pdfLink }) => {
@@ -19,7 +18,7 @@ const FacultyCard = ({ image, name, education, designation, pdfLink }) => {
           </li>
         </ul>
 
-        <a href={pdfLink} target="_blank">
+        <a href={pdfLink} target="_blank" rel="noreferrer">
           <button class="css-button-rounded--blue"> View Profile</button>
         </a>
       </div>

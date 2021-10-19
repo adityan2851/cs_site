@@ -14,7 +14,7 @@ import GuestLecture from "./screens/Students/GuestLecture/GuestLecture";
 import IndustrialVisit from "./screens/Students/IndustrialVisit/IndustrialVisit";
 import Workshop from "./screens/Students/Workshop/Workshop";
 import AboutUs from "./screens/AboutUs/AboutUs";
-import Academics from "./screens/Academics/Academics";
+// import Academics from "./screens/Academics/Academics";
 // import Student from "./screens/Students/Student";
 import Supervisors from "./screens/Research/Supervisors/Supervisors";
 import Magazine from "./screens/Magazine/Magazine";
