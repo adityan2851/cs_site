@@ -1,10 +1,10 @@
-import AchievementsWrapper from "./AchievementsWrapper"
+import {a,b,c,d,e,f} from "./index"
 
 const AchievementsData = [
     [
         {
-            eventName : "Winner In Ideathon 2018",
-            image : "",
+            eventName : "Ideathon 2018",
+            image : a,
             students : ["Amrish Krishnan","GuruSakthi", "Hari Haran", "Manoj Sand", "Raghu Nandhan"],
             title : "Tencor –Advertisement using Facial Recognition",
             venue : "Bangalore",
@@ -16,7 +16,7 @@ const AchievementsData = [
         },
         {
             eventName : "Nokia Chennai Technology Day 2018 ",
-            image : "",
+            image : b,
             students : ["Amrish Krishnan", "Raghu Nandhan","Vigneswaran R ",
                 "Hariharan S"],
             title : "MyProbuddy– AIGuidance",
@@ -28,7 +28,7 @@ const AchievementsData = [
         },
         {
             eventName : "Nokia Chennai Technology Day 2018",
-            image : "",
+            image : c,
             students : ["Kamal Kumar L S", "Kishore Vigneshwar R"],
             title : "Smart Wearables for Fall Preventionat High Tower Area",
             venue : "Nokia Factory, Oragadam",
@@ -41,7 +41,7 @@ const AchievementsData = [
     [
         {
             eventName : "SMART INDIA HACKATHON 2019",
-            image : "",
+            image : d,
             students : ["Dhanoosh Lakshman S", "George Joseph", "GokulPrakash P",
             " Jamuna Devi G", "Devadharshini M", "DhushyanthChowdary E" ],
             title : ":Mobile Application for Bike E-Catalogue using Augmented Reality",
@@ -53,7 +53,7 @@ const AchievementsData = [
         },
         {
             eventName : "SMART INDIA HACKATHON 2019",
-            image : "",
+            image : e,
             students : ["Alvis F", "AnuradhaKrishnarathinam"," Aiswariya R",
                 "AshutoshPatole", "AgashChandar"," Daniel David"],
             title : "Presenting Way points NavigationAids, ATS routes on Google Earth",
@@ -65,7 +65,7 @@ const AchievementsData = [
         },
         {
             eventName : "SMART INDIA HACKATHON 2019",
-            image : "",
+            image : f,
             students : ["Anusha S", "Ajitha M"," Aarthy Lakshmi R", "ChettyJayasruthiP",
                 "Andria Janet Evangeline", "AdithyaAbhishek"],
             title : "Automatic Production Planningand Scheduling of size",
