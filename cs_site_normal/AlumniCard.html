@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            --border-color: royalblue;
+        }
+
+        body {
+
+            background-color: white;
+        }
+
+        .p-3 {
+            padding: 16px;
+        }
+
+        .d-block {
+            display: block;
+        }
+
+        .Box {
+            background-color: rgb(255, 255, 255);
+            border-radius: 5px;
+            border: none;
+            border-top: 4px solid var(--border-color);
+
+        }
+
+        .card-img-top {
+
+            height: 130px;
+            width: 120px;
+            border-radius: 100%;
+
+
+        }
+
+        .card {
+
+            margin: 20px;
+
+        }
+
+        .btn {
+
+            background-color: var(--border-color) !important;
+            color: aliceblue;
+        }
+
+        .staff-name {
+
+            font-size: 1.2rem;
+        }
+
+        .css-button-rounded--blue {
+            min-width: 130px;
+            height: 40px;
+            color: #fff;
+            padding: 5px 10px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            display: inline-block;
+            outline: none;
+            border-radius: 5px;
+            border: 2px solid var(--border-color);
+            background: var(--border-color);
+        }
+
+        .css-button-rounded--blue:hover {
+            background: #fff;
+            color: var(--border-color);
+        }
+
+        .role {
+            opacity: 70%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="container">
+            <div class="seperator"></div>
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="card mb-4 Box shadow">
+
+                        <div class="card-body text-center">
+                            <ul class="list-unstyled max-width-200 mx-auto">
+                                <img alt="profile" class="card-img-top contributor-img"
+                                    src="https://crimzonworld.com/wp-content/uploads/2016/08/dummy-prod-1.jpg" />
+
+                                <li style="margin-top: 20px;">
+                                    <b><span class="staff-name">B. Parvathavarthini</span> </b>
+                                    <p style="opacity:80%;"> M.E,M.Ba,Ph.D <br> <span class="role">Dean</span></p>
+
+                                </li>
+
+
+                            </ul>
+                            <a href="faculty/Dean.pdf" target="_blank">
+                                <button class=" css-button-rounded--blue"> View Profile</button>
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4"></div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
