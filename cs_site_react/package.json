@@ -18,7 +18,8 @@
     "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
     "requirements": "^1.4.1",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "react-animated-popup": "^0.1.1"
   },
   "scripts": {
     "start": "react-scripts start",

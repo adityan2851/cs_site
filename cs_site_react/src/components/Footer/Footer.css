@@ -1,0 +1,14 @@
+.booter-wrapper {
+  overflow-x: hidden;
+}
+
+.waveStyle {
+  width: calc(100% + 1.3px);
+  display: block;
+}
+
+@media (max-width: 960px) {
+  .waveStyle {
+    width: calc(150%);
+  }
+}
