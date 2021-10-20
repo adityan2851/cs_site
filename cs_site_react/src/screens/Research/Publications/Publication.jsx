@@ -10,10 +10,10 @@ const ResearchPublication = () => {
   return (
     <div>
       <div className="container">
-        <br />
-        <h2 style={{ textAlign: "center", fontWeight: "bold" }}>
-          Publications{" "}
-        </h2>
+      <div>
+          <h2 className="page_heading">Publications</h2>
+          <div className="underline_heading"></div>
+        </div>
 
         {researchPublicationData.map((obj, i) => (
           <div>

@@ -4,6 +4,10 @@ import EliteAlumniData from "./Data";
 const AlumniWrapper = () => {
   return (
     <div class="container my-5">
+      <div>
+        <h1 className="page_heading">Alumni</h1>
+        <div className="underline_heading"></div>
+      </div>
       {EliteAlumniData.map((facultyRow, index) => {
         return (
           <div key={index} class="row">

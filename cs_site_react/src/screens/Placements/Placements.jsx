@@ -4,7 +4,10 @@ import PlacementsData from "./Data";
 const Placements = () => {
   return (
     <div class="row m-4">
-      <h1 className="m-4"> Placements Details</h1>
+      <div>
+        <h2 className="page_heading">Placement Details</h2>
+        <div className="underline_heading"></div>
+      </div>
       {PlacementsData.map((object, index) => {
         return (
           <div className="col-md-4">

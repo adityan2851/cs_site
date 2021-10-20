@@ -6,9 +6,10 @@ const Patents = () => {
   return (
     <div>
       <div className="container">
-        <br />
-        <h2 style={{ textAlign: "center", fontWeight: "bold" }}>Patents</h2>
-
+      <div>
+        <h2 className="page_heading">Patents</h2>
+        <div className="underline_heading"></div>
+      </div>
         {PatentsData.map((obj, i) => (
           <div>
             <br />

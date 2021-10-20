@@ -5,7 +5,11 @@ import { professionalActivityData } from "./Data";
 const ProfessionalActivity = () => {
   return (
     <div>
-      <h1 style={{ textAlign: "center" }}>Professional Activity</h1>
+      <div>
+        <h2 className="page_heading">Professional Activity</h2>
+        <div className="underline_heading"></div>
+      </div>
+
 
       {professionalActivityData.map((obj, i) => (
         <div>

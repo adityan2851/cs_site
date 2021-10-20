@@ -1,6 +1,6 @@
 import React from "react";
 import "./Pops.css";
-import fi from "../../assets/images/developers/fab-img.png";
+import fi from "../../assets/images/developers/fanion-img.png";
 import ai from "../../assets/images/developers/adi-img.png";
 import gi from "../../assets/images/developers/goblin-img.png";
 import hi from "../../assets/images/developers/amonth-img.png";
@@ -10,6 +10,10 @@ import ri from "../../assets/images/developers/roshan-img.png";
 const Pops = () => {
   return (
     <>
+    <div>
+        <h2 className="page_heading">Developer Team</h2>
+        <div className="underline_heading"></div>
+      </div>
       <div className="body">
         <div class="wrapper">
           <a

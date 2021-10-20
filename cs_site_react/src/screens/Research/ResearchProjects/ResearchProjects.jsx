@@ -6,10 +6,10 @@ const ResearchProjects = () => {
   return (
     <div>
       <div className="container">
-        <br />
-        <h2 style={{ textAlign: "center", fontWeight: "bold" }}>
-          Research Projects{" "}
-        </h2>
+        <div>
+          <h2 className="page_heading"> Research Projects</h2>
+          <div className="underline_heading"></div>
+        </div>
 
         {researchProjectData.map((obj, i) => (
           <div>

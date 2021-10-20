@@ -6,10 +6,10 @@ const IndustrialVisit = () => {
   return (
     <div>
       <div className="container">
-        <br />
-        <h2 style={{ textAlign: "center", fontWeight: "bold" }}>
-          INDUSTRIAL VISITS{" "}
-        </h2>
+        <div>
+          <h1 className="page_heading">Industrial Visits</h1>
+          <div className="underline_heading"></div>
+        </div>
 
         {industrialVisitData.map((obj, i) => (
           <div>

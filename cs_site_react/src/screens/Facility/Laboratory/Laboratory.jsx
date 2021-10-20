@@ -5,17 +5,18 @@ import { laboratoryData } from "./Data";
 const Laboratory = () => {
   return (
     <div>
-      <br />
-      <h1 style={{ textAlign: "center" }}>Laboratory</h1>
+      <div>
+        <h1 className="page_heading">Laboratory</h1>
+        <div className="underline_heading"></div>
+      </div>
 
       {laboratoryData.map((labdata, i) => (
         <div>
           <Container md>
-            <h2 style={{ fontWeight: "bolder", textAlign: "center" }}>{labdata["labName"]}</h2>
-            <br />
+            <h2 style={{ fontWeight: "bolder", textAlign: "center", margin: "2rem 0 0" }}>{labdata["labName"]}</h2>
             {labdata["labData"].map((obj, i) => (
               <div>
-                <h4 style={{ fontWeight: "bold", textAlign: "center" }}>
+                <h4 style={{ fontWeight: "bold", textAlign: "center", margin: "2.5rem 0 1rem" }}>
                   {obj["name"]}
                 </h4>
                 <Table bordered responsive="md" hover>

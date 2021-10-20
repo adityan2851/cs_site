@@ -43,6 +43,18 @@
   --border-color: #4478e3;
 }
 
+/* for multiple pages */
+.page_heading {
+  margin: 2rem 0 0.5rem;
+  text-align: center;
+}
+.underline_heading {
+  height: 3px;
+  width: 6rem;
+  background-color: #0262ba;
+  margin: 0 auto 2rem;
+}
+
 .footer {
   width: 100%;
   color: white;
@@ -340,6 +352,7 @@ svg {
 
 .translucent-navbar .nav-item {
   margin-right: 1rem;
+  margin-left: 1rem;
   text-transform: capitalize;
 }
 

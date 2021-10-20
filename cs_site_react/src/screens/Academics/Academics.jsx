@@ -3,7 +3,10 @@ import React from "react";
 const Academics = () => {
   return (
     <div>
-      <h1 style={{ textAlign: "center" }}>Academics</h1>
+      <div>
+        <h2 className="page_heading">Placement Details</h2>
+        <div className="underline_heading"></div>
+      </div>
     </div>
   );
 };

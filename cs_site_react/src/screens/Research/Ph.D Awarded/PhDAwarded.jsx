@@ -6,10 +6,11 @@ const PhDAwarded = () => {
   return (
     <div>
       <div className="container">
-        <br />
-        <h2 style={{ textAlign: "center", fontWeight: "bold" }}>
-          Ph.D Awarded{" "}
-        </h2>
+      <div>
+          <h2 className="page_heading">Ph. D. Awarded</h2>
+          <div className="underline_heading"></div>
+        </div>
+
 
         {researchPhDData.map((obj, i) => (
           <div>

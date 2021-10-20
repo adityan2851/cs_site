@@ -38,15 +38,18 @@ const GuestLecture = () => {
 
       <div className="container">
         <br />
-        <h2 style={{ textAlign: "center", fontWeight: "bold" }}>
+        <h2 style={{ textAlign: "center", fontWeight: "bold", margin: "2rem"}}>
           Guest Lectures Conducted for the Academic Year
         </h2>
         {totalGuestLectureData.map((obj, i) => (
           <div>
-            <h2 style={{ textAlign: "center", fontWeight: "bold" }}>
+            {/* <h2 style={{ textAlign: "center", fontWeight: "bold", margin: "3rem 0 2rem" }}>
               {obj["year"]}
-            </h2>
-            <br />
+            </h2> */}
+            <div>
+                <h2 className="page_heading">{obj["year"]}</h2>
+                <div className="underline_heading"></div>
+            </div>
             <Table bordered responsive="md" hover>
               <thead>
                 <tr>

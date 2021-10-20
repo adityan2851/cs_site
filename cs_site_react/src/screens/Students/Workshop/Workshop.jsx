@@ -7,7 +7,10 @@ const Workshop = () => {
     <div>
       <div className="container">
         <br />
-        <h2 style={{ textAlign: "center", fontWeight: "bold" }}>Workshop</h2>
+        <div>
+          <h1 className="page_heading">Workshop</h1>
+          <div className="underline_heading"></div>
+        </div>
 
         {workshopData.map((obj, i) => (
           <div>
