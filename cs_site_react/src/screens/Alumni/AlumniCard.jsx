@@ -39,9 +39,7 @@ const AlumniCard = ({image, designation, year, place, pg, alumniName, testimonia
               </li>
             </ul>
     
-            <a href="#" target="_blank">
-              <button class="css-button-rounded--blue"> View Profile</button>
-            </a>
+           
           </div>
         </div>
       );
