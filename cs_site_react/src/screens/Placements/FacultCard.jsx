@@ -5,7 +5,7 @@ const FacultyCard = ({ year, pdfLink }) => {
   return (
     <div class="card mb-4 Box shadow">
       <div class="card-body text-center  ">
-        <ul class="list-unstyled max-width-200 mx-auto">
+        <ul class="list-unstyled display-block mx-auto">
           {/* <img alt="profile" class="card-img-top placement-card-image"
           src=""/> */}
 

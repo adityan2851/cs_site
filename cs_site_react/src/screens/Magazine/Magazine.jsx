@@ -12,7 +12,7 @@ const Magazine = () => {
       </div>
 
       <div className="d-flex justify-content-center align-items-center flex-wrap">
-        <ul className="list-unstyled max-width-200 mx-auto">
+        <ul className="list-unstyled display-block mx-auto">
           <div className="cards__item">
             <a href={magazinePdf} target="_blank">
               <div className="book">

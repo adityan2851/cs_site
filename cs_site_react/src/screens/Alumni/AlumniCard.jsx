@@ -5,7 +5,7 @@ const AlumniCard = ({image, designation, year, place, pg, alumniName, testimonia
     return (
         <div class="card mb-4 Box shadow">
           <div class="card-body text-center">
-            <ul class="list-unstyled max-width-200 mx-auto">
+            <ul class="list-unstyled display-block mx-auto">
 
                 <h4 className="alumni-name">{alumniName}</h4>
                 <b><p className = "staff-name">{year}</p></b>
