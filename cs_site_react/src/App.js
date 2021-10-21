@@ -31,6 +31,7 @@ import Patents from "./screens/Patents/Patents";
 import ResearchPublication from "./screens/Research/Publications/Publication";
 import AlumniWrapper from "./screens/Alumni/Alumni";
 import Pops from "./screens/DevelopersPage/Pops";
+import StudentWelfare from "./screens/StudentWelfare/StudentWelfare";
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
           <Route path="/phD-awarded" exact component={PhDAwarded} />
           <Route path="/research-projects" exact component={ResearchProjects} />
           <Route path="/placements" exact component={Placements} />
+          <Route path="/studentwelfare" exact component={StudentWelfare} />
 
           <Route path="/patents" exact component={Patents} />
           <Route path="/Publications" exact component={ResearchPublication} />
