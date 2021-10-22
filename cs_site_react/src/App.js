@@ -32,6 +32,7 @@ import ResearchPublication from "./screens/Research/Publications/Publication";
 import AlumniWrapper from "./screens/Alumni/Alumni";
 import Pops from "./screens/DevelopersPage/Pops";
 import StudentWelfare from "./screens/StudentWelfare/StudentWelfare";
+import Mentors from "./screens/Mentors/Mentors";
 
 function App() {
   return (
@@ -55,6 +56,7 @@ function App() {
           <Route path="/patents" exact component={Patents} />
           <Route path="/Publications" exact component={ResearchPublication} />
           <Route path="/alumni" exact component={AlumniWrapper} />
+          <Route path="/mentors" exact component={Mentors} />
 
           <Route path="/developers-page" exact component={Pops} />
 
