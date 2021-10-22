@@ -1,0 +1,16 @@
+.Wrapper {
+  /* width: 100vw; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chartWrapper {
+  width: 960px;
+}
+
+@media screen and (max-width: 760px) {
+  .chartWrapper {
+    width: 450px;
+  }
+}

@@ -5,7 +5,7 @@ import p_16 from "../../assets/pdfs/placements/2015-2016.pdf";
 import p_15 from "../../assets/pdfs/placements/2014-2015.pdf";
 import p_14 from "../../assets/pdfs/placements/2013-2014.pdf";
 
-const PlacementsData = [
+export const PlacementsData = [
   {
     year: "2015-2019",
     pdfLink: p_19,
@@ -32,4 +32,7 @@ const PlacementsData = [
   },
 ];
 
-export default PlacementsData;
+export const chartData = {
+  years: ["13-14", "14-15", "15-16", "16-17", "17-18", "18-19"],
+  placed: [83, 89, 89, 109, 133, 97],
+};
