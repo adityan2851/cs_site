@@ -56,8 +56,12 @@ const options = {
 const data = (canvas) => {
   const ctx = canvas.getContext("2d");
   const gradient = ctx.createLinearGradient(0, 0, 0, 400);
-  gradient.addColorStop(0, "#34bcd4");
-  gradient.addColorStop(1, "#32edfa33");
+  // gradient.addColorStop(0, "#34bcd4");
+  // gradient.addColorStop(1, "#32edfa33");
+
+  gradient.addColorStop(0, "#3267D6");
+  gradient.addColorStop(0.5, "#70A3F6");
+  gradient.addColorStop(1, "#D0E0FC");
 
   return {
     labels: chartData["years"],
@@ -68,7 +72,7 @@ const data = (canvas) => {
 
         fill: true,
         backgroundColor: gradient,
-        borderColor: "rgb(44, 241, 255)",
+        borderColor: "#2861ff",
       },
     ],
   };
