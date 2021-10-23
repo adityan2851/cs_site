@@ -79,7 +79,7 @@ const NavbarBootstrap = () => {
             <NavDropdown title="Faculty" id="collasible-nav-dropdown">
               <NavDropdown.Item href="/faculty">Faculty</NavDropdown.Item>
               <NavDropdown.Item href="/mentors">Mentor</NavDropdown.Item>
-              <NavDropdown.Item href="/studentwelfare">
+              <NavDropdown.Item href="/student-welfare">
                 Student Welfare Committee
               </NavDropdown.Item>
             </NavDropdown>

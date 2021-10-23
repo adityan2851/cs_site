@@ -51,7 +51,7 @@ function App() {
           <Route path="/phD-awarded" exact component={PhDAwarded} />
           <Route path="/research-projects" exact component={ResearchProjects} />
           <Route path="/placements" exact component={Placements} />
-          <Route path="/studentwelfare" exact component={StudentWelfare} />
+          <Route path="/student-welfare" exact component={StudentWelfare} />
 
           <Route path="/patents" exact component={Patents} />
           <Route path="/Publications" exact component={ResearchPublication} />

@@ -132,13 +132,12 @@ const HomePage = () => {
             <h1 style={{ fontWeight: "bold" }}>
               Department of Computer Science and Engineering
             </h1>
-            <p>
-            Building The Future On A Foundation of Excellence.
-            </p>
+            <p>Building The Future On A Foundation of Excellence.</p>
           </Col>
           <Col md>
             <Lottie
               className="lottie-animation"
+              style={{ pointerEvents: "none" }}
               isClickToPauseDisabled
               options={{
                 loop: true,

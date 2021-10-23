@@ -7,6 +7,15 @@
   display: block;
 }
 
+.details a {
+  text-decoration: none;
+  color: #80a7e6;
+}
+
+.details a:hover {
+  color: white;
+}
+
 @media (max-width: 960px) {
   .waveStyle {
     width: calc(150%);

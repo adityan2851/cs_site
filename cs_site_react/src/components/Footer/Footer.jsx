@@ -6,8 +6,6 @@ import { Collapse } from "react-bootstrap";
 
 import "./Footer.css";
 
-import "font-awesome/css/font-awesome.min.css";
-
 const Footer = () => {
   // var open = true;
   const [openAbout, setAbout] = useState(true);
@@ -51,11 +49,20 @@ const Footer = () => {
               </button>
               <Collapse in={openAbout}>
                 <ul className="footer-list">
-                  <li className="d-block mt-3 mb-2 details"> Faculty</li>
-                  <li className="d-block mb-2 details"> Mentor</li>
+                  {/* <li className="d-block mt-3 mb-2 details"> Faculty</li> */}
+                  {/* <li className="d-block mb-2 details"> Mentor</li> */}
+                  {/* <li className="d-block mb-2 details">
+                    Student Welfare Committee
+                  </li> */}
+                  <li className="d-block mt-3 mb-2 details">
+                    <a href="/faculty">Faculty</a>{" "}
+                  </li>
                   <li className="d-block mb-2 details">
                     {" "}
-                    Student Welfare Committee
+                    <a href="/mentors">Mentor</a>
+                  </li>
+                  <li className="d-block mb-2 details">
+                    <a href="/student-welfare">Student Welfare Committee</a>
                   </li>
                 </ul>
               </Collapse>
@@ -80,9 +87,21 @@ const Footer = () => {
               </button>
               <Collapse in={openResources}>
                 <ul className="footer-list">
-                  <li className="d-block mt-3 mb-2 details"> News Letter</li>
+                  {/* <li className="d-block mt-3 mb-2 details"> News Letter</li>
                   <li className="d-block mb-2 details"> Magazine</li>
-                  <li className="d-block mb-2 details"> IEEE & CSI</li>
+                  <li className="d-block mb-2 details"> IEEE & CSI</li> */}
+                  <li className="d-block mt-3 mb-2 details">
+                    {" "}
+                    <a href="/newsletter">News Letter</a>
+                  </li>
+                  <li className="d-block mb-2 details">
+                    {" "}
+                    <a href="/magazine">Magazine</a>
+                  </li>
+                  <li className="d-block mb-2 details">
+                    {" "}
+                    <a href="/professional-activity">IEEE &amp; CSI</a>
+                  </li>
                 </ul>
               </Collapse>
             </div>
