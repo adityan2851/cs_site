@@ -133,8 +133,7 @@ const HomePage = () => {
               Department of Computer Science and Engineering
             </h1>
             <p>
-              Aliqua laboris aliqua excepteur nisi do magna enim eu voluptate
-              esse qui proident.
+              Enrich yourselves with the knowledge of the future 
             </p>
           </Col>
           <Col md>
