@@ -1,6 +1,6 @@
-import FacultyCard from "./FacultCard";
+import FacultyCard from "./components/FacultCard";
 import { PlacementsData } from "./Data";
-import Chart from "./Chart";
+import Chart from "./components/Chart/Chart";
 
 const Placements = () => {
   return (

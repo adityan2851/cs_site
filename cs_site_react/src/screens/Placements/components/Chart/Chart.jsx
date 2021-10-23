@@ -1,7 +1,6 @@
-import React from "react";
 import { Line } from "react-chartjs-2";
 
-import { chartData } from "./Data";
+import { chartData } from "../../Data";
 
 import "./Chart.css";
 
@@ -38,11 +37,11 @@ const options = {
   responsive: true,
   maintainAspectRatio: true,
   scales: {
-    // x: {
-    //   grid: {
-    //     display: false,
-    //   },
-    // },
+    x: {
+      grid: {
+        display: false,
+      },
+    },
     yAxes: [
       {
         ticks: {
@@ -59,9 +58,8 @@ const data = (canvas) => {
   // gradient.addColorStop(0, "#34bcd4");
   // gradient.addColorStop(1, "#32edfa33");
 
-  gradient.addColorStop(0, "#3267D6");
-  gradient.addColorStop(0.5, "#70A3F6");
-  gradient.addColorStop(1, "#D0E0FC");
+  gradient.addColorStop(0.7, "#80ACF7");
+  gradient.addColorStop(1, "#3360D3");
 
   return {
     labels: chartData["years"],
@@ -72,7 +70,7 @@ const data = (canvas) => {
 
         fill: true,
         backgroundColor: gradient,
-        borderColor: "#2861ff",
+        borderColor: "#000000",
       },
     ],
   };
