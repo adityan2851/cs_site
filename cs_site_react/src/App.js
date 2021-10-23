@@ -1,14 +1,14 @@
-import HomePage from "./screens/HomePage/HomePage";
-// import AboutUs from './screens/AboutUs/AboutUs';
-// import Navbar from "../src/components/Navbar";
-import NavbarBootstrap from "../src/components/NavbarBootstrap";
-import Footer from "../src/components/Footer/Footer";
 import {
   BrowserRouter as Router,
   Route,
   Switch,
   Redirect,
 } from "react-router-dom";
+import HomePage from "./screens/HomePage/HomePage";
+// import AboutUs from './screens/AboutUs/AboutUs';
+// import Navbar from "../src/components/Navbar";
+import NavbarBootstrap from "../src/components/NavbarBootstrap";
+import Footer from "../src/components/Footer/Footer";
 import "./App.css";
 import GuestLecture from "./screens/Students/GuestLecture/GuestLecture";
 import IndustrialVisit from "./screens/Students/IndustrialVisit/IndustrialVisit";
@@ -34,12 +34,15 @@ import Pops from "./screens/DevelopersPage/Pops";
 import StudentWelfare from "./screens/StudentWelfare/StudentWelfare";
 import Mentors from "./screens/Mentors/Mentors";
 
+import ScrollToTop from "../src/components/ScrollToTop";
+
 function App() {
   return (
     <div className="App">
       {/* basename={"/website"} */}
       <Router>
         <NavbarBootstrap />
+        <ScrollToTop />
         <Switch>
           <Route path="/" exact component={HomePage} />
           <Route path="/about-us" exact component={AboutUs} />
