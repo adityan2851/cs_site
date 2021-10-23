@@ -7,7 +7,7 @@ const StudentWelfare = () => {
     <div>
       <div className="container">
         <br />
-        <h2 style={{ textAlign: "center", fontWeight: "bold" }}>Patents</h2>
+        <h2 style={{ textAlign: "center", fontWeight: "bold" }}>Students Welfare</h2>
 
         {studentWelfareDate.map((obj, i) => (
           <div>
