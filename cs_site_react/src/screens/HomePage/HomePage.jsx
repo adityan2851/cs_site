@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import { silderInfo } from "./Data";
 
@@ -10,6 +10,9 @@ import "./HomePage.css";
 import Animation from "../../components/Animation";
 
 const HomePage = () => {
+  useEffect(() => {
+    document.title = "CSE - Home";
+  }, []);
   return (
     <div className="home-background">
       <br />
