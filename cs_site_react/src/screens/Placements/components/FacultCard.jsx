@@ -20,7 +20,7 @@ const FacultyCard = ({ year, pdfLink }) => {
           </li>
         </ul>
 
-        <a href={pdfLink} target="_blank">
+        <a href={pdfLink} target="_blank" rel="noreferrer">
           <button class="css-button-rounded--blue">View Details</button>
         </a>
       </div>

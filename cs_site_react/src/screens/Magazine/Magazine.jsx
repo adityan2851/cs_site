@@ -13,7 +13,7 @@ const Magazine = () => {
       <div className="d-flex justify-content-center align-items-center flex-wrap">
         <ul className="list-unstyled display-block mx-auto">
           <div className="cards__item">
-            <a href={magazinePdf} target="_blank">
+            <a href={magazinePdf} target="_blank" rel="noreferrer">
               <div className="book">
                 <img src="https://stjosephs.ac.in/images/INFORMATION%20BROCHURE%202019.jpg" />
               </div>

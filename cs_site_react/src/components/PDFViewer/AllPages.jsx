@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Lottie from "react-lottie";
 import { Document, Page, pdfjs } from "react-pdf";
 
 import loadAnim from "../../assets/animations/loading-anim.json";

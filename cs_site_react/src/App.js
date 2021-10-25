@@ -5,17 +5,12 @@ import {
   Redirect,
 } from "react-router-dom";
 import HomePage from "./screens/HomePage/HomePage";
-// import AboutUs from './screens/AboutUs/AboutUs';
-// import Navbar from "../src/components/Navbar";
 import NavbarBootstrap from "../src/components/NavbarBootstrap";
 import Footer from "../src/components/Footer/Footer";
-import "./App.css";
 import GuestLecture from "./screens/Students/GuestLecture/GuestLecture";
 import IndustrialVisit from "./screens/Students/IndustrialVisit/IndustrialVisit";
 import Workshop from "./screens/Students/Workshop/Workshop";
 import AboutUs from "./screens/AboutUs/AboutUs";
-// import Academics from "./screens/Academics/Academics";
-// import Student from "./screens/Students/Student";
 import Supervisors from "./screens/Research/Supervisors/Supervisors";
 import Magazine from "./screens/Magazine/Magazine";
 import ProfessionalActivity from "./screens/ProfessionalActivity/ProfessionalActivity";
@@ -35,8 +30,22 @@ import StudentWelfare from "./screens/StudentWelfare/StudentWelfare";
 import Mentors from "./screens/Mentors/Mentors";
 
 import ScrollToTop from "../src/components/ScrollToTop";
+
 import VAC from "./screens/Students/VAC/VAC.jsx";
 import ProjectExpo from "./screens/Students/ProjectExpo/ProjectExpo";
+import SocialProgram from "./screens/Students/SocialProgram/SocialProgram";
+
+import "./App.css";
+import Sports from "./screens/Students/Sports/Sports";
+import Rank from "./screens/Students/Rank/Rank";
+import {
+  p_14,
+  p_15,
+  p_16,
+  p_17,
+  p_18,
+  p_19,
+} from "./screens/Placements/PlacedData";
 
 function App() {
   return (
@@ -66,6 +75,16 @@ function App() {
           <Route path="/developers-page" exact component={Pops} />
           <Route path="/vac" exact component={VAC} />
           <Route path="/pe" exact component={ProjectExpo} />
+          <Route path="/sp" exact component={SocialProgram} />
+          <Route path="/sports" exact component={Sports} />
+          <Route path="/rank" exact component={Rank} />
+
+          <Route path="/19" exact component={p_19} />
+          <Route path="/18" exact component={p_18} />
+          <Route path="/17" exact component={p_17} />
+          <Route path="/16" exact component={p_16} />
+          <Route path="/15" exact component={p_15} />
+          <Route path="/14" exact component={p_14} />
 
           {/* FACILITIES */}
           <Route path="/facility-laboratory" exact component={Laboratory} />

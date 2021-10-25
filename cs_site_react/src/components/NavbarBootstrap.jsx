@@ -1,11 +1,6 @@
 import { Navbar, Container, NavDropdown, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-import sports from "../assets/pdfs/students/sports.pdf";
-import rank from "../assets/pdfs/students/rank.pdf";
-import pe from "../assets/pdfs/students/pe.pdf";
-import ngo from "../assets/pdfs/students/ngo.pdf";
-
 const NavbarBootstrap = () => {
   return (
     <Navbar
@@ -58,19 +53,19 @@ const NavbarBootstrap = () => {
               <NavDropdown.Item href="/industrial-visit">
                 Industrial Visit
               </NavDropdown.Item>
-              <NavDropdown.Item href="/vac" target="_blank">
+              <NavDropdown.Item href="/vac" target="_blank" rel="noreferrer">
                 Value Added Course
               </NavDropdown.Item>
-              <NavDropdown.Item href="/pe" target="_blank">
+              <NavDropdown.Item href="/pe" target="_blank" rel="noreferrer">
                 Project Expo
               </NavDropdown.Item>
-              <NavDropdown.Item href={ngo} target="_blank">
+              <NavDropdown.Item href="/sp" target="_blank" rel="noreferrer">
                 Social Programs
               </NavDropdown.Item>
-              <NavDropdown.Item href={sports} target="_blank">
+              <NavDropdown.Item href="/sports" target="_blank" rel="noreferrer">
                 Excel in Sports
               </NavDropdown.Item>
-              <NavDropdown.Item href={rank} target="_blank">
+              <NavDropdown.Item href="/rank" target="_blank" rel="noreferrer">
                 Rank UG
               </NavDropdown.Item>
             </NavDropdown>
