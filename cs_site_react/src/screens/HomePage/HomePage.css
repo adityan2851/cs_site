@@ -8,15 +8,22 @@
   padding-top: 50px;
   color: #ffffff;
 }
-
+.left p {
+  color: #c3daff;
+}
 .home-content-wrapper {
   padding-top: 10rem;
 }
-
+/* style={{ width: "100% ", textAlign: "center", color: "#80a7e6" }} */
 @media screen and (max-width: 960px) {
   .left {
     text-align: center;
   }
+  .left p {
+    width: 100%;
+    text-align: center;
+  }
+
   .home-content-wrapper {
     padding-top: 5rem;
   }

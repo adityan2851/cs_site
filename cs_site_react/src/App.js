@@ -35,6 +35,7 @@ import StudentWelfare from "./screens/StudentWelfare/StudentWelfare";
 import Mentors from "./screens/Mentors/Mentors";
 
 import ScrollToTop from "../src/components/ScrollToTop";
+import VAC from "./screens/VAC/VAC";
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
         <NavbarBootstrap />
         <ScrollToTop />
         <Switch>
+          <Route path="/vac" exact component={VAC} />
           <Route path="/" exact component={HomePage} />
           <Route path="/about-us" exact component={AboutUs} />
           <Route path="/guest-lecture" exact component={GuestLecture} />
