@@ -10,7 +10,7 @@ const options = {
       display: false,
     },
     title: {
-      display: true,
+      display: false,
       text: "Placement",
     },
     tooltip: {
@@ -52,34 +52,52 @@ const options = {
   },
 };
 
-const data = (canvas) => {
-  const ctx = canvas.getContext("2d");
-  const gradient = ctx.createLinearGradient(0, 0, 0, 400);
-  // gradient.addColorStop(0, "#34bcd4");
-  // gradient.addColorStop(1, "#32edfa33");
+// const data = (canvas) => {
+//   const ctx = canvas.getContext("2d");
+//   const gradient = ctx.createLinearGradient(0, 0, 0, 400);
+//   // gradient.addColorStop(0, "#34bcd4");
+//   // gradient.addColorStop(1, "#32edfa33");
 
-  gradient.addColorStop(0.7, "#80ACF7");
-  gradient.addColorStop(1, "#3360D3");
+//   gradient.addColorStop(0.7, "#80ACF7");
+//   gradient.addColorStop(1, "#3360D3");
 
-  return {
-    labels: chartData["years"],
-    datasets: [
-      {
-        label: "Placed",
-        data: chartData["placed"],
+//   return {
+//     labels: chartData["years"],
+//     datasets: [
+//       {
+//         label: "Placed",
+//         data: chartData["placed"],
 
-        fill: true,
-        backgroundColor: gradient,
-        borderColor: "#000000",
-      },
-    ],
-  };
+//         fill: true,
+//         backgroundColor: gradient,
+//         borderColor: "#000000",
+//       },
+//     ],
+//   };
+// };
+
+const data = {
+  labels: chartData["years"],
+  datasets: [
+    {
+      label: "Placed",
+      data: chartData["placed"],
+
+      fill: true,
+      backgroundColor: "#becffc",
+      borderColor: "#3360D3",
+      borderWidth: 3,
+      pointBorderColor: "#3360D3",
+      pointBackgroundColor: "white",
+      pointBorderWidth: 3,
+    },
+  ],
 };
 
 const Chart = () => {
   return (
-    <div className="Wrapper">
-      <div className="chartWrapper">
+    <div className="chart-outer-wrapper">
+      <div className="chart-container">
         <Line data={data} options={options} />
       </div>
     </div>

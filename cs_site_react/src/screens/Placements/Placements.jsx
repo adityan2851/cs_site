@@ -7,6 +7,7 @@ const Placements = () => {
     <>
       <div className="row m-4">
         <div className="text-center">
+          <h2>Student's Placed So Far</h2>
           <Chart />
         </div>
       </div>
