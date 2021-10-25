@@ -1,0 +1,12 @@
+.pdf-viewer-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 760px) {
+  .pdf-viewer-wrapper {
+    display: inline;
+  }
+}

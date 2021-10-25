@@ -1,7 +1,6 @@
 import { Navbar, Container, NavDropdown, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-import vsc from "../assets/pdfs/students/vsc.pdf";
 import sports from "../assets/pdfs/students/sports.pdf";
 import rank from "../assets/pdfs/students/rank.pdf";
 import pe from "../assets/pdfs/students/pe.pdf";
@@ -59,10 +58,10 @@ const NavbarBootstrap = () => {
               <NavDropdown.Item href="/industrial-visit">
                 Industrial Visit
               </NavDropdown.Item>
-              <NavDropdown.Item href={vsc} target="_blank">
+              <NavDropdown.Item href="/vac" target="_blank">
                 Value Added Course
               </NavDropdown.Item>
-              <NavDropdown.Item href={pe} target="_blank">
+              <NavDropdown.Item href="/pe" target="_blank">
                 Project Expo
               </NavDropdown.Item>
               <NavDropdown.Item href={ngo} target="_blank">

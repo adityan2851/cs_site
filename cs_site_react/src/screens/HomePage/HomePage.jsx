@@ -3,11 +3,11 @@ import React from "react";
 import { silderInfo } from "./Data";
 
 import { Container, Col, Row } from "react-bootstrap";
-import Lottie from "react-lottie";
 
 import coderAnim2 from "../../assets/animations/coder2.json";
 import HomeContent from "../../components/HomeContent/HomeContent";
 import "./HomePage.css";
+import Animation from "../../components/Animation";
 
 const HomePage = () => {
   return (
@@ -27,19 +27,10 @@ const HomePage = () => {
             <p>Building the Future on a Foundation of Excellence.</p>
           </Col>
           <Col md>
-            <Lottie
-              className="lottie-animation"
+            <Animation
+              animation={coderAnim2}
               style={{ pointerEvents: "none" }}
-              isClickToPauseDisabled
-              options={{
-                loop: true,
-                autoplay: true,
-                animationData: coderAnim2,
-                rendererSettings: {
-                  preserveAspectRatio: "xMidYMid slice",
-                },
-              }}
-            ></Lottie>
+            />
           </Col>
         </Row>
       </Container>

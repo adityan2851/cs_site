@@ -35,7 +35,8 @@ import StudentWelfare from "./screens/StudentWelfare/StudentWelfare";
 import Mentors from "./screens/Mentors/Mentors";
 
 import ScrollToTop from "../src/components/ScrollToTop";
-import VAC from "./screens/VAC/VAC";
+import VAC from "./screens/Students/VAC/VAC.jsx";
+import ProjectExpo from "./screens/Students/ProjectExpo/ProjectExpo";
 
 function App() {
   return (
@@ -45,7 +46,6 @@ function App() {
         <NavbarBootstrap />
         <ScrollToTop />
         <Switch>
-          <Route path="/vac" exact component={VAC} />
           <Route path="/" exact component={HomePage} />
           <Route path="/about-us" exact component={AboutUs} />
           <Route path="/guest-lecture" exact component={GuestLecture} />
@@ -64,6 +64,8 @@ function App() {
           <Route path="/mentors" exact component={Mentors} />
 
           <Route path="/developers-page" exact component={Pops} />
+          <Route path="/vac" exact component={VAC} />
+          <Route path="/pe" exact component={ProjectExpo} />
 
           {/* FACILITIES */}
           <Route path="/facility-laboratory" exact component={Laboratory} />
