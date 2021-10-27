@@ -42,10 +42,9 @@ const NavbarBootstrap = () => {
             </Link> */}
 
             <NavDropdown title="Students" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="/achievements">
+              {/* <NavDropdown.Item href="/achievements">
                 Achievements
               </NavDropdown.Item>
-              {/* <Link to="/achievements">Achievements</Link> */}
               <NavDropdown.Item href="/guest-lecture">
                 Guest Lecture
               </NavDropdown.Item>
@@ -67,15 +66,85 @@ const NavbarBootstrap = () => {
               </NavDropdown.Item>
               <NavDropdown.Item href="/rank" target="_blank" rel="noreferrer">
                 Rank UG
+              </NavDropdown.Item> */}
+
+              <NavDropdown.Item>
+                <Link className="links nav-link nav-item" to="/achievements">
+                  Achievements
+                </Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link className="links nav-link nav-item" to="/guest-lecture">
+                  Guest Lecture
+                </Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link className="links nav-link nav-item" to="/workshop">
+                  Workshop
+                </Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link className="links nav-link nav-item" to="/industrial-visit">
+                  Industrial Visit
+                </Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/vac" target="_blank" rel="noreferrer" >  
+                {/* <Link className="links nav-link nav-item" to="/vac" > */}
+                <span className="links nav-link nav-item"> {/*remove span for Link*/}
+                  Value Added Course
+                </span>
+                {/* </Link> */}
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/pe" target="_blank" rel="noreferrer">
+                {/* <Link className="links nav-link nav-item" to="/pe"> */}
+                <span className="links nav-link nav-item"> {/*remove span for Link*/}
+                  Project Expo
+                </span>
+                {/* </Link> */}
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/sp" target="_blank" rel="noreferrer">
+                {/* <Link className="links nav-link nav-item" to="/sp"> */}
+                <span className="links nav-link nav-item"> {/*remove span for Link*/}
+                  Social Programs
+                </span>
+                {/* </Link> */}
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/sports" target="_blank" rel="noreferrer">
+                {/* <Link className="links nav-link nav-item" to="/sports"> */}
+                <span className="links nav-link nav-item"> {/*remove span for Link*/}
+                  Excel in Sports
+                </span>
+                {/* </Link> */}
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/rank" target="_blank" rel="noreferrer">
+                {/* <Link className="links nav-link nav-item" to="/rank"> */}
+                <span className="links nav-link nav-item"> {/*remove span for Link*/}
+                  Rank UG
+                </span>
+                {/* </Link> */}
               </NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title="Faculty" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="/faculty">Faculty</NavDropdown.Item>
-              <NavDropdown.Item href="/mentors">Mentor</NavDropdown.Item>
-              <NavDropdown.Item href="/student-welfare">
-                Student Welfare Committee
+
+              <NavDropdown.Item>
+                <Link className="links nav-link nav-item" to="/faculty">
+                  Faculty
+                </Link>
               </NavDropdown.Item>
+
+              <NavDropdown.Item>
+                <Link className="links nav-link nav-item" to="/mentors">
+                  Mentor
+                </Link>
+              </NavDropdown.Item>
+
+              <NavDropdown.Item>
+                <Link className="links nav-link nav-item" to="/student-welfare">
+                  Student Welfare Committee
+                </Link>
+              </NavDropdown.Item>
+
             </NavDropdown>
 
             <Link className="links nav-link nav-item" to="/facility-laboratory">
@@ -95,7 +164,7 @@ const NavbarBootstrap = () => {
             </Link> */}
 
             <NavDropdown title="Research" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="/supervisiors">
+              {/* <NavDropdown.Item href="/supervisiors">
                 Supervisors
               </NavDropdown.Item>
               <NavDropdown.Item href="/phD-awarded">
@@ -110,6 +179,41 @@ const NavbarBootstrap = () => {
               <NavDropdown.Item href="/patents">Patents</NavDropdown.Item>
               <NavDropdown.Item href="/publications">
                 Publications
+              </NavDropdown.Item> */}
+              <NavDropdown.Item>
+                <Link className="links nav-link nav-item" to="/supervisiors">
+                  Supervisors
+                </Link>
+              </NavDropdown.Item>
+
+              <NavDropdown.Item>
+                <Link className="links nav-link nav-item" to="/phD-awarded">
+                  PhD Awarded Dept Faculty
+                </Link>
+              </NavDropdown.Item>
+
+              <NavDropdown.Item>
+                <Link className="links nav-link nav-item" to="/research-scholars">
+                  Scholars
+                </Link>
+              </NavDropdown.Item>
+
+              <NavDropdown.Item>
+                <Link className="links nav-link nav-item" to="/research-projects">
+                  Projects
+                </Link>
+              </NavDropdown.Item>
+
+              <NavDropdown.Item>
+                <Link className="links nav-link nav-item" to="/patents">
+                  Patents
+                </Link>
+              </NavDropdown.Item>
+
+              <NavDropdown.Item>
+                <Link className="links nav-link nav-item" to="/publications">
+                  Publications
+                </Link>
               </NavDropdown.Item>
             </NavDropdown>
 
@@ -121,13 +225,33 @@ const NavbarBootstrap = () => {
             </Link>
 
             <NavDropdown title="others" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="/magazine">Magazine</NavDropdown.Item>
+              {/* <NavDropdown.Item href="/magazine">Magazine</NavDropdown.Item>
               <NavDropdown.Item href="/newsletter">Newsletter</NavDropdown.Item>
               <NavDropdown.Item href="/professional-activity">
                 Professional Activity
               </NavDropdown.Item>
               <NavDropdown.Item href="/developers-page">
                 Credits
+              </NavDropdown.Item> */}
+              <NavDropdown.Item>
+                <Link className="links nav-link nav-item" to="/magazine">
+                  Magazine
+                </Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link className="links nav-link nav-item" to="/newsletter">
+                  Newsletter
+                </Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link className="links nav-link nav-item" to="/professional-activity">
+                Professional Activity
+                </Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link className="links nav-link nav-item" to="/developers-page">
+                Credits
+                </Link>
               </NavDropdown.Item>
               {/* <NavDropdown.Divider />
               <NavDropdown.Item href="#">Separated link</NavDropdown.Item> */}

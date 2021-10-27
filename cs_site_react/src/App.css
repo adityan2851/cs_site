@@ -356,6 +356,10 @@ svg {
   text-transform: capitalize;
 }
 
+a.dropdown-item {
+  padding: 0;
+}
+
 /* FAculty page */
 
 .p-3 {
