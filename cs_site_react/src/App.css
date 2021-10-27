@@ -167,7 +167,7 @@
 
   color: #fff;
   border-radius: 20px;
-  background-image: linear-gradient(to left, #47a6ff, #0262ba);
+  background-image: linear-gradient(to left, #000000, #0262ba);
 
   transition: display 5s linear;
 }
