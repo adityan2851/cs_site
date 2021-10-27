@@ -25,7 +25,7 @@ import ErrorPage404 from "./screens/ErrorPage404/ErrorPage404";
 import Patents from "./screens/Patents/Patents";
 import ResearchPublication from "./screens/Research/Publications/Publication";
 import AlumniWrapper from "./screens/Alumni/Alumni";
-import Pops from "./screens/DevelopersPage/Pops";
+// import Pops from "./screens/DevelopersPage/Pops";
 import StudentWelfare from "./screens/StudentWelfare/StudentWelfare";
 import Mentors from "./screens/Mentors/Mentors";
 
@@ -46,6 +46,7 @@ import {
   p_18,
   p_19,
 } from "./screens/Placements/PlacedData";
+import Dev from "./screens/DevelopersPage/Dev";
 
 function App() {
   return (
@@ -72,7 +73,7 @@ function App() {
           <Route path="/alumni" exact component={AlumniWrapper} />
           <Route path="/mentors" exact component={Mentors} />
 
-          <Route path="/developers-page" exact component={Pops} />
+          <Route path="/developers-page" exact component={Dev} />
           <Route path="/vac" exact component={VAC} />
           <Route path="/pe" exact component={ProjectExpo} />
           <Route path="/sp" exact component={SocialProgram} />
