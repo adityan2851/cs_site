@@ -160,14 +160,14 @@
 
   padding: 40px 30px;
   /* margin: 2rem 0; */
-
-  margin-left: 1.4rem;
+  margin-left: 2.3rem;
+  margin-right: 1rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
 
   color: #fff;
   border-radius: 20px;
-  background-image: linear-gradient(to left, #47a6ff, #0262ba);
+  background-image: linear-gradient(to left, #3F6CE4, #2F59C4);
 
   transition: display 5s linear;
 }
