@@ -12,16 +12,20 @@ const AlumniCard = ({
   testimonial,
 }) => {
   return (
-    <div class="card mb-4 Box shadow">
-      <div class="card-body text-center">
+    <div class="card mb-4 Box shadow">      
+      <div class="over">
+      <div class="card-body text-center">      
         <ul class="list-unstyled display-block mx-auto">
           <h4 className="alumni-name">{alumniName}</h4>
           <b>
             <p className="staff-name">{year}</p>
           </b>
-          {/* <img src="" alt="profile" className = "card-img-top contributor-img"/> */}
-          <img alt="profile" class="card-img-top contributor-img alumini-image" src={image} />
-          {/* <div className = "accordion accordion-flush" ></div> */}
+          <div class="layer"></div>
+          <div> 
+            {/* <img src="" alt="profile" className = "card-img-top contributor-img"/> */}          
+            <img alt="profile" class="contributor-img alumini-image" src={image}/>          
+            {/* <div className = "accordion accordion-flush" ></div> */}
+          </div> 
           {pg && (
             <Accordion
               className="accordion-dropdown"
@@ -53,6 +57,7 @@ const AlumniCard = ({
             <p style={{ opacity: "80%" }}> {place}</p>
           </li>
         </ul>
+      </div>
       </div>
     </div>
   );
