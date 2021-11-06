@@ -93,15 +93,15 @@ const Footer = () => {
                   <li className="d-block mb-2 details"> IEEE & CSI</li> */}
                   <li className="d-block mt-3 mb-2 details">
                     {" "}
-                    <a href="/newsletter">News Letter</a>
+                    <Link to="/newsletter">News Letter</Link>
                   </li>
                   <li className="d-block mb-2 details">
                     {" "}
-                    <a href="/magazine">Magazine</a>
+                    <Link to="/magazine">Magazine</Link>
                   </li>
                   <li className="d-block mb-2 details">
                     {" "}
-                    <a href="/professional-activity">IEEE &amp; CSI</a>
+                    <Link to="/professional-activity">IEEE &amp; CSI</Link>
                   </li>
                 </ul>
               </Collapse>
