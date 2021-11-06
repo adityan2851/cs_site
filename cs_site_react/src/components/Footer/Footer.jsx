@@ -56,16 +56,14 @@ const Footer = () => {
                     Student Welfare Committee
                   </li> */}
                   <li className="d-block mt-3 mb-2 details">
-                    <Link href="/faculty">Faculty</Link>{" "}
+                    <Link to="/faculty">Faculty</Link>{" "}
                   </li>
                   <li className="d-block mb-2 details">
                     {" "}
-                    <Link href="/mentors">Mentor</Link>
+                    <Link to="/mentors">Mentor</Link>
                   </li>
                   <li className="d-block mb-2 details">
-                    <Link href="/student-welfare">
-                      Student Welfare Committee
-                    </Link>
+                    <Link to="/student-welfare">Student Welfare Committee</Link>
                   </li>
                 </ul>
               </Collapse>
