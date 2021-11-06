@@ -1,5 +1,5 @@
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Route,
   Switch,
   Redirect,
@@ -52,7 +52,7 @@ function App() {
   return (
     <div className="App">
       {/* basename={"/website"} */}
-      <Router>
+      <HashRouter>
         <NavbarBootstrap />
         <ScrollToTop />
         <Switch>
@@ -105,7 +105,7 @@ function App() {
           <Redirect to="/page-error" />
         </Switch>
       <Footer />
-      </Router>
+      </HashRouter>
     </div>
   );
 }
