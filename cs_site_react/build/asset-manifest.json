@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.4f8b3193.chunk.css",
-    "main.js": "/static/js/main.21bf3622.chunk.js",
-    "main.js.map": "/static/js/main.21bf3622.chunk.js.map",
+    "main.js": "/static/js/main.b08b85ef.chunk.js",
+    "main.js.map": "/static/js/main.b08b85ef.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e7154dff.js",
     "runtime-main.js.map": "/static/js/runtime-main.e7154dff.js.map",
     "static/css/2.5755f575.chunk.css": "/static/css/2.5755f575.chunk.css",
@@ -15,12 +15,6 @@
     "static/css/main.4f8b3193.chunk.css.map": "/static/css/main.4f8b3193.chunk.css.map",
     "static/js/2.6c374da1.chunk.js.LICENSE.txt": "/static/js/2.6c374da1.chunk.js.LICENSE.txt",
     "static/media/17.ce879daf.pdf": "/static/media/17.ce879daf.pdf",
-    "static/media/2013-2014.9d6fe555.pdf": "/static/media/2013-2014.9d6fe555.pdf",
-    "static/media/2014-2015.6e1b2570.pdf": "/static/media/2014-2015.6e1b2570.pdf",
-    "static/media/2015-2016.e92c0f26.pdf": "/static/media/2015-2016.e92c0f26.pdf",
-    "static/media/2016-2017.75faf922.pdf": "/static/media/2016-2017.75faf922.pdf",
-    "static/media/2017-2018.278a3307.pdf": "/static/media/2017-2018.278a3307.pdf",
-    "static/media/2018-2019.bdad44a4.pdf": "/static/media/2018-2019.bdad44a4.pdf",
     "static/media/Ambika.a2dc1db2.png": "/static/media/Ambika.a2dc1db2.png",
     "static/media/Jim_Moses.8a1d08b8.png": "/static/media/Jim_Moses.8a1d08b8.png",
     "static/media/Joel.2c9b2582.png": "/static/media/Joel.2c9b2582.png",
@@ -39,17 +33,13 @@
     "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.f691f37e.woff",
     "static/media/footer.be0bd2de.svg": "/static/media/footer.be0bd2de.svg",
     "static/media/lasante.327cfea4.jpg": "/static/media/lasante.327cfea4.jpg",
-    "static/media/meow.71ef68ba.jpg": "/static/media/meow.71ef68ba.jpg",
-    "static/media/ngo.0073133b.pdf": "/static/media/ngo.0073133b.pdf",
-    "static/media/pe.7f228ecb.pdf": "/static/media/pe.7f228ecb.pdf",
-    "static/media/rank.fd28c981.pdf": "/static/media/rank.fd28c981.pdf",
-    "static/media/sports.c76c2b3e.pdf": "/static/media/sports.c76c2b3e.pdf"
+    "static/media/meow.71ef68ba.jpg": "/static/media/meow.71ef68ba.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e7154dff.js",
     "static/css/2.5755f575.chunk.css",
     "static/js/2.6c374da1.chunk.js",
     "static/css/main.4f8b3193.chunk.css",
-    "static/js/main.21bf3622.chunk.js"
+    "static/js/main.b08b85ef.chunk.js"
   ]
 }

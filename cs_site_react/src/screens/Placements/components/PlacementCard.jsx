@@ -15,9 +15,7 @@ const PlacementCard = ({ year, pdfLink }) => {
               <span class="staff-name">Placements</span>{" "}
             </b>
             <br />
-            <span class="role" style={{ fontWeight: "bold" }}>
-              {year}
-            </span>
+            <span style={{ fontWeight: "normal" }}>{year}</span>
           </li>
         </ul>
 
