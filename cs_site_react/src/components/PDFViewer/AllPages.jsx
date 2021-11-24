@@ -24,6 +24,19 @@ export default function AllPages(props) {
       onLoadSuccess={onDocumentLoadSuccess}
       loading={loadingAnim}
       onLoadProgress={onLoadProgressing}
+      error={
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            color: "grey",
+            paddingTop: "30px",
+          }}
+        >
+          Failed to Load the PDF
+        </div>
+      }
     >
       {Array.from(new Array(numPages), (el, index) => (
         <Page

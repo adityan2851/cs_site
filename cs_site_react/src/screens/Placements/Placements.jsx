@@ -1,6 +1,6 @@
-import FacultyCard from "./components/FacultCard";
 import { PlacementsData } from "./Data";
 import Chart from "./components/Chart/Chart";
+import PlacementCard from "./components/PlacementCard";
 
 const Placements = () => {
   return (
@@ -19,13 +19,8 @@ const Placements = () => {
         {PlacementsData.map((object, index) => {
           return (
             <div className="col-md-4">
-              <FacultyCard
-                // key={index}
-                // image={image}
-                // name={facultyName}
-                // education={education}
-                // designation={designation}
-                // pdfLink={pdfLink}
+              <PlacementCard
+                key={index}
                 year={object["year"]}
                 pdfLink={object["pdfLink"]}
               />

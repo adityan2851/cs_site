@@ -1,9 +1,8 @@
 import PDFViewer from "../../../components/PDFViewer/PDFViewer";
-import projectExpo from "../../../assets/pdfs/students/pe.pdf";
-const ProjectExpo = () => {
+const ProjectExpo = ({ pdf }) => {
   return (
     <div>
-      <PDFViewer pdf={projectExpo} />
+      <PDFViewer pdf={pdf} />
     </div>
   );
 };

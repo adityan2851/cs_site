@@ -1,4 +1,3 @@
-
 export const PlacementsData = [
   {
     year: "2015-2019",
