@@ -26,6 +26,13 @@ const FacultyCard = ({ image, name, education, designation, pdfLink }) => {
         <a href={pdfLink} target="_blank">
           <button class="css-button-rounded--blue"> View Profile</button>
         </a>
+        {/* <Link
+          to={pdfLink}
+          className="css-button-rounded--blue"
+          style={{ textDecoration: "none", fontWeight: "normal" }}
+        >
+          View Profile
+        </Link> */}
       </div>
     </div>
   );
