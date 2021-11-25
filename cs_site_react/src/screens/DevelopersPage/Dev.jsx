@@ -4,9 +4,9 @@ import DevCard from "./DevCard";
 import {IoLogoFacebook, IoLogoLinkedin, IoLogoGithub} from "react-icons/io5";
 import hi from "../../assets/DevAssets/meow.jpg"
 import "./Dev.css";
-
-function Dev() {
-    return (
+  
+  const Dev = () => {
+      return (
         <div>
         <h2 className="page_heading">Developer Team</h2>
         <div className="dev-body">            
@@ -18,7 +18,8 @@ function Dev() {
             <DevCard className="devo-cards class-6"></DevCard>
         </div>
         </div>
-    );
+      )
   }
   
-  export default Dev;
+  export default Dev
+  

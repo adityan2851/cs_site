@@ -1,10 +1,9 @@
-import vac from "../../../assets/pdfs/students/vsc.pdf";
 import PDFViewer from "../../../components/PDFViewer/PDFViewer";
 
-const VAC = () => {
+const VAC = ({ pdf }) => {
   return (
     <div>
-      <PDFViewer pdf={vac} />
+      <PDFViewer pdf={pdf} />
     </div>
   );
 };

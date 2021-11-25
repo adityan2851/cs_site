@@ -26,6 +26,13 @@ const FacultyCard = ({ image, name, education, designation, pdfLink }) => {
         <a href={pdfLink} target="_blank" rel="noreferrer">
           <button class="css-button-rounded--blue"> View Profile</button>
         </a>
+        {/* <Link
+          to={pdfLink}
+          className="css-button-rounded--blue"
+          style={{ textDecoration: "none", fontWeight: "normal" }}
+        >
+          View Profile
+        </Link> */}
         </div>
       </div>
     </div>
@@ -33,9 +40,3 @@ const FacultyCard = ({ image, name, education, designation, pdfLink }) => {
 };
 
 export default FacultyCard;
-
-/* <img
-  alt="profile"
-  class="card-img-top contributor-img faculty-profile"
-  src={image}
-/> */

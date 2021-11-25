@@ -282,32 +282,25 @@ const faculty_details = [
             designation: "Assistant Professor",
             pdfLink: "vinu.pdf"
         }
-    ]
+    ],
 
-]
+  [
+    {
+      image: "",
+      facultyName: "Mr P VARUN",
+      education: "M.Tech",
+      designation: "Assistant Professor",
+      pdfLink: "varun.pdf",
+    },
+    {
+      image: "",
+      facultyName: "Mr S VINU",
+      education: "M.E.",
+      designation: "Assistant Professor",
+      pdfLink: "vinu.pdf",
+    },
+  ],
+];
 
 export default faculty_details;
 
-// [
-//     {
-//         image: "",
-//         facultyName: "",
-//         education: "",
-//         designation: "",
-//         pdfLink: ""
-//     },
-//     {
-//         image: "",
-//         facultyName: "",
-//         education: "",
-//         designation: "",
-//         pdfLink: ""
-//     },
-//     {
-//         image: "",
-//         facultyName: "",
-//         education: "",
-//         designation: "",
-//         pdfLink: ""
-//     }
-// ]

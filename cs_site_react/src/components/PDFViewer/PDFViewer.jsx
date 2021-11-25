@@ -18,7 +18,7 @@ const PDFViewer = ({ pdf }) => {
 
   const [isMobile, setIsMobile] = useState(0);
 
-  console.log(screenWidth);
+  // console.log(screenWidth);
   useEffect(() => {
     if (screenWidth <= 760) {
       zoomOutMobile();

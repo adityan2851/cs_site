@@ -1,9 +1,8 @@
-import rank from "../../../assets/pdfs/students/rank.pdf";
 import PDFViewer from "../../../components/PDFViewer/PDFViewer";
-const Rank = () => {
+const Rank = ({ pdf }) => {
   return (
     <div>
-      <PDFViewer pdf={rank} />
+      <PDFViewer pdf={pdf} />
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import { Navbar, Container, NavDropdown, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import VAC from "../screens/Students/VAC/VAC";
 
 const NavbarBootstrap = () => {
   return (
@@ -84,49 +85,60 @@ const NavbarBootstrap = () => {
                 </Link>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <Link className="links nav-link nav-item" to="/industrial-visit">
+                <Link
+                  className="links nav-link nav-item"
+                  to="/industrial-visit"
+                >
                   Industrial Visit
                 </Link>
               </NavDropdown.Item>
-              <NavDropdown.Item href="/vac" target="_blank" rel="noreferrer" >  
-                {/* <Link className="links nav-link nav-item" to="/vac" > */}
-                <span className="links nav-link nav-item"> {/*remove span for Link*/}
+              <NavDropdown.Item>
+                <Link className="links nav-link nav-item" to="/vac">
+                  {/* <span className="links nav-link nav-item"> */}{" "}
+                  {/*remove span for Link*/}
                   Value Added Course
-                </span>
-                {/* </Link> */}
+                  {/* </span> */}
+                </Link>
               </NavDropdown.Item>
-              <NavDropdown.Item href="/pe" target="_blank" rel="noreferrer">
-                {/* <Link className="links nav-link nav-item" to="/pe"> */}
-                <span className="links nav-link nav-item"> {/*remove span for Link*/}
+              <NavDropdown.Item>
+                {/* <NavDropdown.Item href="/pe" target="_blank" rel="noreferrer"> */}
+                <Link className="links nav-link nav-item" to="/pe">
+                  {/* <span className="links nav-link nav-item"> */}{" "}
+                  {/*remove span for Link*/}
                   Project Expo
-                </span>
-                {/* </Link> */}
+                  {/* </span> */}
+                </Link>
               </NavDropdown.Item>
-              <NavDropdown.Item href="/sp" target="_blank" rel="noreferrer">
-                {/* <Link className="links nav-link nav-item" to="/sp"> */}
-                <span className="links nav-link nav-item"> {/*remove span for Link*/}
+              <NavDropdown.Item>
+                {/* <NavDropdown.Item href="/sp" target="_blank" rel="noreferrer"> */}
+                <Link className="links nav-link nav-item" to="/sp">
+                  {/* <span className="links nav-link nav-item"> */}{" "}
+                  {/*remove span for Link*/}
                   Social Programs
-                </span>
-                {/* </Link> */}
+                  {/* </span> */}
+                </Link>
               </NavDropdown.Item>
-              <NavDropdown.Item href="/sports" target="_blank" rel="noreferrer">
-                {/* <Link className="links nav-link nav-item" to="/sports"> */}
-                <span className="links nav-link nav-item"> {/*remove span for Link*/}
+              <NavDropdown.Item>
+                {/* <NavDropdown.Item href="/sports" target="_blank" rel="noreferrer"> */}
+                <Link className="links nav-link nav-item" to="/sports">
+                  {/* <span className="links nav-link nav-item"> */}{" "}
+                  {/*remove span for Link*/}
                   Excel in Sports
-                </span>
-                {/* </Link> */}
+                  {/* </span> */}
+                </Link>
               </NavDropdown.Item>
-              <NavDropdown.Item href="/rank" target="_blank" rel="noreferrer">
-                {/* <Link className="links nav-link nav-item" to="/rank"> */}
-                <span className="links nav-link nav-item"> {/*remove span for Link*/}
+              <NavDropdown.Item>
+                {/* <NavDropdown.Item href="/rank" target="_blank" rel="noreferrer"> */}
+                <Link className="links nav-link nav-item" to="/rank">
+                  {/* <span className="links nav-link nav-item"> */}{" "}
+                  {/*remove span for Link*/}
                   Rank UG
-                </span>
-                {/* </Link> */}
+                  {/* </span> */}
+                </Link>
               </NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title="Faculty" id="collasible-nav-dropdown">
-
               <NavDropdown.Item>
                 <Link className="links nav-link nav-item" to="/faculty">
                   Faculty
@@ -144,7 +156,6 @@ const NavbarBootstrap = () => {
                   Student Welfare Committee
                 </Link>
               </NavDropdown.Item>
-
             </NavDropdown>
 
             <Link className="links nav-link nav-item" to="/facility-laboratory">
@@ -193,13 +204,19 @@ const NavbarBootstrap = () => {
               </NavDropdown.Item>
 
               <NavDropdown.Item>
-                <Link className="links nav-link nav-item" to="/research-scholars">
+                <Link
+                  className="links nav-link nav-item"
+                  to="/research-scholars"
+                >
                   Scholars
                 </Link>
               </NavDropdown.Item>
 
               <NavDropdown.Item>
-                <Link className="links nav-link nav-item" to="/research-projects">
+                <Link
+                  className="links nav-link nav-item"
+                  to="/research-projects"
+                >
                   Projects
                 </Link>
               </NavDropdown.Item>
@@ -244,13 +261,16 @@ const NavbarBootstrap = () => {
                 </Link>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <Link className="links nav-link nav-item" to="/professional-activity">
-                Professional Activity
+                <Link
+                  className="links nav-link nav-item"
+                  to="/professional-activity"
+                >
+                  Professional Activity
                 </Link>
               </NavDropdown.Item>
               <NavDropdown.Item>
                 <Link className="links nav-link nav-item" to="/developers-page">
-                Credits
+                  Credits
                 </Link>
               </NavDropdown.Item>
               {/* <NavDropdown.Divider />

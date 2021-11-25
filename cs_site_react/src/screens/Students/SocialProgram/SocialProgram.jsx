@@ -1,9 +1,8 @@
-import ngo from "../../../assets/pdfs/students/ngo.pdf";
 import PDFViewer from "../../../components/PDFViewer/PDFViewer";
-const SocialProgram = () => {
+const SocialProgram = ({ pdf }) => {
   return (
     <div>
-      <PDFViewer pdf={ngo} />
+      <PDFViewer pdf={pdf} />
     </div>
   );
 };
