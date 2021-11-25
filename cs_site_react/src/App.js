@@ -47,6 +47,7 @@ import {
   p_19,
 } from "./screens/Placements/PlacedData";
 import Dev from "./screens/DevelopersPage/Dev";
+import AlumniWrapper1 from "./screens/Gallery/Alumni";
 
 function App() {
   return (
@@ -67,6 +68,7 @@ function App() {
           <Route path="/research-projects" exact component={ResearchProjects} />
           <Route path="/placements" exact component={Placements} />
           <Route path="/student-welfare" exact component={StudentWelfare} />
+          <Route path="/gallery" exact component={AlumniWrapper1} />
 
           <Route path="/patents" exact component={Patents} />
           <Route path="/Publications" exact component={ResearchPublication} />

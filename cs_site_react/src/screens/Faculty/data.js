@@ -1,21 +1,39 @@
+import angel from "../../assets/images/faculty/TCS63.jpg";
+import ajoe from "../../assets/images/faculty/TCS45.JPG";
+import anita from "../../assets/images/faculty//TCS22.jpg";
+import chandru from "../../assets/images/faculty/TCS03.jpg";
+import diwan from "../../assets/images/faculty/TCS07.jpg";
+import hemalatha from "../../assets/images/faculty/TCS10.jpg";
+import janani from "../../assets/images/faculty/TCS71.JPG";
+import jei from "../../assets/images/faculty/TCS13.jpg";
+import jesline from "../../assets/images/faculty/TCS09.jpg";
+import maria from "../../assets/images/faculty/TCS02.jpg";
+import vroon from "../../assets/images/faculty/TCS43.jpg"
+import sangeetha from "../../assets/images/faculty/TCS28.jpg";
+import rajakumar from "../../assets/images/faculty/TCS61.JPG"; 
+import ranjith from "../../assets/images/faculty/TCS55.JPG";
+import pugalenthi from "../../assets/images/faculty/TCS20.jpg";
+import prabhu from "../../assets/images/faculty/TCS44.jpg";
+import naveen from "../../assets/images/faculty/TCS48.jpg";
+import murugesan from "../../assets/images/faculty/TCS04.jpg";
 
 const faculty_details = [
     [{
-        image: "",
+        image: ajoe,
         facultyName: "Ms A AJOE SWEETLIN JEENA",
         education: "M.E.",
         designation: "Assistant Professor",
         pdfLink: "ajoe.pdf"
     },
     {
-        image: "",
+        image: angel,
         facultyName: "Dr N Angel",
         education: "M.C.A., M.E., Ph.D.",
         designation: "Associate Professor",
         pdfLink: "../assets/pdfs/angel.pdf"
     },
     {
-        image: "",
+        image: anita,
         facultyName: "Dr J T ANITA ROSE",
         education: "M.E., Ph.D.",
         designation: "Associate Professor",
@@ -43,7 +61,7 @@ const faculty_details = [
         pdfLink: "balaji.pdf"
     },],
     [{
-        image: "",
+        image: chandru,
         facultyName: "Dr A CHANDRA SEKAR",
         education: "M.E., Ph.D.",
         designation: "HOD-Staff, Professor",
@@ -57,7 +75,7 @@ const faculty_details = [
         pdfLink: "Dean.pdf"
     },
     {
-        image: "",
+        image: diwan,
         facultyName: "Dr B DIWAN",
         education: "M.E., Ph.D.",
         designation: "Associate Professor",
@@ -65,21 +83,21 @@ const faculty_details = [
     }],
     [
         {
-            image: "",
+            image: hemalatha,
             facultyName: "Dr R HEMALATHA",
             education: "M.E., Ph.D.",
             designation: "Associate Professor",
             pdfLink: "hemalatha.pdf"
         },
         {
-            image: "",
+            image: janani,
             facultyName: "Ms S Janani",
             education: "M.E.",
             designation: "Assistant Professor",
             pdfLink: "janani.pdf"
         },
         {
-            image: "",
+            image: jei,
             facultyName: "Ms P N JEIPRATHA",
             education: "M.E.",
             designation: "Assistant Professor",
@@ -95,7 +113,7 @@ const faculty_details = [
             pdfLink: "jenif.pdf"
         },
         {
-            image: "",
+            image: jesline,
             facultyName: "Dr JESLINE",
             education: "M.E., Ph.D",
             designation: "Associate Professor",
@@ -111,14 +129,14 @@ const faculty_details = [
     ],
     [
         {
-            image: "",
+            image: maria,
             facultyName: "Dr G MARIAKALAVATHY",
             education: "M.E., Ph.D.",
             designation: "HOD - Student Affairs, Professor",
             pdfLink: "mariyakalavathy.pdf"
         },
         {
-            image: "",
+            image: murugesan,
             facultyName: "Dr G MURUGESAN",
             education: "M.E., Ph.D.",
             designation: "Professor",
@@ -134,7 +152,7 @@ const faculty_details = [
     ],
     [
         {
-            image: "",
+            image: naveen,
             facultyName: "Mr P NAVEEN",
             education: "M.E.",
             designation: "Assistant Professor",
@@ -148,7 +166,7 @@ const faculty_details = [
             pdfLink: "parkavi.pdf"
         },
         {
-            image: "",
+            image: prabhu,
             facultyName: "Mr A PRABHU CHAKKARAVARTHY",
             education: "M.E.",
             designation: "Assistant Professor",
@@ -157,7 +175,7 @@ const faculty_details = [
     ],
     [
         {
-            image: "",
+            image: pugalenthi,
             facultyName: "Dr R PUGALENTHI",
             education: "M.E., Ph.D.",
             designation: "HOD - Lab Affairs, Associate Professor",
@@ -171,7 +189,7 @@ const faculty_details = [
             pdfLink: "rajaganesh.pdf"
         },
         {
-            image: "",
+            image: rajakumar,
             facultyName: "Dr M P RAJAKUMAR",
             education: "M.E., Ph.D.",
             designation: "Professor",
@@ -187,7 +205,7 @@ const faculty_details = [
             pdfLink: "ramya.pdf"
         },
         {
-            image: "",
+            image: ranjith,
             facultyName: "Mr R RANJITH",
             education: "M.E.",
             designation: "Assistant Professor",
@@ -203,7 +221,7 @@ const faculty_details = [
     ],
     [
         {
-            image: "",
+            image: sangeetha,
             facultyName: "Dr F SANGEETHA FRANCELIN VINNARASI",
             education: "M.Tech, Ph.D.",
             designation: "Associate Professor",
@@ -251,7 +269,7 @@ const faculty_details = [
 
     [
         {
-            image: "",
+            image: vroon,
             facultyName: "Mr P VARUN",
             education: "M.Tech",
             designation: "Assistant Professor",

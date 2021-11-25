@@ -1,0 +1,56 @@
+.accordion-dropdown {
+  cursor: pointer;
+}
+
+.accordion-card:hover {
+  /* background-color: rgb(81, 130, 229); */
+  color: white;
+  background-color: rgb(255, 188, 17);
+}
+
+.alumini-image{
+  border-radius: 50%;
+  /* transition: transform 0.5s ease-out; */
+  position: relative;
+  /* z-index: 1; */
+}
+
+/* .card:hover .overlay {
+  transform: scale(9) translateZ(0);
+  z-index: 0;
+}
+
+.overlay {
+  width: 200px;
+  position: absolute; 
+  height: 200px;
+  border-radius: 50%;
+  background: green;
+  top: 145px;
+  left: 90px;
+  transition: transform 0.3s ease-out;
+} */
+
+.layer {
+  z-index:-1;
+  position:absolute;
+  top:calc(100% - 1px);
+  height:1%;
+  width:100%;
+  left:0;
+  background:linear-gradient(to left ,  #80ACF6, #4478E3);
+  transition:0.5s;
+  
+}
+
+.card:hover  .layer{
+  top:0;
+  height: 100%;
+  z-index: -1;
+}
+
+
+.over{
+  z-index: 1;
+}
+
