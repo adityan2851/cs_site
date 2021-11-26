@@ -377,12 +377,6 @@ a.dropdown-item {
   border-top: 4px solid var(--border-color) !important;
 }
 
-.faculty-profile {
-  height: 130px;
-  width: 120px;
-  border-radius: 100%;
-}
-
 .card {
   margin: 20px;
 }

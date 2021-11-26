@@ -44,6 +44,7 @@ import {
   P_15,
   P_14,
 } from "./screens/Placements/PlacedData";
+import AlumniWrapper1 from "./screens/Gallery/Alumni";
 import PDFViewer from "./components/PDFViewer/PDFViewer";
 
 function App() {
@@ -67,6 +68,7 @@ function App() {
           <Route path="/research-projects" exact component={ResearchProjects} />
           <Route path="/placements" exact component={Placements} />
           <Route path="/student-welfare" exact component={StudentWelfare} />
+          <Route path="/gallery" exact component={AlumniWrapper1} />
 
           <Route path="/patents" exact component={Patents} />
           <Route path="/Publications" exact component={ResearchPublication} />

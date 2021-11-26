@@ -18,7 +18,7 @@ const AlumniCard = ({
         <ul class="list-unstyled display-block mx-auto">
           <h4 className="alumni-name">{alumniName}</h4>
           <b>
-            <p className="staff-name" >{year}</p>
+            <p className="staff-name">{year}</p>
           </b>
           <div class="layer"></div>
           <div> 

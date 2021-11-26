@@ -1,17 +1,17 @@
 // import react from "react";
 // import pdf from "../assets/pdfs/angel.pdf";
+import "./Faculty.css";
 
 const FacultyCard = ({ image, name, education, designation, pdfLink }) => {
   return (
     <div class="card mb-4 Box shadow">
+      <div class="over">
       <div class="card-body text-center">
         <ul class="list-unstyled display-block mx-auto">
-          <img
-            alt="profile"
-            class="card-img-top contributor-img faculty-profile"
-            src={image}
-          />
-
+        <div class="layer"></div>
+          <div>
+          <img alt="profile" class="contributor-img faculty-image" src={image}/>
+          </div>
           <li style={{ marginTop: "20px" }}>
             <b>
               <span class="staff-name">{name}</span>{" "}
@@ -23,7 +23,7 @@ const FacultyCard = ({ image, name, education, designation, pdfLink }) => {
           </li>
         </ul>
 
-        <a href={pdfLink} target="_blank">
+        <a href={pdfLink} target="_blank" rel="noreferrer">
           <button class="css-button-rounded--blue"> View Profile</button>
         </a>
         {/* <Link
@@ -33,6 +33,7 @@ const FacultyCard = ({ image, name, education, designation, pdfLink }) => {
         >
           View Profile
         </Link> */}
+        </div>
       </div>
     </div>
   );
