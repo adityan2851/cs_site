@@ -16,6 +16,7 @@ import pugalenthi from "../../assets/images/faculty/TCS20.jpg";
 import prabhu from "../../assets/images/faculty/TCS44.jpg";
 import naveen from "../../assets/images/faculty/TCS48.jpg";
 import murugesan from "../../assets/images/faculty/TCS04.jpg";
+import ph from "../../assets/images/faculty/placeholder.jpg";
 
 const faculty_details = [
     [{
@@ -40,21 +41,21 @@ const faculty_details = [
         pdfLink: "anitha.pdf"
     }],
     [{
-        image: "",
+        image: ph,
         facultyName: "Dr V ANJANA DEVI",
         education: "MCA, M.E., Ph.D.",
         designation: "Associate Professor",
         pdfLink: "anjana.pdf"
     },
     {
-        image: "",
+        image: ph,
         facultyName: "Dr M ANURADHA",
         education: "M.E, Ph.D.",
         designation: "Associate Professor",
         pdfLink: "anuradha.pdf"
     },
     {
-        image: "",
+        image: ph,
         facultyName: "Mr K BALAJI",
         education: "M.E.",
         designation: "Assistant Professor",
@@ -68,7 +69,7 @@ const faculty_details = [
         pdfLink: "chandrasekar.pdf"
     },
     {
-        image: "",
+        image: ph,
         facultyName: "Dr. B. PARVATHAVARTHINI",
         education: "M.Sc, M.B.A. M.E. Ph.D.",
         designation: "Dean,  Professor",
@@ -106,7 +107,7 @@ const faculty_details = [
     ],
     [
         {
-            image: "",
+            image: ph,
             facultyName: "Ms Jenif D Souza W S",
             education: "M.E.",
             designation: "Assistant Professor",
@@ -120,7 +121,7 @@ const faculty_details = [
             pdfLink: "jesline.pdf"
         },
         {
-            image: "",
+            image: ph,
             facultyName: "Dr S JOTHI",
             education: "M.E., Ph.D",
             designation: "Associate Professor",
@@ -143,7 +144,7 @@ const faculty_details = [
             pdfLink: "murugesan.pdf"
         },
         {
-            image: "",
+            image: ph,
             facultyName: "Dr. N. MYTHILI",
             education: "MCA, M.E., Ph.D.",
             designation: "Assistant Professor",
@@ -159,7 +160,7 @@ const faculty_details = [
             pdfLink: "naveen.pdf"
         },
         {
-            image: "",
+            image: ph,
             facultyName: "Dr. K. Parkavi",
             education: "M.E., Ph.D",
             designation: "Assistant Professor",
@@ -182,7 +183,7 @@ const faculty_details = [
             pdfLink: "pugalenthi.pdf"
         },
         {
-            image: "",
+            image: ph,
             facultyName: "Mr K Rajaganesh",
             education: "M.E., MCA",
             designation: "Assistant Professor",
@@ -198,7 +199,7 @@ const faculty_details = [
     ],
     [
         {
-            image: "",
+            image: ph,
             facultyName: "Dr J Ramya",
             education: "MCA, M.E., Ph.D.",
             designation: "Associate Professor",
@@ -212,7 +213,7 @@ const faculty_details = [
             pdfLink: "ranjith.pdf"
         },
         {
-            image: "",
+            image: ph,
             facultyName: "Dr D ROSY SALOMI VICTORIA",
             education: "M.E., Ph.D.",
             designation: "Associate Professor",
@@ -228,14 +229,14 @@ const faculty_details = [
             pdfLink: "sangeetha.pdf"
         },
         {
-            image: "",
+            image: ph,
             facultyName: "Ms G SARANYA",
             education: "M.Sc., M.E.",
             designation: "Assistant Professor",
             pdfLink: "saranya.pdf"
         },
         {
-            image: "",
+            image: ph,
             facultyName: "Ms S SHANTHINI",
             education: "M.E.",
             designation: "Assistant Professor",
@@ -245,21 +246,21 @@ const faculty_details = [
 
     [
         {
-            image: "",
+            image: ph,
             facultyName: "Dr A SHERYL OLIVER",
             education: "M.Tech, Ph.D.",
             designation: "Associate Professor",
             pdfLink: "sheryl.pdf"
         },
         {
-            image: "",
+            image: ph,
             facultyName: "Ms K Sudha",
             education: "MCA, M.E.",
             designation: "Assistant Professor",
             pdfLink: "sudha.pdf"
         },
         {
-            image: "",
+            image: ph,
             facultyName: "Dr. B. UMA MAHESWARI",
             education: "MCA, M.E., Ph.D.",
             designation: "Associate Professor",
@@ -276,7 +277,7 @@ const faculty_details = [
             pdfLink: "varun.pdf"
         },
         {
-            image: "",
+            image: ph,
             facultyName: "Mr S VINU",
             education: "M.E.",
             designation: "Assistant Professor",
@@ -286,14 +287,14 @@ const faculty_details = [
 
   [
     {
-      image: "",
+      image: ph,
       facultyName: "Mr P VARUN",
       education: "M.Tech",
       designation: "Assistant Professor",
       pdfLink: "varun.pdf",
     },
     {
-      image: "",
+      image: ph,
       facultyName: "Mr S VINU",
       education: "M.E.",
       designation: "Assistant Professor",
