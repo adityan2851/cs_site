@@ -1,4 +1,11 @@
-import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
+import React from "react";
+import {
+  HashRouter,
+  Route,
+  Switch,
+  Redirect,
+  useLocation,
+} from "react-router-dom";
 import HomePage from "./screens/HomePage/HomePage";
 import NavbarBootstrap from "../src/components/NavbarBootstrap";
 import Footer from "../src/components/Footer/Footer";
@@ -46,6 +53,7 @@ import {
 } from "./screens/Placements/PlacedData";
 import AlumniWrapper1 from "./screens/Gallery/Alumni";
 import PDFViewer from "./components/PDFViewer/PDFViewer";
+import PDFViewerWrapper from "./components/PDFViewerWrapper";
 
 function App() {
   return (
@@ -176,6 +184,7 @@ function App() {
           {/* FACILITIES */}
           <Route path="/facility-laboratory" exact component={Laboratory} />
           <Route path="/faculty" exact component={FacultyWrapper} />
+          <Route path="/faculty/:name" exact component={PDFViewerWrapper} />
           <Route path="/achievements" exact component={AchievementsWrapper} />
 
           {/* NAVBAR ROUTES */}
@@ -194,7 +203,6 @@ function App() {
             )}
           />
 
-          
           <Route
             path="/professional-activity"
             exact

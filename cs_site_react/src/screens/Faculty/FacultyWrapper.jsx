@@ -11,21 +11,26 @@ const FacultyWrapper = () => {
       {facultyDetails.map((facultyRow, index) => {
         return (
           <div key={index} class="row">
-
-            {facultyRow.map(({ image, facultyName, education, designation, pdfLink }, index) => {
-              return (
-                <div className="col-md-4">
-                  <FacultyCard
-                    key={index}
-                    image={image}
-                    name={facultyName}
-                    education={education}
-                    designation={designation}
-                    pdfLink={pdfLink}
-                  />
-                </div>
-              );
-            })}
+            {facultyRow.map(
+              (
+                { image, facultyName, education, designation, pdfLink },
+                index
+              ) => {
+                return (
+                  <div className="col-md-4">
+                    <FacultyCard
+                      key={index}
+                      image={image}
+                      name={facultyName}
+                      education={education}
+                      designation={designation}
+                      pdfLink={pdfLink}
+                      count={index}
+                    />
+                  </div>
+                );
+              }
+            )}
           </div>
         );
       })}
