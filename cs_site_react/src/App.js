@@ -34,7 +34,6 @@ import "./App.css";
 import Sports from "./screens/Students/Sports/Sports";
 import Rank from "./screens/Students/Rank/Rank";
 
-import Dev from "./screens/DevelopersPage/Dev";
 import TestingPage from "./screens/TestingPage/TestingPage";
 import {
   P_19,
@@ -46,6 +45,7 @@ import {
 } from "./screens/Placements/PlacedData";
 import AlumniWrapper1 from "./screens/Gallery/Alumni";
 import PDFViewer from "./components/PDFViewer/PDFViewer";
+import DevWrapper from "./screens/DevelopersPage/DevWrapper";
 
 function App() {
   return (
@@ -75,7 +75,7 @@ function App() {
           <Route path="/alumni" exact component={AlumniWrapper} />
           <Route path="/mentors" exact component={Mentors} />
 
-          <Route path="/developers-page" exact component={Dev} />
+          <Route path="/developers-page" exact component={DevWrapper} />
           <Route
             path="/vac"
             exact
