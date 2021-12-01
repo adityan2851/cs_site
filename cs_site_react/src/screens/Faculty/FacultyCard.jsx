@@ -1,6 +1,6 @@
 // import pdf from '../assets/pdfs/angel.pdf'
 import { Link } from "react-router-dom";
-import PDFViewer from "../../components/PDFViewer/PDFViewer";
+// import PDFViewer from "../../components/PDFViewer/PDFViewer";
 import "./Faculty.css";
 
 const FacultyCard = ({

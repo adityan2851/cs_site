@@ -1,9 +1,9 @@
-import adi from "../../assets/images/developers/adi-img.png";
-import amonth from "../../assets/images/developers/amonth-img.png";
-import fab from "../../assets/images/developers/fanion-img.png";
-import roshan from "../../assets/images/developers/roshan-img.png"; 
-import sharmi from "../../assets/images/developers/sharmi-img.png";
-import goblin from "../../assets/images/developers/goblin-img.png";
+// import adi from "../../assets/images/developers/adi-img.png";
+// import amonth from "../../assets/images/developers/amonth-img.png";
+// import fab from "../../assets/images/developers/fanion-img.png";
+// import roshan from "../../assets/images/developers/roshan-img.png"; 
+// import sharmi from "../../assets/images/developers/sharmi-img.png";
+// import goblin from "../../assets/images/developers/goblin-img.png";
 import ph from "../../assets/images/developers/placeholder.jpg";
 
 const dev_details = [

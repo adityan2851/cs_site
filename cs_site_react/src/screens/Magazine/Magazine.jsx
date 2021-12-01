@@ -1,7 +1,7 @@
 import React from "react";
 import "./Magazine.css";
 
-import magazinePdf from "../../assets/pdfs/magazines/17.pdf";
+// import magazinePdf from "../../assets/pdfs/magazines/17.pdf";
 import { Link } from "react-router-dom";
 
 const Magazine = () => {
@@ -21,7 +21,7 @@ const Magazine = () => {
             </a> */}
             <Link to="/magazine_1">
               <div className="book">
-                <img src="https://stjosephs.ac.in/images/INFORMATION%20BROCHURE%202019.jpg" />
+                <img src="https://stjosephs.ac.in/images/INFORMATION%20BROCHURE%202019.jpg" alt="magazine" />
               </div>
             </Link>
           </div>

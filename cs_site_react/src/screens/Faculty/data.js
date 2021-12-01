@@ -1,5 +1,5 @@
 import angel from "../../assets/images/faculty/TCS63.jpg";
-import ajoe from "../../assets/images/faculty/TCS45.JPG";
+// import ajoe from "../../assets/images/faculty/TCS45.JPG";
 import anita from "../../assets/images/faculty//TCS22.jpg";
 import chandru from "../../assets/images/faculty/TCS03.jpg";
 import diwan from "../../assets/images/faculty/TCS07.jpg";
