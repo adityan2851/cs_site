@@ -12,16 +12,18 @@ const HomeCarousel = ({ content }) => {
           <Carousel
             className="carousel-dark"
             keyboard="true"
+            slide="true"
+            touch="true"
             nextLabel=""
             prevLabel=""
             pause="hover"
             wrap="true"
-            variant="dark"
           >
             {content.map((obj, index) => (
               <Carousel.Item key={index}>
                 <img
                   className="d-block w-100"
+                  style={{ borderRadius: "20px" }}
                   src={obj["imageURL"]}
                   alt="First slide"
                 />

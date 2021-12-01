@@ -21,6 +21,7 @@ const HomeContent = ({ content }) => {
             >
               Providing the best in Computer Education Since 1995.
             </h1>
+            <br />
             <HomeCarousel content={content} />
           </Col>
         </Row>
