@@ -17,6 +17,8 @@
   left: 0;
   background: linear-gradient(to left, #80acf6, #4478e3);
   transition: 0.5s;
+  background-size: 400% 400%;
+  animation: gradient 2s ease infinite;     
 }
 
 .card:hover .layer {

@@ -38,8 +38,10 @@
   height:1%;
   width:100%;
   left:0;
-  background:linear-gradient(to left ,  #80ACF6, #4478E3);
-  transition:0.5s;
+  background: linear-gradient(to left, #4478e3, #4f80ec, #5987f5, #4478e3, #4f80ec, #5987f5 );
+  transition: 0.5s;
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;   
   
 }
 
