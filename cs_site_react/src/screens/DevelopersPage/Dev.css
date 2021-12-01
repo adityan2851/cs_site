@@ -7,7 +7,7 @@
 }
 
 
-.layer {
+.dev-layer {
     z-index:-1;
     position:absolute;
     top:calc(100% - 1px);
@@ -20,7 +20,7 @@
     transition:0.5s;    
 }
   
-.card:hover  .layer{
+.card:hover  .dev-layer{
     top:0;
     height: 100%;
     z-index: -1;

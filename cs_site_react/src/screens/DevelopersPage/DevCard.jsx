@@ -6,7 +6,7 @@ const DevCard = ({ image, devName, linkedinLink }) => {
       <div class="over">
       <div class="card-body text-center">
         <ul class="list-unstyled display-block mx-auto">
-        <div class="layer"></div>
+        <div class="dev-layer"></div>
         <div>
           <img alt="profile" class="dev-image contributor-img" src={image} />
         </div>
