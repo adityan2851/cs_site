@@ -430,19 +430,30 @@ a.dropdown-item {
   font-size: 1.2rem;
 }
 
-
-@media screen and (min-width: 1025px){
-  .contributor-img {
-    width: 250px;
-    height: 250px;
-  }
-}
+/* mobile, tablet, laptop-1024 screens */
 @media screen and (max-width: 1025px){
   .contributor-img {
     width: 180px;
     height: 180px;
   }
+  .responsive-card {
+    width: 16rem;
+  }
 }
+
+/* large screens */
+@media screen and (min-width: 1025px){
+  .contributor-img {
+    width: 250px;
+    height: 250px;
+  }
+  .responsive-card {
+    width: 20rem;  
+  }
+}
+
+
+
 /* Cards */
 .display-block {
   display: block !important;
