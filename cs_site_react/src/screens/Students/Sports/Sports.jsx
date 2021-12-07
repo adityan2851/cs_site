@@ -1,9 +1,8 @@
-import sports from "../../../assets/pdfs/students/sports.pdf";
 import PDFViewer from "../../../components/PDFViewer/PDFViewer";
-const Sports = () => {
+const Sports = ({ pdf }) => {
   return (
     <div>
-      <PDFViewer pdf={sports} />
+      <PDFViewer pdf={pdf} />
     </div>
   );
 };

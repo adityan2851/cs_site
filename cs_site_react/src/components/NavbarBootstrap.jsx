@@ -1,11 +1,18 @@
 import { Navbar, Container, NavDropdown, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import VAC from "../screens/Students/VAC/VAC";
 
 const NavbarBootstrap = () => {
 
   const closeNavbar = (event) => {
+
+    // const collapseElement = document.getElementsByClassName('collapse')
+    // collapseElement.collapse();
+    // $('.collapse').collapse()
     const navbarElement = document.getElementById("responsive-navbar-nav")
-    navbarElement.classList.remove("show")
+    navbarElement.classList.toggle("show")
+    const navbarTogglerButton = document.getElementsByClassName("navbar-toggler")[0]
+    navbarTogglerButton.classList.toggle("collapsed")
   }
 
   return (
@@ -94,45 +101,49 @@ const NavbarBootstrap = () => {
                   Industrial Visit
                 </Link>
               </NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link className="links nav-link nav-item" to="/industrial-visit"  onClick={closeNavbar}>
+                  Industrial Visit
+                </Link>
+              </NavDropdown.Item>
               <NavDropdown.Item href="/vac" target="_blank" rel="noreferrer" onClick={closeNavbar}>  
                 {/* <Link className="links nav-link nav-item" to="/vac" > */}
-                <span className="links nav-link nav-item"> {/*remove span for Link*/}
+                <Link
+                  className="links nav-link nav-item"
+                  to="/industrial-visit"
+                >
+                  Industrial Visit
+                </Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link className="links nav-link nav-item" to="/vac" onClick={closeNavbar}>
                   Value Added Course
-                </span>
-                {/* </Link> */}
+                </Link>
               </NavDropdown.Item>
-              <NavDropdown.Item href="/pe" target="_blank" rel="noreferrer" onClick={closeNavbar}>
-                {/* <Link className="links nav-link nav-item" to="/pe"> */}
-                <span className="links nav-link nav-item"> {/*remove span for Link*/}
+
+              <NavDropdown.Item>
+                <Link className="links nav-link nav-item" to="/pe" onClick={closeNavbar}>
                   Project Expo
-                </span>
-                {/* </Link> */}
+                </Link>
               </NavDropdown.Item>
-              <NavDropdown.Item href="/sp" target="_blank" rel="noreferrer" onClick={closeNavbar}>
-                {/* <Link className="links nav-link nav-item" to="/sp"> */}
-                <span className="links nav-link nav-item"> {/*remove span for Link*/}
+              <NavDropdown.Item>
+                <Link className="links nav-link nav-item" to="/sp" onClick={closeNavbar}>
                   Social Programs
-                </span>
-                {/* </Link> */}
+                </Link>
               </NavDropdown.Item>
-              <NavDropdown.Item href="/sports" target="_blank" rel="noreferrer" onClick={closeNavbar}>
-                {/* <Link className="links nav-link nav-item" to="/sports"> */}
-                <span className="links nav-link nav-item"> {/*remove span for Link*/}
+              <NavDropdown.Item>
+                <Link className="links nav-link nav-item" to="/sports" onClick={closeNavbar}>
                   Excel in Sports
-                </span>
-                {/* </Link> */}
+                </Link>
               </NavDropdown.Item>
-              <NavDropdown.Item href="/rank" target="_blank" rel="noreferrer" onClick={closeNavbar}>
-                {/* <Link className="links nav-link nav-item" to="/rank"> */}
-                <span className="links nav-link nav-item"> {/*remove span for Link*/}
+              <NavDropdown.Item>
+                <Link className="links nav-link nav-item" to="/rank" onClick={closeNavbar}>
                   Rank UG
-                </span>
-                {/* </Link> */}
+                </Link>
               </NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title="Faculty" id="collasible-nav-dropdown">
-
               <NavDropdown.Item>
                 <Link className="links nav-link nav-item" to="/faculty" onClick={closeNavbar}>
                   Faculty
@@ -150,7 +161,6 @@ const NavbarBootstrap = () => {
                   Student Welfare Committee
                 </Link>
               </NavDropdown.Item>
-
             </NavDropdown>
 
             <Link className="links nav-link nav-item" to="/facility-laboratory" onClick={closeNavbar}>

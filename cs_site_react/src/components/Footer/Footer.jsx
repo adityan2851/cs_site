@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 import { Collapse } from "react-bootstrap";
 
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   // var open = true;
@@ -55,14 +56,14 @@ const Footer = () => {
                     Student Welfare Committee
                   </li> */}
                   <li className="d-block mt-3 mb-2 details">
-                    <a href="/faculty">Faculty</a>{" "}
+                    <Link to="/faculty">Faculty</Link>{" "}
                   </li>
                   <li className="d-block mb-2 details">
                     {" "}
-                    <a href="/mentors">Mentor</a>
+                    <Link to="/mentors">Mentor</Link>
                   </li>
                   <li className="d-block mb-2 details">
-                    <a href="/student-welfare">Student Welfare Committee</a>
+                    <Link to="/student-welfare">Student Welfare Committee</Link>
                   </li>
                 </ul>
               </Collapse>
@@ -92,15 +93,15 @@ const Footer = () => {
                   <li className="d-block mb-2 details"> IEEE & CSI</li> */}
                   <li className="d-block mt-3 mb-2 details">
                     {" "}
-                    <a href="/newsletter">News Letter</a>
+                    <Link to="/newsletter">News Letter</Link>
                   </li>
                   <li className="d-block mb-2 details">
                     {" "}
-                    <a href="/magazine">Magazine</a>
+                    <Link to="/magazine">Magazine</Link>
                   </li>
                   <li className="d-block mb-2 details">
                     {" "}
-                    <a href="/professional-activity">IEEE &amp; CSI</a>
+                    <Link to="/professional-activity">IEEE &amp; CSI</Link>
                   </li>
                 </ul>
               </Collapse>
