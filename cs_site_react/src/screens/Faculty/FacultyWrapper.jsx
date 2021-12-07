@@ -17,7 +17,7 @@ const FacultyWrapper = () => {
                 index
               ) => {
                 return (
-                  <div className="col-md-4">
+                  <div className="col-md-6 col-lg-4">
                     <FacultyCard
                       key={index}
                       image={image}
