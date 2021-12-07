@@ -2,6 +2,12 @@ import { Navbar, Container, NavDropdown, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const NavbarBootstrap = () => {
+
+  const closeNavbar = (event) => {
+    const navbarElement = document.getElementById("responsive-navbar-nav")
+    navbarElement.classList.remove("show")
+  }
+
   return (
     <Navbar
       className="translucent-navbar"
@@ -69,54 +75,54 @@ const NavbarBootstrap = () => {
               </NavDropdown.Item> */}
 
               <NavDropdown.Item>
-                <Link className="links nav-link nav-item" to="/achievements">
+                <Link className="links nav-link nav-item" to="/achievements" onClick={closeNavbar}>
                   Achievements
                 </Link>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <Link className="links nav-link nav-item" to="/guest-lecture">
+                <Link className="links nav-link nav-item" to="/guest-lecture" onClick={closeNavbar}>
                   Guest Lecture
                 </Link>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <Link className="links nav-link nav-item" to="/workshop">
+                <Link className="links nav-link nav-item" to="/workshop"  onClick={closeNavbar}>
                   Workshop
                 </Link>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <Link className="links nav-link nav-item" to="/industrial-visit">
+                <Link className="links nav-link nav-item" to="/industrial-visit"  onClick={closeNavbar}>
                   Industrial Visit
                 </Link>
               </NavDropdown.Item>
-              <NavDropdown.Item href="/vac" target="_blank" rel="noreferrer" >  
+              <NavDropdown.Item href="/vac" target="_blank" rel="noreferrer" onClick={closeNavbar}>  
                 {/* <Link className="links nav-link nav-item" to="/vac" > */}
                 <span className="links nav-link nav-item"> {/*remove span for Link*/}
                   Value Added Course
                 </span>
                 {/* </Link> */}
               </NavDropdown.Item>
-              <NavDropdown.Item href="/pe" target="_blank" rel="noreferrer">
+              <NavDropdown.Item href="/pe" target="_blank" rel="noreferrer" onClick={closeNavbar}>
                 {/* <Link className="links nav-link nav-item" to="/pe"> */}
                 <span className="links nav-link nav-item"> {/*remove span for Link*/}
                   Project Expo
                 </span>
                 {/* </Link> */}
               </NavDropdown.Item>
-              <NavDropdown.Item href="/sp" target="_blank" rel="noreferrer">
+              <NavDropdown.Item href="/sp" target="_blank" rel="noreferrer" onClick={closeNavbar}>
                 {/* <Link className="links nav-link nav-item" to="/sp"> */}
                 <span className="links nav-link nav-item"> {/*remove span for Link*/}
                   Social Programs
                 </span>
                 {/* </Link> */}
               </NavDropdown.Item>
-              <NavDropdown.Item href="/sports" target="_blank" rel="noreferrer">
+              <NavDropdown.Item href="/sports" target="_blank" rel="noreferrer" onClick={closeNavbar}>
                 {/* <Link className="links nav-link nav-item" to="/sports"> */}
                 <span className="links nav-link nav-item"> {/*remove span for Link*/}
                   Excel in Sports
                 </span>
                 {/* </Link> */}
               </NavDropdown.Item>
-              <NavDropdown.Item href="/rank" target="_blank" rel="noreferrer">
+              <NavDropdown.Item href="/rank" target="_blank" rel="noreferrer" onClick={closeNavbar}>
                 {/* <Link className="links nav-link nav-item" to="/rank"> */}
                 <span className="links nav-link nav-item"> {/*remove span for Link*/}
                   Rank UG
@@ -128,34 +134,34 @@ const NavbarBootstrap = () => {
             <NavDropdown title="Faculty" id="collasible-nav-dropdown">
 
               <NavDropdown.Item>
-                <Link className="links nav-link nav-item" to="/faculty">
+                <Link className="links nav-link nav-item" to="/faculty" onClick={closeNavbar}>
                   Faculty
                 </Link>
               </NavDropdown.Item>
 
               <NavDropdown.Item>
-                <Link className="links nav-link nav-item" to="/mentors">
+                <Link className="links nav-link nav-item" to="/mentors" onClick={closeNavbar}>
                   Mentor
                 </Link>
               </NavDropdown.Item>
 
               <NavDropdown.Item>
-                <Link className="links nav-link nav-item" to="/student-welfare">
+                <Link className="links nav-link nav-item" to="/student-welfare" onClick={closeNavbar}>
                   Student Welfare Committee
                 </Link>
               </NavDropdown.Item>
 
             </NavDropdown>
 
-            <Link className="links nav-link nav-item" to="/facility-laboratory">
+            <Link className="links nav-link nav-item" to="/facility-laboratory" onClick={closeNavbar}>
               Facility
             </Link>
 
-            <Link className="links nav-link nav-item" to="/alumni">
+            <Link className="links nav-link nav-item" to="/alumni" onClick={closeNavbar}>
               Alumni
             </Link>
 
-            <Link className="links nav-link nav-item" to="/placements">
+            <Link className="links nav-link nav-item" to="/placements" onClick={closeNavbar}>
               placements
             </Link>
 
@@ -181,46 +187,46 @@ const NavbarBootstrap = () => {
                 Publications
               </NavDropdown.Item> */}
               <NavDropdown.Item>
-                <Link className="links nav-link nav-item" to="/supervisiors">
+                <Link className="links nav-link nav-item" to="/supervisiors" onClick={closeNavbar}>
                   Supervisors
                 </Link>
               </NavDropdown.Item>
 
               <NavDropdown.Item>
-                <Link className="links nav-link nav-item" to="/phD-awarded">
+                <Link className="links nav-link nav-item" to="/phD-awarded" onClick={closeNavbar}>
                   PhD Awarded Dept Faculty
                 </Link>
               </NavDropdown.Item>
 
               <NavDropdown.Item>
-                <Link className="links nav-link nav-item" to="/research-scholars">
+                <Link className="links nav-link nav-item" to="/research-scholars" onClick={closeNavbar}>
                   Scholars
                 </Link>
               </NavDropdown.Item>
 
               <NavDropdown.Item>
-                <Link className="links nav-link nav-item" to="/research-projects">
+                <Link className="links nav-link nav-item" to="/research-projects" onClick={closeNavbar}>
                   Projects
                 </Link>
               </NavDropdown.Item>
 
               <NavDropdown.Item>
-                <Link className="links nav-link nav-item" to="/patents">
+                <Link className="links nav-link nav-item" to="/patents" onClick={closeNavbar}>
                   Patents
                 </Link>
               </NavDropdown.Item>
 
               <NavDropdown.Item>
-                <Link className="links nav-link nav-item" to="/publications">
+                <Link className="links nav-link nav-item" to="/publications" onClick={closeNavbar}>
                   Publications
                 </Link>
               </NavDropdown.Item>
             </NavDropdown>
 
-            <Link className="links nav-link nav-item" to="/gallery">
+            <Link className="links nav-link nav-item" to="/gallery" onClick={closeNavbar}>
               Gallery
             </Link>
-            <Link className="links nav-link nav-item" to="/events">
+            <Link className="links nav-link nav-item" to="/events" onClick={closeNavbar}>
               Events
             </Link>
 
@@ -234,22 +240,22 @@ const NavbarBootstrap = () => {
                 Credits
               </NavDropdown.Item> */}
               <NavDropdown.Item>
-                <Link className="links nav-link nav-item" to="/magazine">
+                <Link className="links nav-link nav-item" to="/magazine" onClick={closeNavbar}>
                   Magazine
                 </Link>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <Link className="links nav-link nav-item" to="/newsletter">
+                <Link className="links nav-link nav-item" to="/newsletter" onClick={closeNavbar}>
                   Newsletter
                 </Link>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <Link className="links nav-link nav-item" to="/professional-activity">
+                <Link className="links nav-link nav-item" to="/professional-activity" onClick={closeNavbar}>
                 Professional Activity
                 </Link>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <Link className="links nav-link nav-item" to="/developers-page">
+                <Link className="links nav-link nav-item" to="/developers-page" onClick={closeNavbar}>
                 Credits
                 </Link>
               </NavDropdown.Item>
