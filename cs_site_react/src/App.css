@@ -167,7 +167,7 @@
 
   color: #fff;
   border-radius: 20px;
-  background-image: linear-gradient(to left, #3F6CE4, #2F59C4);
+  background-image: linear-gradient(to left, #3f6ce4, #2f59c4);
 
   transition: display 5s linear;
 }
@@ -205,9 +205,9 @@
   font-family: "Kulim Park", sans-serif;
 }
 
-body {
+/* body {
   font-weight: 600;
-}
+} */
 
 .top-navbar {
   /* background-color: #5089C6; */
@@ -431,7 +431,7 @@ a.dropdown-item {
 }
 
 /* mobile, tablet, laptop-1024 screens */
-@media screen and (max-width: 1025px){
+@media screen and (max-width: 1025px) {
   .contributor-img {
     width: 180px;
     height: 180px;
@@ -442,17 +442,15 @@ a.dropdown-item {
 }
 
 /* large screens */
-@media screen and (min-width: 1025px){
+@media screen and (min-width: 1025px) {
   .contributor-img {
     width: 250px;
     height: 250px;
   }
   .responsive-card {
-    width: 20rem;  
+    width: 20rem;
   }
 }
-
-
 
 /* Cards */
 .display-block {
