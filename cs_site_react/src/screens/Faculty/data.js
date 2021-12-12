@@ -30,6 +30,7 @@ import shanthini from "../../assets/images/faculty/TCS45.JPG";
 import anuradha from "../../assets/images/faculty/TCS47.JPG";
 import rajaganesh from "../../assets/images/faculty/TCS66.jpg";
 import vinu from "../../assets/images/faculty/TCS55.JPG";
+import sheryl from "../../assets/images/faculty/TCS41.JPG";
 
 
 
@@ -127,7 +128,7 @@ const faculty_details = [
             pdfLink: "https://stjosephscse.com/pdfs/faculty/jesline.pdf",
           },
           {
-            image: ph,
+            image: sheryl,
             facultyName: "Dr A SHERYL OLIVER",
             education: "M.Tech, Ph.D.",
             designation: "Associate Professor",
