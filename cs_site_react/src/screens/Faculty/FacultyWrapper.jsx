@@ -8,7 +8,29 @@ const FacultyWrapper = () => {
         <h1 className="page_heading">Faculty</h1>
         <div className="underline_heading"></div>
       </div>
+      <div className="d-flex justify-content-around align-items-center flex-wrap">
       {facultyDetails.map((facultyRow, index) => {
+        return facultyRow.map(
+              (
+                { image, facultyName, education, designation, pdfLink },
+                index
+              ) => {
+                return (
+                    <FacultyCard
+                      key={index}
+                      image={image}
+                      name={facultyName}
+                      education={education}
+                      designation={designation}
+                      pdfLink={pdfLink}
+                      count={index}
+                    />
+                );
+            }
+        );
+      })}
+      </div>
+      {/* {facultyDetails.map((facultyRow, index) => {
         return (
           <div key={index} class="row">
             {facultyRow.map(
@@ -33,7 +55,7 @@ const FacultyWrapper = () => {
             )}
           </div>
         );
-      })}
+      })} */}
     </div>
   );
 };

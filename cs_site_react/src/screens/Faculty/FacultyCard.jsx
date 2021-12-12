@@ -12,7 +12,7 @@ const FacultyCard = ({
   count,
 }) => {
   return (
-    <div class="card mb-4 Box shadow">
+    <div class="card mb-4 Box shadow responsive-card">
       <div class="over">
         <div class="card-body text-center">
           <ul class="list-unstyled display-block mx-auto">

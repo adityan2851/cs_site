@@ -8,11 +8,25 @@ import coderAnim2 from "../../assets/animations/coder2.json";
 import HomeContent from "../../components/HomeContent/HomeContent";
 import "./HomePage.css";
 import Animation from "../../components/Animation";
+import { HEgg, motherland } from "../../components/EasterEggs";
 
 const HomePage = () => {
   useEffect(() => {
     document.title = "CSE - Home";
   }, []);
+
+  document.addEventListener("keypress", function (event) {
+    if (event.key === "h") {
+      HEgg();
+    }
+  });
+
+  document.addEventListener("keypress", function (event) {
+    if (event.key === "a") {
+      motherland();
+    }
+  });
+
   return (
     <div className="home-background">
       <br />
