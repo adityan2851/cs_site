@@ -8,7 +8,7 @@ import coderAnim2 from "../../assets/animations/coder2.json";
 import HomeContent from "../../components/HomeContent/HomeContent";
 import "./HomePage.css";
 import Animation from "../../components/Animation";
-import { HEgg, FEgg, AEgg, motherland } from "../../components/EasterEggs";
+import { HEgg, FEgg, AEgg, test } from "../../components/EasterEggs";
 
 const HomePage = () => {
   useEffect(() => {
@@ -19,23 +19,14 @@ const HomePage = () => {
     if (event.key === "a") {
       HEgg();
     }
-  });
-
-  document.addEventListener("keypress", function (event) {
     if (event.key === "f") {
       FEgg();
     }
-  });
-
-  document.addEventListener("keypress", function (event) {
     if (event.key === "a") {
       AEgg();
     }
-  });
-
-  document.addEventListener("keypress", function (event) {
     if (event.key === "x") {
-      motherland();
+      test();
     }
   });
 
