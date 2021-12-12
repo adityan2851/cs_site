@@ -14,8 +14,8 @@ const dev_details = [
     },
     {
         image: ph,
-        devName: "Godlin Hilda",
-        linkedinLink: "https://www.linkedin.com/in/godlin-hilda/"
+        devName: "Fabian Christopher",
+        linkedinLink: "https://www.linkedin.com/in/fabchris10/" 
     },
     {
         image: ph,
@@ -24,8 +24,8 @@ const dev_details = [
     }],
     [{
         image: ph,
-        devName: "Fabian Christopher",
-        linkedinLink: "https://www.linkedin.com/in/fabchris10/"
+        devName: "Godlin Hilda",
+        linkedinLink: "https://www.linkedin.com/in/godlin-hilda/"
     },
     {
         image: ph,
