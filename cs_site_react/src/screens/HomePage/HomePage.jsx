@@ -19,6 +19,15 @@ const HomePage = () => {
     if (event.key === "a") {
       HEgg();
     }
+  });
+
+  document.addEventListener("keypress", function (event) {
+    if (event.key === "f") {
+      FEgg();
+    }
+  });
+
+  document.addEventListener("keypress", function (event) {
     if (event.key === "a") {
       AEgg();
     }
