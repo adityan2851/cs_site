@@ -27,7 +27,7 @@ const FacultyCard = ({
                 style={{ objectFit: "cover" }}
               />
             </div>
-            <li style={{ marginTop: "20px" }}>
+            <li className="faculty-details" style={{ marginTop: "20px" }}>
               <b>
                 <span class="staff-name">{name}</span>{" "}
               </b>

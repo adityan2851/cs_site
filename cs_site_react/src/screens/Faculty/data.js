@@ -146,7 +146,7 @@ const faculty_details = [
             facultyName: "Dr J Jean Justus",
             education: "M.Tech, Ph.D.",
             designation: "Associate Professor",
-            // pdfLink: "https://stjosephscse.com/pdfs/faculty/jean.pdf",
+            pdfLink: "https://stjosephscse.com/pdfs/faculty/jean.pdf",
           },
           {
             image: anjana,
