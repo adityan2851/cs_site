@@ -54,12 +54,14 @@ import AlumniWrapper1 from "./screens/Gallery/Alumni";
 import PDFViewer from "./components/PDFViewer/PDFViewer";
 import DevWrapper from "./screens/DevelopersPage/DevWrapper";
 import PDFViewerWrapper from "./components/PDFViewerWrapper";
+import CollegeBanner from "./components/HomeContent/CollegeBanner";
 
 function App() {
   return (
     <div className="App">
       {/* basename={"/website"} */}
       <HashRouter>
+        <CollegeBanner />
         <NavbarBootstrap />
         <ScrollToTop />
         <Switch>
