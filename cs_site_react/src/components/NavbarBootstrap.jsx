@@ -22,11 +22,12 @@ const NavbarBootstrap = () => {
       expand="lg"
       variant="light"
     >
-      <Container>
-        <Navbar.Brand href="/">CSE</Navbar.Brand>
+      <Container style={{width:"auto"}}> 
+      
+        {/* <Navbar.Brand href="/">CSE</Navbar.Brand> */}
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <div className="me-auto"></div>
+          {/* <div className="me-auto"></div> */}
           <Nav className="">
             {/* <Nav.Link className="links nav-item " href="/academics">
               academics
